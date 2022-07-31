@@ -1,0 +1,86 @@
+<p>Filters:</p>
+
+<p>League:</p>
+
+<mat-checkbox
+  #americanLeagueCheckBox
+  [checked]="americanLeagueFilter"
+  (change)="onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)"
+  >American</mat-checkbox
+>
+
+<mat-checkbox
+  #nationalLeagueCheckBox
+  [checked]="nationalLeagueFilter"
+  (change)="onNationalLeagueFilterChanged(nationalLeagueCheckBox.checked)"
+  >National</mat-checkbox
+>
+
+<div *ngIf="americanLeagueFilter || nationalLeagueFilter">
+  <p>Division:</p>
+</div>
+<div *ngIf="americanLeagueFilter">
+  <mat-checkbox
+    #alEastDivisionCheckBox
+    [checked]="alEastDivisionFilter"
+    (change)="onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)"
+    >AL East</mat-checkbox
+  >
+
+  <mat-checkbox
+    #alCentralDivisionCheckBox
+    [checked]="alCentralDivisionFilter"
+    (change)="
+      onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)
+    "
+    >AL Central</mat-checkbox
+  >
+
+  <mat-checkbox
+    #alWestDivisionCheckBox
+    [checked]="alWestDivisionFilter"
+    (change)="onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)"
+    >AL West</mat-checkbox
+  >
+</div>
+
+<div *ngIf="nationalLeagueFilter">
+  <mat-checkbox
+    #nlEastDivisionCheckBox
+    [checked]="nlEastDivisionFilter"
+    (change)="onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)"
+    >NL East</mat-checkbox
+  >
+
+  <mat-checkbox
+    #nlCentralDivisionCheckBox
+    [checked]="nlCentralDivisionFilter"
+    (change)="
+      onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)
+    "
+    >NL Central</mat-checkbox
+  >
+
+  <mat-checkbox
+    #nlWestDivisionCheckBox
+    [checked]="nlWestDivisionFilter"
+    (change)="onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)"
+    >NL West</mat-checkbox
+  >
+</div>
+
+<div>
+  <mat-slide-toggle>Map</mat-slide-toggle>
+</div>
+<table>
+  <tr>
+    <th>Team</th>
+    <!-- <th>League</th>
+    <th>Division</th> -->
+  </tr>
+  <tr *ngFor="let team of getMlbTeamDetails()">
+    <td>{{ team.name }}</td>
+    <!-- <td>{{ team.league }}</td>
+    <td>{{ team.division }}</td> -->
+  </tr>
+</table>
