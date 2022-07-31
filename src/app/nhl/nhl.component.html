@@ -1,0 +1,69 @@
+<p>nhl works!</p>
+<p>Filters:</p>
+
+<p>Conference:</p>
+
+<mat-checkbox
+  #easternConferenceCheckBox
+  [checked]="easternConferenceFilter"
+  (change)="onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)"
+  >Eastern</mat-checkbox
+>
+
+<mat-checkbox
+  #westernConferenceCheckBox
+  [checked]="westernConferenceFilter"
+  (change)="onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)"
+  >Western</mat-checkbox
+>
+
+<div *ngIf="easternConferenceFilter || westernConferenceFilter">
+  <p>Division:</p>
+</div>
+<div *ngIf="easternConferenceFilter">
+  <mat-checkbox
+    #atlanticDivisionCheckBox
+    [checked]="atlanticDivisionFilter"
+    (change)="onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)"
+    >Atlantic</mat-checkbox
+  >
+  <mat-checkbox
+    #metropolitanDivisionCheckBox
+    [checked]="metropolitanDivisionFilter"
+    (change)="
+      onMetropolitanDivisionFilterChanged(metropolitanDivisionCheckBox.checked)
+    "
+    >Metropolitan</mat-checkbox
+  >
+</div>
+
+<div *ngIf="westernConferenceFilter">
+  <mat-checkbox
+    #centralDivisionCheckBox
+    [checked]="centralDivisionFilter"
+    (change)="onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)"
+    >Central</mat-checkbox
+  >
+  <mat-checkbox
+    #pacificDivisionCheckBox
+    [checked]="pacificDivisionFilter"
+    (change)="onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)"
+    >Pacific</mat-checkbox
+  >
+</div>
+
+<div>
+  <mat-slide-toggle>Map</mat-slide-toggle>
+</div>
+<table>
+  <tr>
+    <th>Team</th>
+    <th>Conference</th>
+    <th>Division</th>
+  </tr>
+  <tr *ngFor="let team of getNhlTeamDetails()">
+    <td>{{ team.name }}</td>
+    <td>{{ team.conference }}</td>
+    <td>{{ team.division }}</td>
+  </tr>
+</table>
