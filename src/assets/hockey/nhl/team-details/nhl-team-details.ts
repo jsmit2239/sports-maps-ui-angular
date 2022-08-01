@@ -60,6 +60,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     longitude: -83.05527266596589,
     svgTitle: 'detroit-red-wings',
   },
+
   {
     name: 'Florida Panthers',
     conference: NhlConference.Eastern,

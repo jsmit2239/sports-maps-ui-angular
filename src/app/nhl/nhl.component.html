@@ -1,7 +1,3 @@
-<p>Filters:</p>
-
-<p>Conference:</p>
-
 <mat-checkbox
   #easternConferenceCheckBox
   [checked]="easternConferenceFilter"
@@ -16,9 +12,6 @@
   >Western</mat-checkbox
 >
 
-<div *ngIf="easternConferenceFilter || westernConferenceFilter">
-  <p>Division:</p>
-</div>
 <div *ngIf="easternConferenceFilter">
   <mat-checkbox
     #atlanticDivisionCheckBox
@@ -59,14 +52,13 @@
 >
 
 <div *ngIf="mapView">
-  <agm-map [latitude]="lat" [longitude]="lng">
+  <agm-map [latitude]="42" [longitude]="-94" [zoom]="4.6">
     <agm-marker
       *ngFor="let team of getNhlTeamDetails(); let i = index"
       [latitude]="team.latitude"
       [longitude]="team.longitude"
       [iconUrl]="$any(iconMap.get(team.name))"
     >
-      <!-- <agm-info-window>Test</agm-info-window> -->
     </agm-marker>
   </agm-map>
 </div>

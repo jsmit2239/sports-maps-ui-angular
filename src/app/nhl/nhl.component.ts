@@ -4,8 +4,7 @@ import {
   NhlConference,
   NhlDivision,
   nhlTeamDetails,
-  TeamDetails,
-} from 'src/assets/hockey/nhl-team-details';
+} from 'src/assets/hockey/nhl/team-details/nhl-team-details';
 
 @Component({
   selector: 'app-nhl',
@@ -20,43 +19,19 @@ export class NhlComponent {
 
   teamDetails = nhlTeamDetails;
 
-  mapView = true;
-
-  /** Conference Filter */
+  /** Conference Filters */
   easternConferenceFilter = false;
   westernConferenceFilter = false;
 
-  /** Division Filter */
+  /** Division Filters */
   atlanticDivisionFilter = false;
   centralDivisionFilter = false;
   metropolitanDivisionFilter = false;
   pacificDivisionFilter = false;
 
-  icon = {
-    url: '../../assets/svg-test.svg',
-    scaledSize: {
-      width: 50,
-      height: 50,
-    },
-  };
+  mapView = true;
 
   iconMap = this.getIconMap();
-
-  getIconMap() {
-    const iconMap = new Map();
-
-    for (const team of nhlTeamDetails) {
-      iconMap.set(team.name, {
-        url: '../../assets/svg-test.svg',
-        scaledSize: {
-          width: 50,
-          height: 50,
-        },
-      });
-    }
-
-    return iconMap;
-  }
 
   getNhlTeamDetails() {
     const conferenceFiltersEnabled = this.areConferenceFiltersEnabled();
@@ -74,10 +49,6 @@ export class NhlComponent {
       });
       return filteredNhlTeams;
     }
-  }
-
-  onMapViewChanged(value: boolean) {
-    this.mapView = value;
   }
 
   onEasternConferenceFilterChanged(value: boolean) {
@@ -164,6 +135,10 @@ export class NhlComponent {
     }
   }
 
+  onMapViewChanged(value: boolean) {
+    this.mapView = value;
+  }
+
   private areConferenceFiltersEnabled(): boolean {
     return this.easternConferenceFilter || this.westernConferenceFilter;
   }
@@ -202,5 +177,21 @@ export class NhlComponent {
     }
 
     return selectedDivisions;
+  }
+
+  private getIconMap() {
+    const iconMap = new Map();
+
+    for (const team of nhlTeamDetails) {
+      iconMap.set(team.name, {
+        url: `../../assets/hockey/nhl/svg/${team.svgTitle}.svg`,
+        scaledSize: {
+          width: 60,
+          height: 60,
+        },
+      });
+    }
+
+    return iconMap;
   }
 }
