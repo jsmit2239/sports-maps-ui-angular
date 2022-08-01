@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { map } from 'rxjs';
 import {
   NhlConference,
   NhlDivision,
   nhlTeamDetails,
+  TeamDetails,
 } from 'src/assets/hockey/nhl-team-details';
 
 @Component({
@@ -13,6 +15,13 @@ import {
 export class NhlComponent {
   constructor() {}
 
+  lat: number = 42.341136303335254;
+  lng: number = -83.05521365582182;
+
+  teamDetails = nhlTeamDetails;
+
+  mapView = true;
+
   /** Conference Filter */
   easternConferenceFilter = false;
   westernConferenceFilter = false;
@@ -22,6 +31,32 @@ export class NhlComponent {
   centralDivisionFilter = false;
   metropolitanDivisionFilter = false;
   pacificDivisionFilter = false;
+
+  icon = {
+    url: '../../assets/svg-test.svg',
+    scaledSize: {
+      width: 50,
+      height: 50,
+    },
+  };
+
+  iconMap = this.getIconMap();
+
+  getIconMap() {
+    const iconMap = new Map();
+
+    for (const team of nhlTeamDetails) {
+      iconMap.set(team.name, {
+        url: '../../assets/svg-test.svg',
+        scaledSize: {
+          width: 50,
+          height: 50,
+        },
+      });
+    }
+
+    return iconMap;
+  }
 
   getNhlTeamDetails() {
     const conferenceFiltersEnabled = this.areConferenceFiltersEnabled();
@@ -39,6 +74,10 @@ export class NhlComponent {
       });
       return filteredNhlTeams;
     }
+  }
+
+  onMapViewChanged(value: boolean) {
+    this.mapView = value;
   }
 
   onEasternConferenceFilterChanged(value: boolean) {

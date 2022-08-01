@@ -10,6 +10,8 @@ import { NhlComponent } from './nhl/nhl.component';
 import { MlbComponent } from './mlb/mlb.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MapTestComponent } from './map-test/map-test.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     NavigationBarComponent,
     NhlComponent,
     MlbComponent,
+    MapTestComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,6 +28,9 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatCheckboxModule,
+    AgmCoreModule.forRoot({
+      apiKey: '',
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

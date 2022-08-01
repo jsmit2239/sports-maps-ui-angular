@@ -51,18 +51,37 @@
   >
 </div>
 
-<div>
-  <mat-slide-toggle>Map</mat-slide-toggle>
+<mat-slide-toggle
+  #mapViewToggle
+  [checked]="mapView"
+  (change)="onMapViewChanged(mapViewToggle.checked)"
+  >Map</mat-slide-toggle
+>
+
+<div *ngIf="mapView">
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker
+      *ngFor="let team of getNhlTeamDetails(); let i = index"
+      [latitude]="team.latitude"
+      [longitude]="team.longitude"
+      [iconUrl]="$any(iconMap.get(team.name))"
+    >
+      <!-- <agm-info-window>Test</agm-info-window> -->
+    </agm-marker>
+  </agm-map>
 </div>
-<table>
-  <tr>
-    <th>Team</th>
-    <th>Arena</th>
-    <th>Address</th>
-  </tr>
-  <tr *ngFor="let team of getNhlTeamDetails()">
-    <td>{{ team.name }}</td>
-    <td>{{ team.venue }}</td>
-    <td>{{ team.address }}</td>
-  </tr>
-</table>
+
+<div *ngIf="!mapView">
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Arena</th>
+      <th>Address</th>
+    </tr>
+    <tr *ngFor="let team of getNhlTeamDetails()">
+      <td>{{ team.name }}</td>
+      <td>{{ team.venue }}</td>
+      <td>{{ team.address }}</td>
+    </tr>
+  </table>
+</div>

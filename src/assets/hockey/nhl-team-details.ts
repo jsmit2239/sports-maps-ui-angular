@@ -6,6 +6,9 @@ export interface TeamDetails {
   division: string;
   venue?: string;
   address?: string;
+  latitude: number;
+  longitude: number;
+  svgTitle?: string;
 }
 
 export interface VenueDetails {
@@ -33,6 +36,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'TD Garden',
     address: '100 Legends Way, Boston, MA 02114',
+    latitude: 42.36635651964218,
+    longitude: -71.06159883092985,
+    svgTitle: 'boston-bruins',
   },
   {
     name: 'Buffalo Sabres',
@@ -40,6 +46,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'KeyBank Center',
     address: '1 Seymour H Knox III Plaza, Buffalo, NY 14203',
+    latitude: 42.87522260413956,
+    longitude: -78.8762113076308,
+    svgTitle: 'buffalo-sabres',
   },
   {
     name: 'Detroit Red Wings',
@@ -47,6 +56,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'Little Caesars Arena',
     address: '2645 Woodward Ave, Detroit, MI 48201',
+    latitude: 42.34112339595631,
+    longitude: -83.05527266596589,
+    svgTitle: 'detroit-red-wings',
   },
   {
     name: 'Florida Panthers',
@@ -54,6 +66,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'FLA Live Arena',
     address: '1 Panther Pkwy, Sunrise, FL 33323',
+    latitude: 26.15853189582724,
+    longitude: -80.32544798222136,
+    svgTitle: 'florida-panthers',
   },
   {
     name: 'Montreal Canadiens',
@@ -61,6 +76,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'Centre Bell',
     address: '1909 Av. des Canadiens-de-Montréal, Montréal, QC H3B 5E8, Canada',
+    latitude: 45.496086420320516,
+    longitude: -73.56930725484564,
+    svgTitle: 'montreal-canadiens',
   },
   {
     name: 'Ottawa Senators',
@@ -68,6 +86,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'Canadian Tire Centre',
     address: '1000 Palladium Dr, Ottawa, ON K2V 1A5, Canada',
+    latitude: 45.29705094614054,
+    longitude: -75.92685518649549,
+    svgTitle: 'ottawa-senators',
   },
   {
     name: 'Tampa Bay Lightning',
@@ -75,6 +96,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'Amalie Arena',
     address: '401 Channelside Dr, Tampa, FL 33602',
+    latitude: 27.94274296006068,
+    longitude: -82.45178802852142,
+    svgTitle: 'tampa-bay-lightning',
   },
   {
     name: 'Toronto Maple Leafs',
@@ -82,6 +106,9 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Atlantic,
     venue: 'Scotiabank Arena',
     address: '40 Bay St., Toronto, ON M5J 2X2, Canada',
+    latitude: 43.64350489863835,
+    longitude: -79.37901038862337,
+    svgTitle: 'toronto-maple-leafs',
   },
 ];
 
@@ -92,6 +119,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'PNC Arena',
     address: '1400 Edwards Mill Rd, Raleigh, NC 27607',
+    latitude: 35.803348558327,
+    longitude: -78.72180582500384,
+    svgTitle: 'carolina-hurricanes',
   },
   {
     name: 'Columbus Blue Jackets',
@@ -99,6 +129,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'Nationwide Arena',
     address: '200 W Nationwide Blvd, Columbus, OH 43215',
+    latitude: 39.96923287463439,
+    longitude: -83.00604293718426,
+    svgTitle: 'columbus-blue-jackets',
   },
   {
     name: 'New Jersey Devils',
@@ -106,6 +139,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'Prudential Center',
     address: '25 Lafayette St, Newark, NJ 07102',
+    latitude: 40.73356136873307,
+    longitude: -74.17106858380309,
+    svgTitle: 'new-jersey-devils',
   },
   {
     name: 'New York Islanders',
@@ -113,6 +149,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'UBS Arena',
     address: '2400 Hempstead Turnpike, Elmont, NY 11003',
+    latitude: 40.71180176974007,
+    longitude: -73.72604315434921,
+    svgTitle: 'new-york-islanders',
   },
   {
     name: 'New York Rangers',
@@ -120,6 +159,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'Madison Square Garden',
     address: '4 Pennsylvania Plaza, New York, NY 10001',
+    latitude: 40.75054301990775,
+    longitude: -73.99344944190267,
+    svgTitle: 'new-york-rangers',
   },
   {
     name: 'Philadelphia Flyers',
@@ -127,6 +169,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'Wells Fargo Center',
     address: '3601 S Broad St, Philadelphia, PA 19148',
+    latitude: 39.90124059554696,
+    longitude: -75.17198218220045,
+    svgTitle: 'philadelphia-flyers',
   },
   {
     name: 'Pittsburgh Penguins',
@@ -134,6 +179,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'PPG Paints Arena',
     address: '1001 Fifth Ave, Pittsburgh, PA 15219',
+    latitude: 40.43932090712607,
+    longitude: -79.98955491324823,
+    svgTitle: 'pittsburgh-penguins',
   },
   {
     name: 'Washington Capitals',
@@ -141,6 +189,9 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Metropolitan,
     venue: 'Capital One Arena',
     address: '601 F St NW, Washington, DC 20004',
+    latitude: 38.89817426382943,
+    longitude: -77.02085747218304,
+    svgTitle: 'washington-capitals',
   },
 ];
 
@@ -151,6 +202,9 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'ASU Multi-Purpose Arena',
     address: '201 S Packard Dr, Tempe, AZ 85281',
+    latitude: 33.42780307045391,
+    longitude: -111.92812461277957,
+    svgTitle: 'arizona-coyotes',
   },
   {
     name: 'Chicago Blackhawks',
@@ -158,6 +212,9 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'United Center',
     address: '1901 W Madison St, Chicago, IL 60612',
+    latitude: 41.88069876722966,
+    longitude: -87.67416383161978,
+    svgTitle: 'chicago-blackhawks',
   },
   {
     name: 'Colorado Avalanche',
@@ -165,6 +222,9 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'Ball Arena',
     address: '1000 Chopper Cir, Denver, CO 80204',
+    latitude: 39.74867710179193,
+    longitude: -105.00761084823363,
+    svgTitle: 'colorado-avalanche',
   },
   {
     name: 'Dallas Stars',
@@ -172,6 +232,9 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'American Airlines Center',
     address: '2500 Victory Ave., Dallas, TX 75219',
+    latitude: 32.79040679242179,
+    longitude: -96.81025374775074,
+    svgTitle: 'dallas-stars',
   },
   {
     name: 'Minnesota Wild',
@@ -179,6 +242,9 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'Xcel Energy Center',
     address: '199 W Kellogg Blvd, St Paul, MN 55102',
+    latitude: 44.94464106706121,
+    longitude: -93.10018644752071,
+    svgTitle: 'minnesota-wild',
   },
   {
     name: 'Nashville Predators',
@@ -186,13 +252,19 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'Bridgestone Arena',
     address: '501 Broadway, Nashville, TN 37203',
+    latitude: 36.15919415294487,
+    longitude: -86.77849858389213,
+    svgTitle: 'nashville-predators',
   },
   {
-    name: 'St.Louis Blues',
+    name: 'St. Louis Blues',
     conference: NhlConference.Western,
     division: NhlDivision.Central,
     venue: 'Enterprise Center',
     address: '1401 Clark Ave, St. Louis, MO 63103',
+    latitude: 38.626884203745476,
+    longitude: -90.20267561781263,
+    svgTitle: 'st-louis-blues',
   },
   {
     name: 'Winnipeg Jets',
@@ -200,6 +272,9 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Central,
     venue: 'Canada Life Centre',
     address: '223 Carlton St, Winnipeg, MB R3C 5S6, Canada',
+    latitude: 49.89265378305794,
+    longitude: -97.14376508356901,
+    svgTitle: 'winnipeg-jets',
   },
 ];
 
@@ -210,6 +285,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'Honda Center',
     address: '2695 E Katella Ave, Anaheim, CA 92806',
+    latitude: 33.80787766770747,
+    longitude: -117.87647004283426,
+    svgTitle: 'anaheim-ducks',
   },
   {
     name: 'Calgary Flames',
@@ -217,6 +295,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'Scotiabank Saddledome',
     address: '555 Saddledome Rise SE, Calgary, AB T2G 2W1, Canada',
+    latitude: 51.03747405810066,
+    longitude: -114.05195555900085,
+    svgTitle: 'calgary-flames',
   },
   {
     name: 'Edmonton Oilers',
@@ -224,6 +305,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'Rogers Place',
     address: '10220 104 Ave NW, Edmonton, AB T5J 0H6, Canada',
+    latitude: 53.54698265153923,
+    longitude: -113.49780509512647,
+    svgTitle: 'edmonton-oilers',
   },
   {
     name: 'Los Angeles Kings',
@@ -231,6 +315,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'Crypto.com Arena',
     address: '1111 S Figueroa St, Los Angeles, CA 90015',
+    latitude: 34.04305526352989,
+    longitude: -118.26721386859154,
+    svgTitle: 'los-angeles-kings',
   },
   {
     name: 'San Jose Sharks',
@@ -238,6 +325,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'SAP Center at San Jose',
     address: '525 W Santa Clara St, San Jose, CA 95113',
+    latitude: 37.332990134665025,
+    longitude: -121.90200279489873,
+    svgTitle: 'san-jose-sharks',
   },
   {
     name: 'Seattle Kraken',
@@ -245,6 +335,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'Climate Pledge Arena',
     address: '334 1st Ave N, Seattle, WA 98109',
+    latitude: 47.6220993009584,
+    longitude: -122.35407810694151,
+    svgTitle: 'seattle-kraken',
   },
   {
     name: 'Vancouver Canucks',
@@ -252,6 +345,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'Rogers Arena',
     address: '800 Griffiths Way, Vancouver, BC V6B 6G1, Canada',
+    latitude: 49.277854152759446,
+    longitude: -123.10882136027172,
+    svgTitle: 'vancouver-canucks',
   },
   {
     name: 'Las Vegas Golden Knights',
@@ -259,6 +355,9 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     division: NhlDivision.Pacific,
     venue: 'T-Mobile Arena',
     address: '3780 Las Vegas Blvd S, Las Vegas, NV 89158',
+    latitude: 36.102954489551735,
+    longitude: -115.17814898389337,
+    svgTitle: 'las-vegas-golden-knights',
   },
 ];
 
