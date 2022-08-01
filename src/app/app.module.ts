@@ -10,7 +10,6 @@ import { NhlComponent } from './nhl/nhl.component';
 import { MlbComponent } from './mlb/mlb.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MapTestComponent } from './map-test/map-test.component';
 import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { AgmCoreModule } from '@agm/core';
     NavigationBarComponent,
     NhlComponent,
     MlbComponent,
-    MapTestComponent,
   ],
   imports: [
     BrowserModule,

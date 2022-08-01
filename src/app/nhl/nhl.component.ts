@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { map } from 'rxjs';
 import {
   NhlConference,
   NhlDivision,
-  nhlTeamDetails,
-} from 'src/assets/hockey/nhl/team-details/nhl-team-details';
+} from 'src/assets/hockey/nhl/enums/nhl-enum';
+import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-details';
 
 @Component({
   selector: 'app-nhl',
@@ -13,9 +12,6 @@ import {
 })
 export class NhlComponent {
   constructor() {}
-
-  lat: number = 42.341136303335254;
-  lng: number = -83.05521365582182;
 
   teamDetails = nhlTeamDetails;
 
@@ -183,8 +179,8 @@ export class NhlComponent {
     const iconMap = new Map();
 
     for (const team of nhlTeamDetails) {
-      iconMap.set(team.name, {
-        url: `../../assets/hockey/nhl/svg/${team.svgTitle}.svg`,
+      iconMap.set(team.abbreviation, {
+        url: `../../assets/hockey/nhl/svg/${team.icon.svgTitle}.svg`,
         scaledSize: {
           width: 60,
           height: 60,
