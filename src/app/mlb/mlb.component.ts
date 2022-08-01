@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import {
   MlbDivision,
   MlbLeague,
-  mlbTeamDetails,
-} from 'src/assets/baseball/mlb-team-details';
+} from 'src/assets/baseball/mlb/enums/mlb-enums';
+import { mlbTeamDetails } from 'src/assets/baseball/mlb/team-details/mlb-team-details';
 
 @Component({
   selector: 'app-mlb',
