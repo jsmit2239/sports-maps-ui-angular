@@ -1,4 +1,3 @@
-<p>nhl works!</p>
 <p>Filters:</p>
 
 <p>Conference:</p>
@@ -58,12 +57,12 @@
 <table>
   <tr>
     <th>Team</th>
-    <th>Conference</th>
-    <th>Division</th>
+    <th>Arena</th>
+    <th>Address</th>
   </tr>
   <tr *ngFor="let team of getNhlTeamDetails()">
     <td>{{ team.name }}</td>
-    <td>{{ team.conference }}</td>
-    <td>{{ team.division }}</td>
+    <td>{{ team.venue }}</td>
+    <td>{{ team.address }}</td>
   </tr>
 </table>
