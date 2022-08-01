@@ -1,7 +1,3 @@
-<p>Filters:</p>
-
-<p>Conference:</p>
-
 <mat-checkbox
   #easternConferenceCheckBox
   [checked]="easternConferenceFilter"
@@ -16,9 +12,6 @@
   >Western</mat-checkbox
 >
 
-<div *ngIf="easternConferenceFilter || westernConferenceFilter">
-  <p>Division:</p>
-</div>
 <div *ngIf="easternConferenceFilter">
   <mat-checkbox
     #atlanticDivisionCheckBox
@@ -51,18 +44,36 @@
   >
 </div>
 
-<div>
-  <mat-slide-toggle>Map</mat-slide-toggle>
+<mat-slide-toggle
+  #mapViewToggle
+  [checked]="mapView"
+  (change)="onMapViewChanged(mapViewToggle.checked)"
+  >Map</mat-slide-toggle
+>
+
+<div *ngIf="mapView">
+  <agm-map [latitude]="42" [longitude]="-94" [zoom]="4.6">
+    <agm-marker
+      *ngFor="let team of getNhlTeamDetails(); let i = index"
+      [latitude]="team.venue.latitude"
+      [longitude]="team.venue.longitude"
+      [iconUrl]="$any(iconMap.get(team.abbreviation))"
+    >
+    </agm-marker>
+  </agm-map>
 </div>
-<table>
-  <tr>
-    <th>Team</th>
-    <th>Arena</th>
-    <th>Address</th>
-  </tr>
-  <tr *ngFor="let team of getNhlTeamDetails()">
-    <td>{{ team.name }}</td>
-    <td>{{ team.venue }}</td>
-    <td>{{ team.address }}</td>
-  </tr>
-</table>
+
+<div *ngIf="!mapView">
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Arena</th>
+      <th>Address</th>
+    </tr>
+    <tr *ngFor="let team of getNhlTeamDetails()">
+      <td>{{ team.name }}</td>
+      <td>{{ team.venue.name }}</td>
+      <td>{{ team.venue.address }}</td>
+    </tr>
+  </table>
+</div>

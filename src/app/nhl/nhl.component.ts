@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import {
   NhlConference,
   NhlDivision,
-  nhlTeamDetails,
-} from 'src/assets/hockey/nhl-team-details';
+} from 'src/assets/hockey/nhl/enums/nhl-enum';
+import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-details';
 
 @Component({
   selector: 'app-nhl',
@@ -13,15 +13,21 @@ import {
 export class NhlComponent {
   constructor() {}
 
-  /** Conference Filter */
+  teamDetails = nhlTeamDetails;
+
+  /** Conference Filters */
   easternConferenceFilter = false;
   westernConferenceFilter = false;
 
-  /** Division Filter */
+  /** Division Filters */
   atlanticDivisionFilter = false;
   centralDivisionFilter = false;
   metropolitanDivisionFilter = false;
   pacificDivisionFilter = false;
+
+  mapView = true;
+
+  iconMap = this.getIconMap();
 
   getNhlTeamDetails() {
     const conferenceFiltersEnabled = this.areConferenceFiltersEnabled();
@@ -125,6 +131,10 @@ export class NhlComponent {
     }
   }
 
+  onMapViewChanged(value: boolean) {
+    this.mapView = value;
+  }
+
   private areConferenceFiltersEnabled(): boolean {
     return this.easternConferenceFilter || this.westernConferenceFilter;
   }
@@ -163,5 +173,21 @@ export class NhlComponent {
     }
 
     return selectedDivisions;
+  }
+
+  private getIconMap() {
+    const iconMap = new Map();
+
+    for (const team of nhlTeamDetails) {
+      iconMap.set(team.abbreviation, {
+        url: `../../assets/hockey/nhl/svg/${team.icon.svgTitle}.svg`,
+        scaledSize: {
+          width: 60,
+          height: 60,
+        },
+      });
+    }
+
+    return iconMap;
   }
 }
