@@ -11,6 +11,7 @@ import { MlbComponent } from './mlb/mlb.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AgmCoreModule } from '@agm/core';
+import { NbaComponent } from './nba/nba.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AgmCoreModule } from '@agm/core';
     NavigationBarComponent,
     NhlComponent,
     MlbComponent,
+    NbaComponent,
   ],
   imports: [
     BrowserModule,
