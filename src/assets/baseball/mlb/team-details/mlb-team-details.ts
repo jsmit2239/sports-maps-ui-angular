@@ -14,7 +14,7 @@ const alEastTeamDetails: TeamDetails[] = [
       longitude: -76.62168893045092,
     },
     icon: {
-      svgTitle: 'baltimore-orioles',
+      svgTitle: 'baltimore-orioles-logo',
     },
   },
   {
@@ -29,7 +29,7 @@ const alEastTeamDetails: TeamDetails[] = [
       longitude: -71.09721511933667,
     },
     icon: {
-      svgTitle: 'boston-red-sox',
+      svgTitle: 'boston-red-sox-logo',
     },
   },
   {
@@ -44,7 +44,7 @@ const alEastTeamDetails: TeamDetails[] = [
       longitude: -73.92618254677231,
     },
     icon: {
-      svgTitle: 'new-york-yankees',
+      svgTitle: 'new-york-yankees-logo',
     },
   },
   {
@@ -59,7 +59,7 @@ const alEastTeamDetails: TeamDetails[] = [
       longitude: -82.65337064416495,
     },
     icon: {
-      svgTitle: 'tampa-bay-rays',
+      svgTitle: 'tampa-bay-rays-logo',
     },
   },
   {
@@ -74,7 +74,7 @@ const alEastTeamDetails: TeamDetails[] = [
       longitude: -79.38899886223284,
     },
     icon: {
-      svgTitle: 'toronto-blue-jays',
+      svgTitle: 'toronto-blue-jays-logo',
     },
   },
 ];
@@ -92,7 +92,7 @@ const alCentralTeamDetails: TeamDetails[] = [
       longitude: -87.63356981135067,
     },
     icon: {
-      svgTitle: 'chicago-white-sox',
+      svgTitle: 'chicago-white-sox-logo',
     },
   },
   {
@@ -107,7 +107,7 @@ const alCentralTeamDetails: TeamDetails[] = [
       longitude: -81.68523963040107,
     },
     icon: {
-      svgTitle: 'cleveland-guardians',
+      svgTitle: 'cleveland-guardians-logo',
     },
   },
   {
@@ -122,7 +122,7 @@ const alCentralTeamDetails: TeamDetails[] = [
       longitude: -83.04857334572425,
     },
     icon: {
-      svgTitle: 'detroit-tigers',
+      svgTitle: 'detroit-tigers-logo',
     },
   },
   {
@@ -137,7 +137,7 @@ const alCentralTeamDetails: TeamDetails[] = [
       longitude: -94.48031420162035,
     },
     icon: {
-      svgTitle: 'kansas-city-royals',
+      svgTitle: 'kansas-city-royals-logo',
     },
   },
   {
@@ -152,7 +152,7 @@ const alCentralTeamDetails: TeamDetails[] = [
       longitude: -93.27762115485542,
     },
     icon: {
-      svgTitle: 'minnesota-twins',
+      svgTitle: 'minnesota-twins-logo',
     },
   },
 ];
@@ -170,7 +170,7 @@ const alWestTeamDetails: TeamDetails[] = [
       longitude: -95.35546602204238,
     },
     icon: {
-      svgTitle: 'houston-astros',
+      svgTitle: 'houston-astros-logo',
     },
   },
   {
@@ -185,7 +185,7 @@ const alWestTeamDetails: TeamDetails[] = [
       longitude: -117.88268517568542,
     },
     icon: {
-      svgTitle: 'los-angeles-angels',
+      svgTitle: 'los-angeles-angels-logo',
     },
   },
   {
@@ -200,7 +200,7 @@ const alWestTeamDetails: TeamDetails[] = [
       longitude: -122.20009520255283,
     },
     icon: {
-      svgTitle: 'oakland-athletics',
+      svgTitle: 'oakland-athletics-logo',
     },
   },
   {
@@ -215,7 +215,7 @@ const alWestTeamDetails: TeamDetails[] = [
       longitude: -122.3324850149094,
     },
     icon: {
-      svgTitle: 'seattle-mariners',
+      svgTitle: 'seattle-mariners-logo',
     },
   },
   {
@@ -230,7 +230,7 @@ const alWestTeamDetails: TeamDetails[] = [
       longitude: -97.08293179315255,
     },
     icon: {
-      svgTitle: 'texas-rangers',
+      svgTitle: 'texas-rangers-logo',
     },
   },
 ];
@@ -248,7 +248,7 @@ const nlEastTeamDetails: TeamDetails[] = [
       longitude: -84.46837738208617,
     },
     icon: {
-      svgTitle: 'atlanta-braves',
+      svgTitle: 'atlanta-braves-logo',
     },
   },
   {
@@ -263,7 +263,7 @@ const nlEastTeamDetails: TeamDetails[] = [
       longitude: -80.21960248407657,
     },
     icon: {
-      svgTitle: 'miami-marlins',
+      svgTitle: 'miami-marlins-logo',
     },
   },
   {
@@ -278,7 +278,7 @@ const nlEastTeamDetails: TeamDetails[] = [
       longitude: -73.84584275925359,
     },
     icon: {
-      svgTitle: 'new-york-mets',
+      svgTitle: 'new-york-mets-logo',
     },
   },
   {
@@ -293,7 +293,7 @@ const nlEastTeamDetails: TeamDetails[] = [
       longitude: -75.16651665927282,
     },
     icon: {
-      svgTitle: 'philadelphia-phillies',
+      svgTitle: 'philadelphia-phillies-logo',
     },
   },
   {
@@ -308,7 +308,7 @@ const nlEastTeamDetails: TeamDetails[] = [
       longitude: -77.00737389302796,
     },
     icon: {
-      svgTitle: 'washington-nationals',
+      svgTitle: 'washington-nationals-logo',
     },
   },
 ];
@@ -326,7 +326,7 @@ const nlCentralTeamDetails: TeamDetails[] = [
       longitude: -87.65534745370392,
     },
     icon: {
-      svgTitle: 'chicago-cubs',
+      svgTitle: 'chicago-cubs-logo',
     },
   },
   {
@@ -341,7 +341,7 @@ const nlCentralTeamDetails: TeamDetails[] = [
       longitude: -84.50707676603723,
     },
     icon: {
-      svgTitle: 'cincinnati-reds',
+      svgTitle: 'cincinnati-reds-logo',
     },
   },
   {
@@ -356,7 +356,7 @@ const nlCentralTeamDetails: TeamDetails[] = [
       longitude: -87.97115844815623,
     },
     icon: {
-      svgTitle: 'milwaukee-brewers',
+      svgTitle: 'milwaukee-brewers-logo',
     },
   },
   {
@@ -371,7 +371,7 @@ const nlCentralTeamDetails: TeamDetails[] = [
       longitude: -80.00570540158924,
     },
     icon: {
-      svgTitle: 'pittsburgh-pirates',
+      svgTitle: 'pittsburgh-pirates-logo',
     },
   },
   {
@@ -386,7 +386,7 @@ const nlCentralTeamDetails: TeamDetails[] = [
       longitude: -90.19286381534252,
     },
     icon: {
-      svgTitle: 'st-louis-cardinals',
+      svgTitle: 'st-louis-cardinals-logo',
     },
   },
 ];
@@ -404,7 +404,7 @@ const nlWestTeamDetails: TeamDetails[] = [
       longitude: -112.06666760950466,
     },
     icon: {
-      svgTitle: 'arizona-diamondbacks',
+      svgTitle: 'arizona-diamondbacks-logo',
     },
   },
   {
@@ -419,7 +419,7 @@ const nlWestTeamDetails: TeamDetails[] = [
       longitude: -104.9941727371869,
     },
     icon: {
-      svgTitle: 'colorado-rockies',
+      svgTitle: 'colorado-rockies-logo',
     },
   },
   {
@@ -434,7 +434,7 @@ const nlWestTeamDetails: TeamDetails[] = [
       longitude: -118.23994220846994,
     },
     icon: {
-      svgTitle: 'los-angeles-dodgers',
+      svgTitle: 'los-angeles-dodgers-logo',
     },
   },
   {
@@ -449,7 +449,7 @@ const nlWestTeamDetails: TeamDetails[] = [
       longitude: -117.15675304837643,
     },
     icon: {
-      svgTitle: 'san-diego-padres',
+      svgTitle: 'san-diego-padres-logo',
     },
   },
   {
@@ -464,7 +464,7 @@ const nlWestTeamDetails: TeamDetails[] = [
       longitude: -122.3892483423286,
     },
     icon: {
-      svgTitle: 'san-francisco-giants',
+      svgTitle: 'san-francisco-giants-logo',
     },
   },
 ];

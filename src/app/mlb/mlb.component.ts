@@ -215,7 +215,7 @@ export class MlbComponent {
 
     for (const team of mlbTeamDetails) {
       iconMap.set(team.abbreviation, {
-        url: `../../assets/hockey/nhl/svg/detroit-red-wings.svg`,
+        url: `../../assets/baseball/mlb/svg/${team.icon.svgTitle}.svg`,
         scaledSize: {
           width: 60,
           height: 60,

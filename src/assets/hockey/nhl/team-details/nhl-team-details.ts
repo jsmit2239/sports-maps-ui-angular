@@ -14,7 +14,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       longitude: -71.06159883092985,
     },
     icon: {
-      svgTitle: 'boston-bruins',
+      svgTitle: 'boston-bruins-logo',
     },
   },
   {
@@ -28,7 +28,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       latitude: 42.87522260413956,
       longitude: -78.8762113076308,
     },
-    icon: { svgTitle: 'buffalo-sabres' },
+    icon: { svgTitle: 'buffalo-sabres-logo' },
   },
   {
     abbreviation: 'DET',
@@ -41,7 +41,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       latitude: 42.34112339595631,
       longitude: -83.05527266596589,
     },
-    icon: { svgTitle: 'detroit-red-wings' },
+    icon: { svgTitle: 'detroit-red-wings-logo' },
   },
 
   {
@@ -56,7 +56,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       longitude: -80.32544798222136,
     },
     icon: {
-      svgTitle: 'florida-panthers',
+      svgTitle: 'florida-panthers-logo',
     },
   },
   {
@@ -72,7 +72,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       longitude: -73.56930725484564,
     },
     icon: {
-      svgTitle: 'montreal-canadiens',
+      svgTitle: 'montreal-canadiens-logo',
     },
   },
   {
@@ -87,7 +87,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       longitude: -75.92685518649549,
     },
     icon: {
-      svgTitle: 'ottawa-senators',
+      svgTitle: 'ottawa-senators-logo',
     },
   },
   {
@@ -102,7 +102,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       longitude: -82.45178802852142,
     },
     icon: {
-      svgTitle: 'tampa-bay-lightning',
+      svgTitle: 'tampa-bay-lightning-logo',
     },
   },
   {
@@ -116,7 +116,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
       latitude: 43.64350489863835,
       longitude: -79.37901038862337,
     },
-    icon: { svgTitle: 'toronto-maple-leafs' },
+    icon: { svgTitle: 'toronto-maple-leafs-logo' },
   },
 ];
 
@@ -133,7 +133,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -78.72180582500384,
     },
     icon: {
-      svgTitle: 'carolina-hurricanes',
+      svgTitle: 'carolina-hurricanes-logo',
     },
   },
   {
@@ -148,7 +148,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -83.00604293718426,
     },
     icon: {
-      svgTitle: 'columbus-blue-jackets',
+      svgTitle: 'columbus-blue-jackets-logo',
     },
   },
   {
@@ -163,7 +163,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -74.17106858380309,
     },
     icon: {
-      svgTitle: 'new-jersey-devils',
+      svgTitle: 'new-jersey-devils-logo',
     },
   },
   {
@@ -178,7 +178,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -73.72604315434921,
     },
     icon: {
-      svgTitle: 'new-york-islanders',
+      svgTitle: 'new-york-islanders-logo',
     },
   },
   {
@@ -193,7 +193,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -73.99344944190267,
     },
     icon: {
-      svgTitle: 'new-york-rangers',
+      svgTitle: 'new-york-rangers-logo',
     },
   },
   {
@@ -208,7 +208,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -75.17198218220045,
     },
     icon: {
-      svgTitle: 'philadelphia-flyers',
+      svgTitle: 'philadelphia-flyers-logo',
     },
   },
   {
@@ -223,7 +223,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -79.98955491324823,
     },
     icon: {
-      svgTitle: 'pittsburgh-penguins',
+      svgTitle: 'pittsburgh-penguins-logo',
     },
   },
   {
@@ -238,7 +238,7 @@ const easternConferenceMetropolitanDivisionTeamDetails: TeamDetails[] = [
       longitude: -77.02085747218304,
     },
     icon: {
-      svgTitle: 'washington-capitals',
+      svgTitle: 'washington-capitals-logo',
     },
   },
 ];
@@ -256,7 +256,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -111.92812461277957,
     },
     icon: {
-      svgTitle: 'arizona-coyotes',
+      svgTitle: 'arizona-coyotes-logo',
     },
   },
   {
@@ -271,7 +271,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -87.67416383161978,
     },
     icon: {
-      svgTitle: 'chicago-blackhawks',
+      svgTitle: 'chicago-blackhawks-logo',
     },
   },
   {
@@ -286,7 +286,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -105.00761084823363,
     },
     icon: {
-      svgTitle: 'colorado-avalanche',
+      svgTitle: 'colorado-avalanche-logo',
     },
   },
   {
@@ -301,7 +301,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -96.81025374775074,
     },
     icon: {
-      svgTitle: 'dallas-stars',
+      svgTitle: 'dallas-stars-logo',
     },
   },
   {
@@ -331,7 +331,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -86.77849858389213,
     },
     icon: {
-      svgTitle: 'nashville-predators',
+      svgTitle: 'nashville-predators-logo',
     },
   },
   {
@@ -346,7 +346,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -90.20267561781263,
     },
     icon: {
-      svgTitle: 'st-louis-blues',
+      svgTitle: 'st-louis-blues-logo',
     },
   },
   {
@@ -361,7 +361,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -97.14376508356901,
     },
     icon: {
-      svgTitle: 'winnipeg-jets',
+      svgTitle: 'winnipeg-jets-logo',
     },
   },
 ];
@@ -379,7 +379,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -117.87647004283426,
     },
     icon: {
-      svgTitle: 'anaheim-ducks',
+      svgTitle: 'anaheim-ducks-logo',
     },
   },
   {
@@ -394,7 +394,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -114.05195555900085,
     },
     icon: {
-      svgTitle: 'calgary-flames',
+      svgTitle: 'calgary-flames-logo',
     },
   },
   {
@@ -409,7 +409,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -113.49780509512647,
     },
     icon: {
-      svgTitle: 'edmonton-oilers',
+      svgTitle: 'edmonton-oilers-logo',
     },
   },
   {
@@ -424,7 +424,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -118.26721386859154,
     },
     icon: {
-      svgTitle: 'los-angeles-kings',
+      svgTitle: 'los-angeles-kings-logo',
     },
   },
   {
@@ -439,7 +439,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -121.90200279489873,
     },
     icon: {
-      svgTitle: 'san-jose-sharks',
+      svgTitle: 'san-jose-sharks-logo',
     },
   },
   {
@@ -454,7 +454,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -122.35407810694151,
     },
     icon: {
-      svgTitle: 'seattle-kraken',
+      svgTitle: 'seattle-kraken-logo',
     },
   },
   {
@@ -469,7 +469,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -123.10882136027172,
     },
     icon: {
-      svgTitle: 'vancouver-canucks',
+      svgTitle: 'vancouver-canucks-logo',
     },
   },
   {
@@ -484,7 +484,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
       longitude: -115.17814898389337,
     },
     icon: {
-      svgTitle: 'las-vegas-golden-knights',
+      svgTitle: 'las-vegas-golden-knights-logo',
     },
   },
 ];
