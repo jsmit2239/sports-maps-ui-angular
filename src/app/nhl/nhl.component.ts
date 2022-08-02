@@ -13,8 +13,6 @@ import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-deta
 export class NhlComponent {
   constructor() {}
 
-  teamDetails = nhlTeamDetails;
-
   /** Conference Filters */
   easternConferenceFilter = false;
   westernConferenceFilter = false;
@@ -39,8 +37,8 @@ export class NhlComponent {
 
       const filteredNhlTeams = nhlTeamDetails.filter((team) => {
         return (
-          selectedConferences.includes(team.conference) &&
-          selectedDivisions.includes(team.division)
+          selectedConferences.includes(team.conference as any) &&
+          selectedDivisions.includes(team.division as any)
         );
       });
       return filteredNhlTeams;
