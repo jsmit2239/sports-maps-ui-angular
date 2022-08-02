@@ -26,6 +26,10 @@ export class MlbComponent {
   nlCentralDivisionFilter = false;
   nlWestDivisionFilter = false;
 
+  mapView = true;
+
+  iconMap = this.getIconMap();
+
   getMlbTeamDetails() {
     const leagueFiltersEnabled = this.areLeagueFiltersEnabled();
     if (!leagueFiltersEnabled) {
@@ -36,8 +40,8 @@ export class MlbComponent {
 
       const filteredMlbTeams = mlbTeamDetails.filter((team) => {
         return (
-          selectedLeagues.includes(team.league) &&
-          selectedDivisions.includes(team.division)
+          selectedLeagues.includes(team.league as any) &&
+          selectedDivisions.includes(team.division as any)
         );
       });
       return filteredMlbTeams;
@@ -154,6 +158,10 @@ export class MlbComponent {
     }
   }
 
+  onMapViewChanged(value: boolean) {
+    this.mapView = value;
+  }
+
   private areLeagueFiltersEnabled(): boolean {
     return this.americanLeagueFilter || this.nationalLeagueFilter;
   }
@@ -200,5 +208,21 @@ export class MlbComponent {
     }
 
     return selectedDivisions;
+  }
+
+  private getIconMap() {
+    const iconMap = new Map();
+
+    for (const team of mlbTeamDetails) {
+      iconMap.set(team.abbreviation, {
+        url: `../../assets/hockey/nhl/svg/detroit-red-wings.svg`,
+        scaledSize: {
+          width: 60,
+          height: 60,
+        },
+      });
+    }
+
+    return iconMap;
   }
 }
