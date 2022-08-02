@@ -6,11 +6,15 @@ import {
   NbaConference,
   NbaDivision,
 } from 'src/assets/basketball/nba/enums/nba-enum';
+import {
+  NflConference,
+  NflDivision,
+} from 'src/assets/football/nfl/enums/nfl-enum';
 import { NhlConference, NhlDivision } from '../../hockey/nhl/enums/nhl-enum';
 
-type ValidConferencesType = NhlConference | NbaConference;
+type ValidConferencesType = NhlConference | NbaConference | NflConference;
 type ValidLeaguesType = MlbLeague;
-type ValidDivisionsType = NhlDivision | MlbDivision | NbaDivision;
+type ValidDivisionsType = NhlDivision | MlbDivision | NbaDivision | NflDivision;
 
 export interface TeamDetails {
   abbreviation: string;
