@@ -8,8 +8,8 @@ import { NhlComponent } from './nhl/nhl.component';
 const routes: Routes = [
   { path: 'nhl', component: NhlComponent },
   { path: 'mlb', component: MlbComponent },
-  { path: 'nba', component: NbaComponent },
-  { path: 'nfl', component: NflComponent },
+  // { path: 'nba', component: NbaComponent },
+  // { path: 'nfl', component: NflComponent },
 ];
 
 @NgModule({
