@@ -13,167 +13,111 @@ import { mlbTeamDetails } from 'src/assets/baseball/mlb/team-details/mlb-team-de
 export class MlbComponent {
   constructor() {}
 
-  /** League Filter */
-  americanLeagueFilter = false;
-  nationalLeagueFilter = false;
+  /** League Filters */
+  americanLeagueFilterSelected = true;
+  nationalLeagueFilterSelected = true;
 
-  /** Division Filter */
-  alEastDivisionFilter = false;
-  alCentralDivisionFilter = false;
-  alWestDivisionFilter = false;
+  americanLeagueDivisionFiltersSelectable = true;
+  nationalLeagueDivisionFiltersSelectable = true;
 
-  nlEastDivisionFilter = false;
-  nlCentralDivisionFilter = false;
-  nlWestDivisionFilter = false;
+  /** Division Filters */
+  alEastDivisionFilterSelected = true;
+  alCentralDivisionFilterSelected = true;
+  alWestDivisionFilterSelected = true;
+
+  nlEastDivisionFilterSelected = true;
+  nlCentralDivisionFilterSelected = true;
+  nlWestDivisionFilterSelected = true;
 
   mapView = true;
 
   iconMap = this.getIconMap();
 
   getMlbTeamDetails() {
-    const leagueFiltersEnabled = this.areLeagueFiltersEnabled();
-    if (!leagueFiltersEnabled) {
-      return mlbTeamDetails;
-    } else {
-      const selectedLeagues = this.getSelectedLeagues();
-      const selectedDivisions = this.getSelectedDivisions();
+    const selectedLeagues = this.getSelectedLeagues();
+    const selectedDivisions = this.getSelectedDivisions();
 
-      const filteredMlbTeams = mlbTeamDetails.filter((team) => {
-        return (
-          selectedLeagues.includes(team.league as any) &&
-          selectedDivisions.includes(team.division as any)
-        );
-      });
-      return filteredMlbTeams;
-    }
+    const filteredMlbTeams = mlbTeamDetails.filter((team) => {
+      return (
+        selectedLeagues.includes(team.league as any) &&
+        selectedDivisions.includes(team.division as any)
+      );
+    });
+    return filteredMlbTeams;
   }
 
   onAmericanLeagueFilterChanged(value: boolean) {
-    this.americanLeagueFilter = value;
+    this.americanLeagueFilterSelected = value;
 
-    /**
-     * If the american league filter has been enabled, make sure the corresponding
-     * division filters have also been enabled.
-     *
-     * If the american league filter has been disabled, make sure the corresponding
-     * division filters have also been disabled.
-     *
-     * - alEastDivisionFilter
-     * - alCentralDivisionFilter
-     * - alWestDivisionFilter
-     */
-    if (this.americanLeagueFilter) {
-      this.alEastDivisionFilter = true;
-      this.alCentralDivisionFilter = true;
-      this.alWestDivisionFilter = true;
+    if (this.americanLeagueFilterSelected) {
+      this.alEastDivisionFilterSelected = true;
+      this.alCentralDivisionFilterSelected = true;
+      this.alWestDivisionFilterSelected = true;
+
+      this.americanLeagueDivisionFiltersSelectable = true;
     } else {
-      this.alEastDivisionFilter = false;
-      this.alCentralDivisionFilter = false;
-      this.alWestDivisionFilter = false;
+      this.alEastDivisionFilterSelected = false;
+      this.alCentralDivisionFilterSelected = false;
+      this.alWestDivisionFilterSelected = false;
+
+      this.americanLeagueDivisionFiltersSelectable = false;
     }
   }
 
   onNationalLeagueFilterChanged(value: boolean) {
-    this.nationalLeagueFilter = value;
+    this.nationalLeagueFilterSelected = value;
 
-    /**
-     * If the national league filter has been enabled, make sure the corresponding
-     * division filters have also been enabled.
-     *
-     * If the national league filter has been disabled, make sure the corresponding
-     * division filters have also been disabled.
-     *
-     * - nlEastDivisionFilter
-     * - nlCentralDivisionFilter
-     * - nlWestDivisionFilter
-     */
-    if (this.nationalLeagueFilter) {
-      this.nlEastDivisionFilter = true;
-      this.nlCentralDivisionFilter = true;
-      this.nlWestDivisionFilter = true;
+    if (this.nationalLeagueFilterSelected) {
+      this.nlEastDivisionFilterSelected = true;
+      this.nlCentralDivisionFilterSelected = true;
+      this.nlWestDivisionFilterSelected = true;
+
+      this.nationalLeagueDivisionFiltersSelectable = true;
     } else {
-      this.nlEastDivisionFilter = false;
-      this.nlCentralDivisionFilter = false;
-      this.nlWestDivisionFilter = false;
+      this.nlEastDivisionFilterSelected = false;
+      this.nlCentralDivisionFilterSelected = false;
+      this.nlWestDivisionFilterSelected = false;
+
+      this.nationalLeagueDivisionFiltersSelectable = false;
     }
   }
 
   onALEastDivisionFilterChanged(value: boolean) {
-    /**
-     * If the american league filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.americanLeagueFilter) {
-      this.alEastDivisionFilter = value;
-    }
+    this.alEastDivisionFilterSelected = value;
   }
 
   onALCentralDivisionFilterChanged(value: boolean) {
-    /**
-     * If the american league filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.americanLeagueFilter) {
-      this.alCentralDivisionFilter = value;
-    }
+    this.alCentralDivisionFilterSelected = value;
   }
 
   onALWestDivisionFilterChanged(value: boolean) {
-    /**
-     * If the american league filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.americanLeagueFilter) {
-      this.alWestDivisionFilter = value;
-    }
+    this.alWestDivisionFilterSelected = value;
   }
 
   onNLEastDivisionFilterChanged(value: boolean) {
-    /**
-     * If the national league filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.nationalLeagueFilter) {
-      this.nlEastDivisionFilter = value;
-    }
+    this.nlEastDivisionFilterSelected = value;
   }
 
   onNLCentralDivisionFilterChanged(value: boolean) {
-    /**
-     * If the national league filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.nationalLeagueFilter) {
-      this.nlCentralDivisionFilter = value;
-    }
+    this.nlCentralDivisionFilterSelected = value;
   }
 
   onNLWestDivisionFilterChanged(value: boolean) {
-    /**
-     * If the national league filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.nationalLeagueFilter) {
-      this.nlWestDivisionFilter = value;
-    }
+    this.nlWestDivisionFilterSelected = value;
   }
 
   onMapViewChanged(value: boolean) {
     this.mapView = value;
   }
 
-  private areLeagueFiltersEnabled(): boolean {
-    return this.americanLeagueFilter || this.nationalLeagueFilter;
-  }
-
   private getSelectedLeagues() {
     const getSelectedLeagues = [];
 
-    if (this.americanLeagueFilter) {
+    if (this.americanLeagueFilterSelected) {
       getSelectedLeagues.push(MlbLeague.American);
     }
 
-    if (this.nationalLeagueFilter) {
+    if (this.nationalLeagueFilterSelected) {
       getSelectedLeagues.push(MlbLeague.National);
     }
 
@@ -183,27 +127,27 @@ export class MlbComponent {
   private getSelectedDivisions() {
     const selectedDivisions: string[] = [];
 
-    if (this.alEastDivisionFilter) {
+    if (this.alEastDivisionFilterSelected) {
       selectedDivisions.push(MlbDivision.ALEast);
     }
 
-    if (this.alCentralDivisionFilter) {
+    if (this.alCentralDivisionFilterSelected) {
       selectedDivisions.push(MlbDivision.ALCentral);
     }
 
-    if (this.alWestDivisionFilter) {
+    if (this.alWestDivisionFilterSelected) {
       selectedDivisions.push(MlbDivision.ALWest);
     }
 
-    if (this.nlEastDivisionFilter) {
+    if (this.nlEastDivisionFilterSelected) {
       selectedDivisions.push(MlbDivision.NLEast);
     }
 
-    if (this.nlCentralDivisionFilter) {
+    if (this.nlCentralDivisionFilterSelected) {
       selectedDivisions.push(MlbDivision.NLCentral);
     }
 
-    if (this.nlWestDivisionFilter) {
+    if (this.nlWestDivisionFilterSelected) {
       selectedDivisions.push(MlbDivision.NLWest);
     }
 

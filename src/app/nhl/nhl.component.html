@@ -1,48 +1,50 @@
 <mat-checkbox
   #easternConferenceCheckBox
-  [checked]="easternConferenceFilter"
+  [checked]="easternConferenceFilterSelected"
   (change)="onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)"
   >Eastern</mat-checkbox
 >
 
 <mat-checkbox
   #westernConferenceCheckBox
-  [checked]="westernConferenceFilter"
+  [checked]="westernConferenceFilterSelected"
   (change)="onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)"
   >Western</mat-checkbox
 >
 
-<div *ngIf="easternConferenceFilter">
-  <mat-checkbox
-    #atlanticDivisionCheckBox
-    [checked]="atlanticDivisionFilter"
-    (change)="onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)"
-    >Atlantic</mat-checkbox
-  >
-  <mat-checkbox
-    #metropolitanDivisionCheckBox
-    [checked]="metropolitanDivisionFilter"
-    (change)="
-      onMetropolitanDivisionFilterChanged(metropolitanDivisionCheckBox.checked)
-    "
-    >Metropolitan</mat-checkbox
-  >
-</div>
+<mat-checkbox
+  #atlanticDivisionCheckBox
+  [disabled]="!easternConferenceDivisionFilterSelectable"
+  [checked]="atlanticDivisionFilterSelected"
+  (change)="onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)"
+  >Atlantic</mat-checkbox
+>
 
-<div *ngIf="westernConferenceFilter">
-  <mat-checkbox
-    #centralDivisionCheckBox
-    [checked]="centralDivisionFilter"
-    (change)="onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)"
-    >Central</mat-checkbox
-  >
-  <mat-checkbox
-    #pacificDivisionCheckBox
-    [checked]="pacificDivisionFilter"
-    (change)="onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)"
-    >Pacific</mat-checkbox
-  >
-</div>
+<mat-checkbox
+  #metropolitanDivisionCheckBox
+  [disabled]="!easternConferenceDivisionFilterSelectable"
+  [checked]="metropolitanDivisionFilterSelected"
+  (change)="
+    onMetropolitanDivisionFilterChanged(metropolitanDivisionCheckBox.checked)
+  "
+  >Metropolitan</mat-checkbox
+>
+
+<mat-checkbox
+  #centralDivisionCheckBox
+  [disabled]="!westernConferenceDivisionFilterSelectable"
+  [checked]="centralDivisionFilterSelected"
+  (change)="onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)"
+  >Central</mat-checkbox
+>
+
+<mat-checkbox
+  #pacificDivisionCheckBox
+  [disabled]="!westernConferenceDivisionFilterSelectable"
+  [checked]="pacificDivisionFilterSelected"
+  (change)="onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)"
+  >Pacific</mat-checkbox
+>
 
 <mat-slide-toggle
   #mapViewToggle

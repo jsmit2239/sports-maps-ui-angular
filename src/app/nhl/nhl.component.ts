@@ -14,137 +14,95 @@ export class NhlComponent {
   constructor() {}
 
   /** Conference Filters */
-  easternConferenceFilter = false;
-  westernConferenceFilter = false;
+  easternConferenceFilterSelected = true;
+  westernConferenceFilterSelected = true;
+
+  easternConferenceDivisionFilterSelectable = true;
+  westernConferenceDivisionFilterSelectable = true;
 
   /** Division Filters */
-  atlanticDivisionFilter = false;
-  centralDivisionFilter = false;
-  metropolitanDivisionFilter = false;
-  pacificDivisionFilter = false;
+  atlanticDivisionFilterSelected = true;
+  centralDivisionFilterSelected = true;
+  metropolitanDivisionFilterSelected = true;
+  pacificDivisionFilterSelected = true;
 
   mapView = true;
 
   iconMap = this.getIconMap();
 
   getNhlTeamDetails() {
-    const conferenceFiltersEnabled = this.areConferenceFiltersEnabled();
-    if (!conferenceFiltersEnabled) {
-      return nhlTeamDetails;
-    } else {
-      const selectedConferences = this.getSelectedConferences();
-      const selectedDivisions = this.getSelectedDivisions();
+    const selectedConferences = this.getSelectedConferences();
+    const selectedDivisions = this.getSelectedDivisions();
 
-      const filteredNhlTeams = nhlTeamDetails.filter((team) => {
-        return (
-          selectedConferences.includes(team.conference as any) &&
-          selectedDivisions.includes(team.division as any)
-        );
-      });
-      return filteredNhlTeams;
-    }
+    const filteredNhlTeams = nhlTeamDetails.filter((team) => {
+      return (
+        selectedConferences.includes(team.conference as any) &&
+        selectedDivisions.includes(team.division as any)
+      );
+    });
+    return filteredNhlTeams;
   }
 
   onEasternConferenceFilterChanged(value: boolean) {
-    this.easternConferenceFilter = value;
+    this.easternConferenceFilterSelected = value;
 
-    /**
-     * If the eastern conference filter has been enabled, make sure the corresponding
-     * division filters have also been enabled.
-     *
-     * If the eastern conference filter has been disabled, make sure the corresponding
-     * division filters have also been disabled.
-     *
-     * - atlanticDivisionFilter
-     * - metropolitanDivisionFilter
-     */
-    if (this.easternConferenceFilter) {
-      this.atlanticDivisionFilter = true;
-      this.metropolitanDivisionFilter = true;
+    if (this.easternConferenceFilterSelected) {
+      this.atlanticDivisionFilterSelected = true;
+      this.metropolitanDivisionFilterSelected = true;
+
+      this.easternConferenceDivisionFilterSelectable = true;
     } else {
-      this.atlanticDivisionFilter = false;
-      this.metropolitanDivisionFilter = false;
+      this.atlanticDivisionFilterSelected = false;
+      this.metropolitanDivisionFilterSelected = false;
+
+      this.easternConferenceDivisionFilterSelectable = false;
     }
   }
 
   onWesternConferenceFilterChanged(value: boolean) {
-    this.westernConferenceFilter = value;
+    this.westernConferenceFilterSelected = value;
 
-    /**
-     * If the western conference filter has been enabled, make sure the corresponding
-     * division filters have also been enabled.
-     *
-     * If the western conference filter has been disabled, make sure the corresponding
-     * division filters have also been disabled.
-     *
-     * - centralDivisionFilter
-     * - pacificDivisionFilter
-     */
-    if (this.westernConferenceFilter) {
-      this.centralDivisionFilter = true;
-      this.pacificDivisionFilter = true;
+    if (this.westernConferenceFilterSelected) {
+      this.centralDivisionFilterSelected = true;
+      this.pacificDivisionFilterSelected = true;
+
+      this.westernConferenceDivisionFilterSelectable = true;
     } else {
-      this.centralDivisionFilter = false;
-      this.pacificDivisionFilter = false;
+      this.centralDivisionFilterSelected = false;
+      this.pacificDivisionFilterSelected = false;
+
+      this.westernConferenceDivisionFilterSelectable = false;
     }
   }
 
   onAtlanticDivisionFilterChanged(value: boolean) {
-    /**
-     * If the eastern conference filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.easternConferenceFilter) {
-      this.atlanticDivisionFilter = value;
-    }
+    this.atlanticDivisionFilterSelected = value;
   }
 
   onCentralDivisionFilterChanged(value: boolean) {
-    /**
-     * If the western conference filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.westernConferenceFilter) {
-      this.centralDivisionFilter = value;
-    }
+    this.centralDivisionFilterSelected = value;
   }
 
   onMetropolitanDivisionFilterChanged(value: boolean) {
-    /**
-     * If the eastern conference filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.easternConferenceFilter) {
-      this.metropolitanDivisionFilter = value;
-    }
+    this.metropolitanDivisionFilterSelected = value;
   }
 
   onPacificDivisionFilterChanged(value: boolean) {
-    /**
-     * If the western conference filter is not enabled, do not allow
-     * this value to be set
-     */
-    if (this.westernConferenceFilter) {
-      this.pacificDivisionFilter = value;
-    }
+    this.pacificDivisionFilterSelected = value;
   }
 
   onMapViewChanged(value: boolean) {
     this.mapView = value;
   }
 
-  private areConferenceFiltersEnabled(): boolean {
-    return this.easternConferenceFilter || this.westernConferenceFilter;
-  }
-
   private getSelectedConferences() {
-    const selectedConferences: string[] = [];
+    const selectedConferences = [];
 
-    if (this.easternConferenceFilter) {
+    if (this.easternConferenceFilterSelected) {
       selectedConferences.push(NhlConference.Eastern);
     }
 
-    if (this.westernConferenceFilter) {
+    if (this.westernConferenceFilterSelected) {
       selectedConferences.push(NhlConference.Western);
     }
 
@@ -152,21 +110,21 @@ export class NhlComponent {
   }
 
   private getSelectedDivisions() {
-    const selectedDivisions: string[] = [];
+    const selectedDivisions = [];
 
-    if (this.atlanticDivisionFilter) {
+    if (this.atlanticDivisionFilterSelected) {
       selectedDivisions.push(NhlDivision.Atlantic);
     }
 
-    if (this.centralDivisionFilter) {
+    if (this.centralDivisionFilterSelected) {
       selectedDivisions.push(NhlDivision.Central);
     }
 
-    if (this.metropolitanDivisionFilter) {
+    if (this.metropolitanDivisionFilterSelected) {
       selectedDivisions.push(NhlDivision.Metropolitan);
     }
 
-    if (this.pacificDivisionFilter) {
+    if (this.pacificDivisionFilterSelected) {
       selectedDivisions.push(NhlDivision.Pacific);
     }
 

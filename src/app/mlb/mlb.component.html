@@ -1,69 +1,64 @@
 <mat-checkbox
   #americanLeagueCheckBox
-  [checked]="americanLeagueFilter"
+  [checked]="americanLeagueFilterSelected"
   (change)="onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)"
   >American</mat-checkbox
 >
 
 <mat-checkbox
   #nationalLeagueCheckBox
-  [checked]="nationalLeagueFilter"
+  [checked]="nationalLeagueFilterSelected"
   (change)="onNationalLeagueFilterChanged(nationalLeagueCheckBox.checked)"
   >National</mat-checkbox
 >
 
-<div *ngIf="americanLeagueFilter || nationalLeagueFilter">
-  <p>Division:</p>
-</div>
-<div *ngIf="americanLeagueFilter">
-  <mat-checkbox
-    #alEastDivisionCheckBox
-    [checked]="alEastDivisionFilter"
-    (change)="onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)"
-    >AL East</mat-checkbox
-  >
+<mat-checkbox
+  #alEastDivisionCheckBox
+  [disabled]="!americanLeagueDivisionFiltersSelectable"
+  [checked]="alEastDivisionFilterSelected"
+  (change)="onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)"
+  >AL East</mat-checkbox
+>
 
-  <mat-checkbox
-    #alCentralDivisionCheckBox
-    [checked]="alCentralDivisionFilter"
-    (change)="
-      onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)
-    "
-    >AL Central</mat-checkbox
-  >
+<mat-checkbox
+  #alCentralDivisionCheckBox
+  [disabled]="!americanLeagueDivisionFiltersSelectable"
+  [checked]="alCentralDivisionFilterSelected"
+  (change)="onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)"
+  >AL Central</mat-checkbox
+>
 
-  <mat-checkbox
-    #alWestDivisionCheckBox
-    [checked]="alWestDivisionFilter"
-    (change)="onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)"
-    >AL West</mat-checkbox
-  >
-</div>
+<mat-checkbox
+  #alWestDivisionCheckBox
+  [disabled]="!americanLeagueDivisionFiltersSelectable"
+  [checked]="alWestDivisionFilterSelected"
+  (change)="onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)"
+  >AL West</mat-checkbox
+>
 
-<div *ngIf="nationalLeagueFilter">
-  <mat-checkbox
-    #nlEastDivisionCheckBox
-    [checked]="nlEastDivisionFilter"
-    (change)="onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)"
-    >NL East</mat-checkbox
-  >
+<mat-checkbox
+  #nlEastDivisionCheckBox
+  [disabled]="!nationalLeagueDivisionFiltersSelectable"
+  [checked]="nlEastDivisionFilterSelected"
+  (change)="onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)"
+  >NL East</mat-checkbox
+>
 
-  <mat-checkbox
-    #nlCentralDivisionCheckBox
-    [checked]="nlCentralDivisionFilter"
-    (change)="
-      onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)
-    "
-    >NL Central</mat-checkbox
-  >
+<mat-checkbox
+  #nlCentralDivisionCheckBox
+  [disabled]="!nationalLeagueDivisionFiltersSelectable"
+  [checked]="nlCentralDivisionFilterSelected"
+  (change)="onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)"
+  >NL Central</mat-checkbox
+>
 
-  <mat-checkbox
-    #nlWestDivisionCheckBox
-    [checked]="nlWestDivisionFilter"
-    (change)="onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)"
-    >NL West</mat-checkbox
-  >
-</div>
+<mat-checkbox
+  #nlWestDivisionCheckBox
+  [disabled]="!nationalLeagueDivisionFiltersSelectable"
+  [checked]="nlWestDivisionFilterSelected"
+  (change)="onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)"
+  >NL West</mat-checkbox
+>
 
 <mat-slide-toggle
   #mapViewToggle
