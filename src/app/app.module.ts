@@ -13,6 +13,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AgmCoreModule } from '@agm/core';
 import { NbaComponent } from './nba/nba.component';
 import { NflComponent } from './nfl/nfl.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { NflComponent } from './nfl/nfl.component';
     MlbComponent,
     NbaComponent,
     NflComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
