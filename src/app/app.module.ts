@@ -13,6 +13,9 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AgmCoreModule } from '@agm/core';
 import { NbaComponent } from './nba/nba.component';
 import { NflComponent } from './nfl/nfl.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { HttpRequestsComponent } from './http-requests/http-requests.component';
+import { ParentChildComponent } from './parent-child/parent-child.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { NflComponent } from './nfl/nfl.component';
     MlbComponent,
     NbaComponent,
     NflComponent,
+    LandingPageComponent,
+    HttpRequestsComponent,
+    ParentChildComponent,
   ],
   imports: [
     BrowserModule,
