@@ -14,6 +14,8 @@ import { AgmCoreModule } from '@agm/core';
 import { NbaComponent } from './nba/nba.component';
 import { NflComponent } from './nfl/nfl.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { HttpRequestsComponent } from './http-requests/http-requests.component';
+import { ParentChildComponent } from './parent-child/parent-child.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     NbaComponent,
     NflComponent,
     LandingPageComponent,
+    HttpRequestsComponent,
+    ParentChildComponent,
   ],
   imports: [
     BrowserModule,
