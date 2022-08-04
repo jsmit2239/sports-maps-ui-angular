@@ -21,6 +21,7 @@ import { ParentChildComponent } from './parent-child/parent-child.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpRequestsService } from './http-requests/http-requests.service';
 import { OverlayModule } from '@angular/cdk/overlay';
+import { AhlComponent } from './ahl/ahl.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
     LandingPageComponent,
     HttpRequestsComponent,
     ParentChildComponent,
+    AhlComponent,
   ],
   imports: [
     BrowserModule,

@@ -42,7 +42,7 @@
   <div class="map-container" *ngIf="mapView">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
       <agm-marker
-        *ngFor="let team of getNbaTeamDetails(); let i = index"
+        *ngFor="let team of getAhlTeamDetails(); let i = index"
         [latitude]="team.venue.latitude"
         [longitude]="team.venue.longitude"
         [iconUrl]="$any(iconMap.get(team.abbreviation))"
@@ -56,12 +56,12 @@
       <thead>
         <tr>
           <th>Team</th>
-          <th>Arena</th>
+          <th>Stadium</th>
           <th>Address</th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let team of getNbaTeamDetails()">
+        <tr *ngFor="let team of getAhlTeamDetails()">
           <td>{{ team.name }}</td>
           <td>{{ team.venue.name }}</td>
           <td>{{ team.venue.address }}</td>

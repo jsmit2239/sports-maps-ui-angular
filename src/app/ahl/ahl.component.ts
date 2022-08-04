@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { nflTeamDetails } from 'src/assets/football/nfl/team-details/nfl-team-details';
+import { Component } from '@angular/core';
+import { ahlTeamDetails } from 'src/assets/hockey/ahl/team-details/ahl-team-details';
 
 @Component({
-  selector: 'app-nfl',
-  templateUrl: './nfl.component.html',
-  styleUrls: ['./nfl.component.css'],
+  selector: 'app-ahl',
+  templateUrl: './ahl.component.html',
+  styleUrls: ['./ahl.component.css'],
 })
-export class NflComponent {
+export class AhlComponent {
   constructor() {}
 
   displayFilterOverlay = false;
@@ -15,8 +15,8 @@ export class NflComponent {
 
   iconMap = this.getIconMap();
 
-  getNflTeamDetails() {
-    return nflTeamDetails;
+  getAhlTeamDetails() {
+    return ahlTeamDetails;
     // const leagueFiltersEnabled = this.areLeagueFiltersEnabled();
     // if (!leagueFiltersEnabled) {
     //   return mlbTeamDetails;
@@ -41,9 +41,9 @@ export class NflComponent {
   private getIconMap() {
     const iconMap = new Map();
 
-    for (const team of nflTeamDetails) {
+    for (const team of ahlTeamDetails) {
       iconMap.set(team.abbreviation, {
-        url: `../../assets/football/nfl/svg/${team.icon.svgTitle}.svg`,
+        url: `../../assets/hockey/nhl/svg/detroit-red-wings-logo.svg`,
         scaledSize: {
           width: 60,
           height: 60,

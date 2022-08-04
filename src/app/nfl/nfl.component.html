@@ -1,35 +1,72 @@
-<!-- TODO: FILTERS -->
-
-<mat-slide-toggle
-  #mapViewToggle
-  [checked]="mapView"
-  (change)="onMapViewChanged(mapViewToggle.checked)"
-  >Map</mat-slide-toggle
->
-
-<div *ngIf="mapView">
-  <agm-map [latitude]="38" [longitude]="-94" [zoom]="5">
-    <agm-marker
-      *ngFor="let team of getNflTeamDetails(); let i = index"
-      [latitude]="team.venue.latitude"
-      [longitude]="team.venue.longitude"
-      [iconUrl]="$any(iconMap.get(team.abbreviation))"
+<div class="league-page-container">
+  <div class="map-options-bar-container">
+    <button
+      class="filter-button"
+      (click)="displayFilterOverlay = !displayFilterOverlay"
+      cdkOverlayOrigin
+      #trigger="cdkOverlayOrigin"
     >
-    </agm-marker>
-  </agm-map>
-</div>
+      Filter
+    </button>
 
-<div *ngIf="!mapView">
-  <table>
-    <tr>
-      <th>Team</th>
-      <th>Stadium</th>
-      <th>Address</th>
-    </tr>
-    <tr *ngFor="let team of getNflTeamDetails()">
-      <td>{{ team.name }}</td>
-      <td>{{ team.venue.name }}</td>
-      <td>{{ team.venue.address }}</td>
-    </tr>
-  </table>
+    <ng-template
+      cdkConnectedOverlay
+      [cdkConnectedOverlayOrigin]="trigger"
+      [cdkConnectedOverlayOpen]="displayFilterOverlay"
+      (overlayOutsideClick)="displayFilterOverlay = false"
+    >
+      <div class="filter-overlay-container">
+        <!-- TODO: FILTERS -->
+
+        <!-- <mat-checkbox
+          class="filter-checkbox"
+          #americanLeagueCheckBox
+          [checked]="americanLeagueFilterSelected"
+          (change)="
+            onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)
+          "
+          >American</mat-checkbox
+        > -->
+      </div>
+    </ng-template>
+
+    <mat-slide-toggle
+      class="map-slide"
+      #mapViewToggle
+      [checked]="mapView"
+      (change)="onMapViewChanged(mapViewToggle.checked)"
+      >Map</mat-slide-toggle
+    >
+  </div>
+
+  <div class="map-container" *ngIf="mapView">
+    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
+      <agm-marker
+        *ngFor="let team of getNflTeamDetails(); let i = index"
+        [latitude]="team.venue.latitude"
+        [longitude]="team.venue.longitude"
+        [iconUrl]="$any(iconMap.get(team.abbreviation))"
+      >
+      </agm-marker>
+    </agm-map>
+  </div>
+
+  <div class="table-container" *ngIf="!mapView">
+    <table class="address-table">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Stadium</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let team of getNflTeamDetails()">
+          <td>{{ team.name }}</td>
+          <td>{{ team.venue.name }}</td>
+          <td>{{ team.venue.address }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
