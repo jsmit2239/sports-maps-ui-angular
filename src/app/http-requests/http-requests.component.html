@@ -1,1 +1,14 @@
-<p>http-requests works!</p>
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Avatar File</th>
+  </tr>
+  <tr *ngFor="let user of getUsers()">
+    <td>{{ user.first_name }}</td>
+    <td>{{ user.last_name }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.avatar }}</td>
+  </tr>
+</table>
