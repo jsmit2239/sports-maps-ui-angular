@@ -1,99 +1,148 @@
-<mat-checkbox
-  #americanLeagueCheckBox
-  [checked]="americanLeagueFilterSelected"
-  (change)="onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)"
-  >American</mat-checkbox
->
-
-<mat-checkbox
-  #nationalLeagueCheckBox
-  [checked]="nationalLeagueFilterSelected"
-  (change)="onNationalLeagueFilterChanged(nationalLeagueCheckBox.checked)"
-  >National</mat-checkbox
->
-
-<mat-checkbox
-  #alEastDivisionCheckBox
-  [disabled]="!americanLeagueDivisionFiltersSelectable"
-  [checked]="alEastDivisionFilterSelected"
-  (change)="onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)"
-  >AL East</mat-checkbox
->
-
-<mat-checkbox
-  #alCentralDivisionCheckBox
-  [disabled]="!americanLeagueDivisionFiltersSelectable"
-  [checked]="alCentralDivisionFilterSelected"
-  (change)="onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)"
-  >AL Central</mat-checkbox
->
-
-<mat-checkbox
-  #alWestDivisionCheckBox
-  [disabled]="!americanLeagueDivisionFiltersSelectable"
-  [checked]="alWestDivisionFilterSelected"
-  (change)="onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)"
-  >AL West</mat-checkbox
->
-
-<mat-checkbox
-  #nlEastDivisionCheckBox
-  [disabled]="!nationalLeagueDivisionFiltersSelectable"
-  [checked]="nlEastDivisionFilterSelected"
-  (change)="onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)"
-  >NL East</mat-checkbox
->
-
-<mat-checkbox
-  #nlCentralDivisionCheckBox
-  [disabled]="!nationalLeagueDivisionFiltersSelectable"
-  [checked]="nlCentralDivisionFilterSelected"
-  (change)="onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)"
-  >NL Central</mat-checkbox
->
-
-<mat-checkbox
-  #nlWestDivisionCheckBox
-  [disabled]="!nationalLeagueDivisionFiltersSelectable"
-  [checked]="nlWestDivisionFilterSelected"
-  (change)="onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)"
-  >NL West</mat-checkbox
->
-
-<mat-slide-toggle
-  #mapViewToggle
-  [checked]="mapView"
-  (change)="onMapViewChanged(mapViewToggle.checked)"
-  >Map</mat-slide-toggle
->
-
-<div class="map-container" *ngIf="mapView">
-  <agm-map [latitude]="38" [longitude]="-94" [zoom]="4.8">
-    <agm-marker
-      *ngFor="let team of getMlbTeamDetails(); let i = index"
-      [latitude]="team.venue.latitude"
-      [longitude]="team.venue.longitude"
-      [iconUrl]="$any(iconMap.get(team.abbreviation))"
+<div class="league-page-container">
+  <div class="map-options-bar-container">
+    <button
+      class="filter-button"
+      (click)="displayFilterOverlay = !displayFilterOverlay"
+      cdkOverlayOrigin
+      #trigger="cdkOverlayOrigin"
     >
-    </agm-marker>
-  </agm-map>
-</div>
+      Filter
+    </button>
 
-<div *ngIf="!mapView">
-  <table class="content-table">
-    <thead>
-      <tr>
-        <th>Team</th>
-        <th>Stadium</th>
-        <th>Address</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let team of getMlbTeamDetails()">
-        <td>{{ team.name }}</td>
-        <td>{{ team.venue.name }}</td>
-        <td>{{ team.venue.address }}</td>
-      </tr>
-    </tbody>
-  </table>
+    <ng-template
+      cdkConnectedOverlay
+      [cdkConnectedOverlayOrigin]="trigger"
+      [cdkConnectedOverlayOpen]="displayFilterOverlay"
+      (overlayOutsideClick)="displayFilterOverlay = false"
+    >
+      <div class="filter-overlay-container">
+        <p class="filter-heading">League</p>
+        <mat-checkbox
+          class="filter-checkbox"
+          #americanLeagueCheckBox
+          [checked]="americanLeagueFilterSelected"
+          (change)="
+            onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)
+          "
+          >American</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #nationalLeagueCheckBox
+          [checked]="nationalLeagueFilterSelected"
+          (change)="
+            onNationalLeagueFilterChanged(nationalLeagueCheckBox.checked)
+          "
+          >National</mat-checkbox
+        >
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox
+          class="filter-checkbox"
+          #alEastDivisionCheckBox
+          [disabled]="!americanLeagueDivisionFiltersSelectable"
+          [checked]="alEastDivisionFilterSelected"
+          (change)="
+            onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)
+          "
+          >AL East</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #alCentralDivisionCheckBox
+          [disabled]="!americanLeagueDivisionFiltersSelectable"
+          [checked]="alCentralDivisionFilterSelected"
+          (change)="
+            onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)
+          "
+          >AL Central</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #alWestDivisionCheckBox
+          [disabled]="!americanLeagueDivisionFiltersSelectable"
+          [checked]="alWestDivisionFilterSelected"
+          (change)="
+            onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)
+          "
+          >AL West</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #nlEastDivisionCheckBox
+          [disabled]="!nationalLeagueDivisionFiltersSelectable"
+          [checked]="nlEastDivisionFilterSelected"
+          (change)="
+            onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)
+          "
+          >NL East</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #nlCentralDivisionCheckBox
+          [disabled]="!nationalLeagueDivisionFiltersSelectable"
+          [checked]="nlCentralDivisionFilterSelected"
+          (change)="
+            onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)
+          "
+          >NL Central</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #nlWestDivisionCheckBox
+          [disabled]="!nationalLeagueDivisionFiltersSelectable"
+          [checked]="nlWestDivisionFilterSelected"
+          (change)="
+            onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)
+          "
+          >NL West</mat-checkbox
+        >
+      </div>
+    </ng-template>
+
+    <mat-slide-toggle
+      class="map-slide"
+      #mapViewToggle
+      [checked]="mapView"
+      (change)="onMapViewChanged(mapViewToggle.checked)"
+      >Map</mat-slide-toggle
+    >
+  </div>
+
+  <div class="map-container" *ngIf="mapView">
+    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
+      <agm-marker
+        *ngFor="let team of getMlbTeamDetails(); let i = index"
+        [latitude]="team.venue.latitude"
+        [longitude]="team.venue.longitude"
+        [iconUrl]="$any(iconMap.get(team.abbreviation))"
+      >
+      </agm-marker>
+    </agm-map>
+  </div>
+
+  <div class="table-container" *ngIf="!mapView">
+    <table class="address-table">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Stadium</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let team of getMlbTeamDetails()">
+          <td>{{ team.name }}</td>
+          <td>{{ team.venue.name }}</td>
+          <td>{{ team.venue.address }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

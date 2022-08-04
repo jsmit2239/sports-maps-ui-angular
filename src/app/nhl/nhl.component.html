@@ -1,84 +1,128 @@
-<mat-checkbox
-  #easternConferenceCheckBox
-  [checked]="easternConferenceFilterSelected"
-  (change)="onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)"
-  >Eastern</mat-checkbox
->
-
-<mat-checkbox
-  #westernConferenceCheckBox
-  [checked]="westernConferenceFilterSelected"
-  (change)="onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)"
-  >Western</mat-checkbox
->
-
-<mat-checkbox
-  #atlanticDivisionCheckBox
-  [disabled]="!easternConferenceDivisionFilterSelectable"
-  [checked]="atlanticDivisionFilterSelected"
-  (change)="onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)"
-  >Atlantic</mat-checkbox
->
-
-<mat-checkbox
-  #metropolitanDivisionCheckBox
-  [disabled]="!easternConferenceDivisionFilterSelectable"
-  [checked]="metropolitanDivisionFilterSelected"
-  (change)="
-    onMetropolitanDivisionFilterChanged(metropolitanDivisionCheckBox.checked)
-  "
-  >Metropolitan</mat-checkbox
->
-
-<mat-checkbox
-  #centralDivisionCheckBox
-  [disabled]="!westernConferenceDivisionFilterSelectable"
-  [checked]="centralDivisionFilterSelected"
-  (change)="onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)"
-  >Central</mat-checkbox
->
-
-<mat-checkbox
-  #pacificDivisionCheckBox
-  [disabled]="!westernConferenceDivisionFilterSelectable"
-  [checked]="pacificDivisionFilterSelected"
-  (change)="onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)"
-  >Pacific</mat-checkbox
->
-<mat-slide-toggle
-  #mapViewToggle
-  [checked]="mapView"
-  (change)="onMapViewChanged(mapViewToggle.checked)"
-  >Map</mat-slide-toggle
->
-
-<div class="map-container" *ngIf="mapView">
-  <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
-    <agm-marker
-      *ngFor="let team of getNhlTeamDetails(); let i = index"
-      [latitude]="team.venue.latitude"
-      [longitude]="team.venue.longitude"
-      [iconUrl]="$any(iconMap.get(team.abbreviation))"
+<div class="league-page-container">
+  <div class="map-options-bar-container">
+    <button
+      class="filter-button"
+      (click)="displayFilterOverlay = !displayFilterOverlay"
+      cdkOverlayOrigin
+      #trigger="cdkOverlayOrigin"
     >
-    </agm-marker>
-  </agm-map>
-</div>
+      Filter
+    </button>
 
-<div *ngIf="!mapView">
-  <table class="content-table">
-    <thead>
-      <tr>
-        <th>Team</th>
-        <th>Arena</th>
-        <th>Address</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let team of getNhlTeamDetails()">
-        <td>{{ team.name }}</td>
-        <td>{{ team.venue.name }}</td>
-        <td>{{ team.venue.address }}</td>
-      </tr>
-    </tbody>
-  </table>
+    <ng-template
+      cdkConnectedOverlay
+      [cdkConnectedOverlayOrigin]="trigger"
+      [cdkConnectedOverlayOpen]="displayFilterOverlay"
+      (overlayOutsideClick)="displayFilterOverlay = false"
+    >
+      <div class="filter-overlay-container">
+        <p class="filter-heading">Conference</p>
+        <mat-checkbox
+          class="filter-checkbox"
+          #easternConferenceCheckBox
+          [checked]="easternConferenceFilterSelected"
+          (change)="
+            onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)
+          "
+          >Eastern</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #westernConferenceCheckBox
+          [checked]="westernConferenceFilterSelected"
+          (change)="
+            onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)
+          "
+          >Western</mat-checkbox
+        >
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox
+          class="filter-checkbox"
+          #atlanticDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFilterSelectable"
+          [checked]="atlanticDivisionFilterSelected"
+          (change)="
+            onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)
+          "
+          >Atlantic</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #metropolitanDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFilterSelectable"
+          [checked]="metropolitanDivisionFilterSelected"
+          (change)="
+            onMetropolitanDivisionFilterChanged(
+              metropolitanDivisionCheckBox.checked
+            )
+          "
+          >Metropolitan</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #centralDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFilterSelectable"
+          [checked]="centralDivisionFilterSelected"
+          (change)="
+            onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)
+          "
+          >Central</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #pacificDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFilterSelectable"
+          [checked]="pacificDivisionFilterSelected"
+          (change)="
+            onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)
+          "
+          >Pacific</mat-checkbox
+        >
+      </div>
+    </ng-template>
+
+    <mat-slide-toggle
+      class="map-slide"
+      #mapViewToggle
+      [checked]="mapView"
+      (change)="onMapViewChanged(mapViewToggle.checked)"
+      >Map</mat-slide-toggle
+    >
+  </div>
+
+  <div class="map-container" *ngIf="mapView">
+    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
+      <agm-marker
+        *ngFor="let team of getNhlTeamDetails(); let i = index"
+        [latitude]="team.venue.latitude"
+        [longitude]="team.venue.longitude"
+        [iconUrl]="$any(iconMap.get(team.abbreviation))"
+      >
+      </agm-marker>
+    </agm-map>
+  </div>
+
+  <div class="table-container" *ngIf="!mapView">
+    <table class="address-table">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Arena</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let team of getNhlTeamDetails()">
+          <td>{{ team.name }}</td>
+          <td>{{ team.venue.name }}</td>
+          <td>{{ team.venue.address }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

@@ -26,6 +26,8 @@ export class NhlComponent {
   metropolitanDivisionFilterSelected = true;
   pacificDivisionFilterSelected = true;
 
+  displayFilterOverlay = false;
+
   mapView = true;
 
   iconMap = this.getIconMap();
