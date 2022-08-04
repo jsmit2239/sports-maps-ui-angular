@@ -16,6 +16,8 @@ import { NflComponent } from './nfl/nfl.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HttpRequestsComponent } from './http-requests/http-requests.component';
 import { ParentChildComponent } from './parent-child/parent-child.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpRequestsService } from './http-requests/http-requests.service';
 
 @NgModule({
   declarations: [
@@ -39,8 +41,9 @@ import { ParentChildComponent } from './parent-child/parent-child.component';
     AgmCoreModule.forRoot({
       apiKey: '',
     }),
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [HttpRequestsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
