@@ -1,13 +1,19 @@
-<mat-toolbar color="primary" class="mat-elevation-z8">
-  <a mat-button routerLink="">Maps App</a>
+<mat-toolbar color="primary" class="mat-elevation-z6">
+  <span>Maps App</span>
+
+  <div class="spacer"></div>
 
   <a mat-button routerLink="mlb">MLB</a>
   <a mat-button routerLink="nhl">NHL</a>
-
   <a mat-button routerLink="http-requests">Http Request Practice</a>
   <a mat-button routerLink="parent-child">Parent-Child Relationship Practice</a>
 
   <!--TODO: make the github link look like https://material.angular.io/components/divider/api-->
-  <div class="spacer"></div>
-  <a mat-raised-button color="accent">Github</a>
+  <a
+    mat-raised-button
+    color="accent"
+    target="_blank"
+    href="https://github.com/jsmit2239/sports-maps-ui-angular"
+    >Github</a
+  >
 </mat-toolbar>

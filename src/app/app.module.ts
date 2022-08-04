@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NhlComponent } from './nhl/nhl.component';
 import { MlbComponent } from './mlb/mlb.component';
@@ -35,6 +37,7 @@ import { HttpRequestsService } from './http-requests/http-requests.service';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
+    MatButtonModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatCheckboxModule,
@@ -42,6 +45,7 @@ import { HttpRequestsService } from './http-requests/http-requests.service';
       apiKey: '',
     }),
     HttpClientModule,
+    MatIconModule,
   ],
   providers: [HttpRequestsService],
   bootstrap: [AppComponent],
