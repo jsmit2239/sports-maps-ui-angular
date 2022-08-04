@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AhlComponent } from './ahl/ahl.component';
 import { HttpRequestsComponent } from './http-requests/http-requests.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MlbComponent } from './mlb/mlb.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'nba', component: NbaComponent },
   { path: 'nfl', component: NflComponent },
   { path: 'nhl', component: NhlComponent },
+  { path: 'ahl', component: AhlComponent },
   { path: 'http-requests', component: HttpRequestsComponent },
   { path: 'parent-child', component: ParentChildComponent },
 ];
