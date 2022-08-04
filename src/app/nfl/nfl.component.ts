@@ -9,6 +9,8 @@ import { nflTeamDetails } from 'src/assets/football/nfl/team-details/nfl-team-de
 export class NflComponent {
   constructor() {}
 
+  displayFilterOverlay = false;
+
   mapView = true;
 
   iconMap = this.getIconMap();

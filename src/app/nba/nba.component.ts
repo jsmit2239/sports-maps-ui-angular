@@ -9,6 +9,8 @@ import { nbaTeamDetails } from 'src/assets/basketball/nba/team-details/nba-team-
 export class NbaComponent {
   constructor() {}
 
+  displayFilterOverlay = false;
+
   mapView = true;
 
   iconMap = this.getIconMap();
