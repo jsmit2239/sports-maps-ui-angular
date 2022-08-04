@@ -16,17 +16,104 @@
       (overlayOutsideClick)="displayFilterOverlay = false"
     >
       <div class="filter-overlay-container">
-        <!-- TODO: FILTERS -->
-
-        <!-- <mat-checkbox
+        <p class="filter-heading">Conference</p>
+        <mat-checkbox
           class="filter-checkbox"
-          #americanLeagueCheckBox
-          [checked]="americanLeagueFilterSelected"
+          #afcConferenceCheckBox
+          [checked]="afcConferenceFilterSelected"
+          (change)="onAfcConferenceFilterChanged(afcConferenceCheckBox.checked)"
+          >AFC</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #nfcConferenceCheckBox
+          [checked]="nfcConferenceFilterSelected"
+          (change)="onNfcConferenceFilterChanged(nfcConferenceCheckBox.checked)"
+          >NFC</mat-checkbox
+        >
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox
+          class="filter-checkbox"
+          #afcEastDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable"
+          [checked]="afcEastDivisionFilterSelected"
           (change)="
-            onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)
+            onAfcEastDivisionFilterChanged(afcEastDivisionCheckBox.checked)
           "
-          >American</mat-checkbox
-        > -->
+          >AFC East</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #afcNorthDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable"
+          [checked]="afcNorthDivisionFilterSelected"
+          (change)="
+            onAfcNorthDivisionFilterChanged(afcNorthDivisionCheckBox.checked)
+          "
+          >AFC North</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #afcSouthDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable"
+          [checked]="afcSouthDivisionFilterSelected"
+          (change)="
+            onAfcSouthDivisionFilterChanged(afcSouthDivisionCheckBox.checked)
+          "
+          >AFC South</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #afcWestDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable"
+          [checked]="afcWestDivisionFilterSelected"
+          (change)="
+            onAfcWestDivisionFilterChanged(afcWestDivisionCheckBox.checked)
+          "
+          >AFC West</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #nfcEastDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable"
+          [checked]="nfcEastDivisionFilterSelected"
+          (change)="
+            onNfcEastDivisionFilterChanged(nfcEastDivisionCheckBox.checked)
+          "
+          >NFC East</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #nfcNorthDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable"
+          [checked]="nfcNorthDivisionFilterSelected"
+          (change)="
+            onNfcNorthDivisionFilterChanged(nfcNorthDivisionCheckBox.checked)
+          "
+          >NFC North</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #nfcSouthDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable"
+          [checked]="nfcSouthDivisionFilterSelected"
+          (change)="
+            onNfcSouthDivisionFilterChanged(nfcSouthDivisionCheckBox.checked)
+          "
+          >NFC South</mat-checkbox
+        >
+        <mat-checkbox
+          class="filter-checkbox"
+          #nfcWestDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable"
+          [checked]="nfcWestDivisionFilterSelected"
+          (change)="
+            onNfcWestDivisionFilterChanged(nfcWestDivisionCheckBox.checked)
+          "
+          >NFC West</mat-checkbox
+        >
       </div>
     </ng-template>
 
