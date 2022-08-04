@@ -45,7 +45,6 @@
   (change)="onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)"
   >Pacific</mat-checkbox
 >
-
 <mat-slide-toggle
   #mapViewToggle
   [checked]="mapView"
@@ -53,8 +52,8 @@
   >Map</mat-slide-toggle
 >
 
-<div *ngIf="mapView">
-  <agm-map [latitude]="42" [longitude]="-94" [zoom]="4.6">
+<div class="map-container" *ngIf="mapView">
+  <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
     <agm-marker
       *ngFor="let team of getNhlTeamDetails(); let i = index"
       [latitude]="team.venue.latitude"
@@ -66,16 +65,20 @@
 </div>
 
 <div *ngIf="!mapView">
-  <table>
-    <tr>
-      <th>Team</th>
-      <th>Arena</th>
-      <th>Address</th>
-    </tr>
-    <tr *ngFor="let team of getNhlTeamDetails()">
-      <td>{{ team.name }}</td>
-      <td>{{ team.venue.name }}</td>
-      <td>{{ team.venue.address }}</td>
-    </tr>
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Arena</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let team of getNhlTeamDetails()">
+        <td>{{ team.name }}</td>
+        <td>{{ team.venue.name }}</td>
+        <td>{{ team.venue.address }}</td>
+      </tr>
+    </tbody>
   </table>
 </div>
