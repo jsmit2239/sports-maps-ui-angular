@@ -430,8 +430,8 @@ const southwestDivisionWesternConferenceTeamDetails: TeamDetails[] = [
     venue: {
       name: 'FedEx Forum',
       address: '191 Beale St, Memphis, TN 38103',
-      latitude: 0,
-      longitude: 0,
+      latitude: 35.13820760261322,
+      longitude: -90.05057567119206,
     },
     icon: {
       svgTitle: 'memphis-grizzlies-logo',

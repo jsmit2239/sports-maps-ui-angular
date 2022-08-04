@@ -6,7 +6,7 @@ const afcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'BAL',
     name: 'Baltimore Ravens',
     conference: NflConference.Afc,
-    division: NflDivision.North,
+    division: NflDivision.AfcNorth,
     venue: {
       name: 'M&T Bank Stadium',
       address: '1101 Russell St, Baltimore, MD 21230',
@@ -21,7 +21,7 @@ const afcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'CIN',
     name: 'Cincinnati Bengals',
     conference: NflConference.Afc,
-    division: NflDivision.North,
+    division: NflDivision.AfcNorth,
     venue: {
       name: 'Paul Brown Stadium',
       address: '1 Paul Brown Stadium, Cincinnati, OH 45202',
@@ -36,7 +36,7 @@ const afcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'CLE',
     name: 'Cleveland Browns',
     conference: NflConference.Afc,
-    division: NflDivision.North,
+    division: NflDivision.AfcNorth,
     venue: {
       name: 'FirstEnergy Stadium',
       address: '100 Alfred Lerner Way, Cleveland, OH 44114',
@@ -51,7 +51,7 @@ const afcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'PIT',
     name: 'Pittsburgh Steelers',
     conference: NflConference.Afc,
-    division: NflDivision.North,
+    division: NflDivision.AfcNorth,
     venue: {
       name: 'Acrisure Stadium',
       address: '100 Art Rooney Ave, Pittsburgh, PA 15212',
@@ -69,7 +69,7 @@ const afcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'HOU',
     name: 'Houston Texans',
     conference: NflConference.Afc,
-    division: NflDivision.South,
+    division: NflDivision.AfcSouth,
     venue: {
       name: 'NRG Stadium',
       address: 'NRG Pkwy, Houston, TX 77054',
@@ -84,7 +84,7 @@ const afcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'IND',
     name: 'Indianapolis Colts',
     conference: NflConference.Afc,
-    division: NflDivision.South,
+    division: NflDivision.AfcSouth,
     venue: {
       name: 'Lucas Oil Stadium',
       address: '500 S Capitol Ave, Indianapolis, IN 46225',
@@ -99,7 +99,7 @@ const afcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'JAC',
     name: 'Jacksonville Jaguars',
     conference: NflConference.Afc,
-    division: NflDivision.South,
+    division: NflDivision.AfcSouth,
     venue: {
       name: 'TIAA Bank Field',
       address: '1 TIAA Bank Field Dr, Jacksonville, FL 32202',
@@ -114,7 +114,7 @@ const afcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'TEN',
     name: 'Tennessee Titans',
     conference: NflConference.Afc,
-    division: NflDivision.South,
+    division: NflDivision.AfcSouth,
     venue: {
       name: 'Nissan Stadium',
       address: '1 Titans Way, Nashville, TN 37213',
@@ -132,7 +132,7 @@ const afcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'BUF',
     name: 'Buffalo Bills',
     conference: NflConference.Afc,
-    division: NflDivision.East,
+    division: NflDivision.AfcEast,
     venue: {
       name: 'Highmark Stadium',
       address: '1 Bills Dr, Orchard Park, NY 14127',
@@ -147,7 +147,7 @@ const afcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'MIA',
     name: 'Miami Dolphins',
     conference: NflConference.Afc,
-    division: NflDivision.East,
+    division: NflDivision.AfcEast,
     venue: {
       name: 'Hard Rock Stadium',
       address: '347 Don Shula Dr, Miami Gardens, FL 33056',
@@ -162,7 +162,7 @@ const afcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'NE',
     name: 'New England Patriots',
     conference: NflConference.Afc,
-    division: NflDivision.East,
+    division: NflDivision.AfcEast,
     venue: {
       name: 'Gillette Stadium',
       address: '1 Patriot Pl, Foxborough, MA 02035',
@@ -177,7 +177,7 @@ const afcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'NYJ',
     name: 'New York Jets',
     conference: NflConference.Afc,
-    division: NflDivision.East,
+    division: NflDivision.AfcEast,
     venue: {
       name: 'MetLife Stadium',
       address: '1 MetLife Stadium Dr, East Rutherford, NJ 07073',
@@ -195,7 +195,7 @@ const afcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'DEN',
     name: 'Denver Broncos',
     conference: NflConference.Afc,
-    division: NflDivision.West,
+    division: NflDivision.AfcWest,
     venue: {
       name: 'Empower Field at Mile High',
       address: '1701 Bryant St, Denver, CO 80204',
@@ -210,7 +210,7 @@ const afcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'KC',
     name: 'Kansas City Chiefs',
     conference: NflConference.Afc,
-    division: NflDivision.West,
+    division: NflDivision.AfcWest,
     venue: {
       name: 'Arrowhead Stadium',
       address: '1 Arrowhead Dr, Kansas City, MO 64129',
@@ -225,7 +225,7 @@ const afcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'LV',
     name: 'Las Vegas Raiders',
     conference: NflConference.Afc,
-    division: NflDivision.West,
+    division: NflDivision.AfcWest,
     venue: {
       name: 'Allegiant Stadium',
       address: '3333 Al Davis Way, Las Vegas, NV 89118',
@@ -240,7 +240,7 @@ const afcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'LAC',
     name: 'Los Angeles Chargers',
     conference: NflConference.Afc,
-    division: NflDivision.West,
+    division: NflDivision.AfcWest,
     venue: {
       name: 'SoFi Stadium',
       address: '1001 Stadium Dr, Inglewood, CA 90301',
@@ -258,7 +258,7 @@ const nfcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'CHI',
     name: 'Chicago Bears',
     conference: NflConference.Nfc,
-    division: NflDivision.North,
+    division: NflDivision.NfcNorth,
     venue: {
       name: 'Soldier Field',
       address: '1410 Special Olympics Dr, Chicago, IL 60605',
@@ -273,7 +273,7 @@ const nfcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'DET',
     name: 'Detroit Lions',
     conference: NflConference.Nfc,
-    division: NflDivision.North,
+    division: NflDivision.NfcNorth,
     venue: {
       name: 'Ford Field',
       address: '2000 Brush St, Detroit, MI 48226',
@@ -288,7 +288,7 @@ const nfcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'GB',
     name: 'Green Bay Packers',
     conference: NflConference.Nfc,
-    division: NflDivision.North,
+    division: NflDivision.NfcNorth,
     venue: {
       name: 'Lambeau Field',
       address: '1265 Lombardi Ave, Green Bay, WI 54304',
@@ -303,7 +303,7 @@ const nfcNorthTeamDetails: TeamDetails[] = [
     abbreviation: 'MIN',
     name: 'Minnesota Vikings',
     conference: NflConference.Nfc,
-    division: NflDivision.North,
+    division: NflDivision.NfcNorth,
     venue: {
       name: 'U.S. Bank Stadium',
       address: '401 Chicago Ave, Minneapolis, MN 55415',
@@ -321,7 +321,7 @@ const nfcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'ATL',
     name: 'Atlanta Falcons',
     conference: NflConference.Nfc,
-    division: NflDivision.South,
+    division: NflDivision.NfcSouth,
     venue: {
       name: 'Mercedes-Benz Stadium',
       address: '1 AMB Dr NW, Atlanta, GA 30313',
@@ -336,7 +336,7 @@ const nfcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'CAR',
     name: 'Carolina Panthers',
     conference: NflConference.Nfc,
-    division: NflDivision.South,
+    division: NflDivision.NfcSouth,
     venue: {
       name: 'Bank of America Stadium',
       address: '800 S Mint St, Charlotte, NC 28202',
@@ -351,7 +351,7 @@ const nfcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'NO',
     name: 'New Orleans Saints',
     conference: NflConference.Nfc,
-    division: NflDivision.South,
+    division: NflDivision.NfcSouth,
     venue: {
       name: 'Caesars Superdome',
       address: '1500 Sugar Bowl Dr, New Orleans, LA 70112',
@@ -366,7 +366,7 @@ const nfcSouthTeamDetails: TeamDetails[] = [
     abbreviation: 'TB',
     name: 'Tampa Bay Buccaneers',
     conference: NflConference.Nfc,
-    division: NflDivision.South,
+    division: NflDivision.NfcSouth,
     venue: {
       name: 'Raymond James Stadium',
       address: '4201 N Dale Mabry Hwy, Tampa, FL 33607',
@@ -384,7 +384,7 @@ const nfcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'DAL',
     name: 'Dallas Cowboys',
     conference: NflConference.Nfc,
-    division: NflDivision.East,
+    division: NflDivision.NfcEast,
     venue: {
       name: 'AT&T Stadium',
       address: '1 AT&T Way, Arlington, TX 76011',
@@ -399,7 +399,7 @@ const nfcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'NYG',
     name: 'New York Giants',
     conference: NflConference.Nfc,
-    division: NflDivision.East,
+    division: NflDivision.NfcEast,
     venue: {
       name: 'MetLife Stadium',
       address: '1 MetLife Stadium Dr, East Rutherford, NJ 07073',
@@ -414,7 +414,7 @@ const nfcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'PHI',
     name: 'Philadelphia Eagles',
     conference: NflConference.Nfc,
-    division: NflDivision.East,
+    division: NflDivision.NfcEast,
     venue: {
       name: 'Lincoln Financial Field',
       address: 'One Lincoln Financial Field Way, Philadelphia, PA 19148',
@@ -429,7 +429,7 @@ const nfcEastTeamDetails: TeamDetails[] = [
     abbreviation: 'WAS',
     name: 'Washington Commanders',
     conference: NflConference.Nfc,
-    division: NflDivision.East,
+    division: NflDivision.NfcEast,
     venue: {
       name: 'FedEx Field',
       address: '1600 Fedex Way, North Englewood, MD 20785',
@@ -447,7 +447,7 @@ const nfcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'ARI',
     name: 'Arizona Cardinals',
     conference: NflConference.Nfc,
-    division: NflDivision.West,
+    division: NflDivision.NfcWest,
     venue: {
       name: 'State Farm Stadium',
       address: '1 Cardinals Dr, Glendale, AZ 85305',
@@ -462,7 +462,7 @@ const nfcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'LAR',
     name: 'Los Angeles Rams',
     conference: NflConference.Nfc,
-    division: NflDivision.West,
+    division: NflDivision.NfcWest,
     venue: {
       name: 'SoFi Stadium',
       address: '1001 Stadium Dr, Inglewood, CA 90301',
@@ -477,7 +477,7 @@ const nfcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'SF',
     name: 'San Francisco 49ers',
     conference: NflConference.Nfc,
-    division: NflDivision.West,
+    division: NflDivision.NfcWest,
     venue: {
       name: "Levi's Stadium",
       address: '4900 Marie P DeBartolo Way, Santa Clara, CA 95054',
@@ -492,7 +492,7 @@ const nfcWestTeamDetails: TeamDetails[] = [
     abbreviation: 'SEA',
     name: 'Seattle Seahawks',
     conference: NflConference.Nfc,
-    division: NflDivision.West,
+    division: NflDivision.NfcWest,
     venue: {
       name: 'Lumen Field',
       address: '800 Occidental Ave S, Seattle, WA 98134',

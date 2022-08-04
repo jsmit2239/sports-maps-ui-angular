@@ -16,17 +16,93 @@
       (overlayOutsideClick)="displayFilterOverlay = false"
     >
       <div class="filter-overlay-container">
-        <!-- TODO: FILTERS -->
-
-        <!-- <mat-checkbox
+        <p class="filter-heading">Conference</p>
+        <mat-checkbox
           class="filter-checkbox"
-          #americanLeagueCheckBox
-          [checked]="americanLeagueFilterSelected"
+          #easternConferenceCheckBox
+          [checked]="easternConferenceFilterSelected"
           (change)="
-            onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)
+            onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)
           "
-          >American</mat-checkbox
-        > -->
+          >Eastern</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #westernConferenceCheckBox
+          [checked]="westernConferenceFilterSelected"
+          (change)="
+            onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)
+          "
+          >Western</mat-checkbox
+        >
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox
+          class="filter-checkbox"
+          #atlanticDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFiltersSelectable"
+          [checked]="atlanticDivisionFilterSelected"
+          (change)="
+            onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)
+          "
+          >Atlantic</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #centralDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFiltersSelectable"
+          [checked]="centralDivisionFilterSelected"
+          (change)="
+            onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)
+          "
+          >Central</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #southeastDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFiltersSelectable"
+          [checked]="southeastDivisionFilterSelected"
+          (change)="
+            onSoutheastDivisionFilterChanged(southeastDivisionCheckBox.checked)
+          "
+          >Southeast</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #northwestDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFiltersSelectable"
+          [checked]="northwestDivisionFilterSelected"
+          (change)="
+            onNorthwestDivisionFilterChanged(northwestDivisionCheckBox.checked)
+          "
+          >Northwest</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #pacificDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFiltersSelectable"
+          [checked]="pacificDivisionFilterSelected"
+          (change)="
+            onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)
+          "
+          >Pacific</mat-checkbox
+        >
+
+        <mat-checkbox
+          class="filter-checkbox"
+          #southwestDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFiltersSelectable"
+          [checked]="southwestDivisionFilterSelected"
+          (change)="
+            onSouthwestDivisionFilterChanged(southwestDivisionCheckBox.checked)
+          "
+          >Southwest</mat-checkbox
+        >
       </div>
     </ng-template>
 

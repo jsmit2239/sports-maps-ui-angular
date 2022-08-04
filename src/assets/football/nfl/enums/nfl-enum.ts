@@ -4,8 +4,12 @@ export enum NflConference {
 }
 
 export enum NflDivision {
-  North = 'NORTH',
-  South = 'SOUTH',
-  East = 'EAST',
-  West = 'WEST',
+  AfcNorth = 'AFC_NORTH',
+  AfcSouth = 'AFC_SOUTH',
+  AfcEast = 'AFC_EAST',
+  AfcWest = 'AFC_WEST',
+  NfcNorth = 'NFC_NORTH',
+  NfcSouth = 'NFC_SOUTH',
+  NfcEast = 'NFC_EAST',
+  NfcWest = 'NFC_WEST',
 }
