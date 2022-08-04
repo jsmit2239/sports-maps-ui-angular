@@ -316,7 +316,7 @@ const westernConferenceCentralDivisionTeamDetails: TeamDetails[] = [
       longitude: -93.10018644752071,
     },
     icon: {
-      svgTitle: 'minnesota-wild',
+      svgTitle: 'minnesota-wild-logo',
     },
   },
   {

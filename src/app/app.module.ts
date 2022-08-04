@@ -20,6 +20,7 @@ import { HttpRequestsComponent } from './http-requests/http-requests.component';
 import { ParentChildComponent } from './parent-child/parent-child.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpRequestsService } from './http-requests/http-requests.service';
+import { OverlayModule } from '@angular/cdk/overlay';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { HttpRequestsService } from './http-requests/http-requests.service';
     }),
     HttpClientModule,
     MatIconModule,
+    OverlayModule,
   ],
   providers: [HttpRequestsService],
   bootstrap: [AppComponent],

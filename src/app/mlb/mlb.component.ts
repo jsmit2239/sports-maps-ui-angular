@@ -29,6 +29,8 @@ export class MlbComponent {
   nlCentralDivisionFilterSelected = true;
   nlWestDivisionFilterSelected = true;
 
+  displayFilterOverlay = false;
+
   mapView = true;
 
   iconMap = this.getIconMap();

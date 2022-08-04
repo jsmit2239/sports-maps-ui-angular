@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/cdk/overlay-prebuilt.css";
 
 html,
 body {
@@ -9,7 +9,84 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.content-table {
+agm-map {
+  height: 800px;
+}
+
+/**
+* Filter Heading Styles
+*/
+.filter-heading {
+  font-weight: bold;
+}
+
+/**
+* League Page Container Style
+*/
+.league-page-container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 10px; */
+}
+
+/**
+* Map Options Bar Style
+*/
+.map-options-bar-container {
+  padding: 10px 0px 10px 0px;
+}
+
+/**
+* Filter Checkbox Button Styles
+*/
+.filter-button {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 5px 0 0;
+}
+
+/**
+* Map Slide Styles
+*/
+.map-slide {
+  vertical-align: middle;
+}
+
+/**
+* Map Content Styles
+*/
+.content-map {
+  /* border-collapse: collapse; */
+  margin: 25px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/**
+* Filter Overlay Container Styles
+*/
+.filter-overlay-container {
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+  border: solid 2px gray;
+}
+
+/**
+* Table Content Styles
+*/
+.address-table {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
@@ -21,43 +98,26 @@ body {
   margin-right: auto;
 }
 
-.content-map {
-  /* border-collapse: collapse; */
-  margin: 25px 0;
-  border-radius: 5px 5px 0 0;
-}
-
-.content-table thead tr {
+.address-table thead tr {
   background-color: lightgrey;
   color: black;
   text-align: left;
   font-weight: bold;
 }
 
-.content-table th,
-.content-table td {
+.address-table th,
+.address-table td {
   padding: 12px 15px;
 }
 
-.content-table tbody tr {
+.address-table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
-.content-table tbody tr:nth-of-type(even) {
+.address-table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
 }
 
-.content-table tbody tr:last-of-type {
+.address-table tbody tr:last-of-type {
   border-bottom: 2px solid lightgrey;
-}
-
-.map-container {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 8px;
-}
-
-agm-map {
-  height: 800px;
 }
