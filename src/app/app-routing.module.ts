@@ -6,6 +6,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MlbComponent } from './mlb/mlb.component';
 import { NbaComponent } from './nba/nba.component';
 import { NflComponent } from './nfl/nfl.component';
+import { NhlScheduleComponent } from './nhl-schedule/nhl-schedule.component';
 import { NhlComponent } from './nhl/nhl.component';
 import { ParentChildComponent } from './parent-child/parent-child.component';
 
@@ -16,6 +17,8 @@ const routes: Routes = [
   { path: 'nfl', component: NflComponent },
   { path: 'nhl', component: NhlComponent },
   { path: 'ahl', component: AhlComponent },
+  { path: 'nhl-schedule', component: NhlScheduleComponent },
+
   { path: 'http-requests', component: HttpRequestsComponent },
   { path: 'parent-child', component: ParentChildComponent },
 ];

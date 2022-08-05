@@ -1,0 +1,51 @@
+<!-- <p>nhl-schedule works!</p>
+
+<table class="address-table">
+  <thead>
+    <tr>
+      <th>Game Time</th>
+      <th>Venue</th>
+      <th>Address</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Home Team</th>
+      <th>Home Team Icon</th>
+      <th>Away Team</th>
+      <th>Away Team Icon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let game of getNhlScheduleWithGameLocation()">
+      <td>{{ game.gameTime }}</td>
+      <td>{{ game.gameVenueName }}</td>
+      <td>{{ game.gameVenueAddress }}</td>
+      <td>{{ game.gameVenueLatitude }}</td>
+      <td>{{ game.gameVenueLongitude }}</td>
+      <td>{{ game.homeTeam }}</td>
+      <td>{{ game.awayTeam }}</td>
+    </tr>
+  </tbody>
+</table> -->
+
+<agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
+  <agm-marker
+    *ngFor="let game of nhlSchedule; let i = index"
+    [latitude]="game.gameVenueLatitude"
+    [longitude]="game.gameVenueLongitude"
+  >
+    <agm-info-window [disableAutoPan]="false" [isOpen]="true">
+      <div class="center-images">
+        <img
+          class="resize"
+          [src]="$any(iconMap.get(game.awayTeamAbbreviation))"
+        />
+        <img
+          class="resize"
+          [src]="$any(iconMap.get(game.homeTeamAbbreviation))"
+        />
+      </div>
+      <p>{{ game.gameTime }}</p>
+      <p>{{ game.gameVenueName }}</p>
+    </agm-info-window>
+  </agm-marker>
+</agm-map>
