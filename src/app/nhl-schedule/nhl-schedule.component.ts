@@ -17,7 +17,7 @@ export class NhlScheduleComponent {
   iconMap = this.getIconMap();
 
   getNhlScheduleWithGameLocation() {
-    const selectedDate = '2022-11-15';
+    const selectedDate = '2022-11-26';
 
     const nhlTeamHashMap = this.createNhlTeamHashMapByName();
     const gamesForASpecificDate = this.getGamesByDate(selectedDate);
