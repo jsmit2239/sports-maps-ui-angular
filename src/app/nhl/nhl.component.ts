@@ -2,8 +2,10 @@ import { Component } from '@angular/core';
 import {
   NhlConference,
   NhlDivision,
-} from 'src/assets/hockey/nhl/enums/nhl-enum';
-import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-details';
+} from '../../assets/hockey/nhl/enums/nhl-enum';
+import { nhlSchedule2022to2023 } from '../../assets/hockey/nhl/schedule/nhl-schedule-2022-2023-v2';
+import { nhlTeamDetails } from '../../assets/hockey/nhl/team-details/nhl-team-details';
+import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
 @Component({
   selector: 'app-nhl',
@@ -31,6 +33,10 @@ export class NhlComponent {
   mapView = true;
 
   iconMap = this.getIconMap();
+
+  iconMapByAbbreviation = this.getIconMapByAbbreviation();
+
+  nhlSchedule = this.getNhlScheduleWithGameLocation();
 
   getNhlTeamDetails() {
     const selectedConferences = this.getSelectedConferences();
@@ -144,6 +150,74 @@ export class NhlComponent {
           height: 60,
         },
       });
+    }
+
+    return iconMap;
+  }
+
+  getNhlScheduleWithGameLocation() {
+    const selectedDate = '2022-11-26';
+
+    const nhlTeamHashMap = this.createNhlTeamHashMapByName();
+    const gamesForASpecificDate = this.getGamesByDate(selectedDate);
+
+    const getNhlScheduleWithGameLocation = [];
+    for (const game of gamesForASpecificDate) {
+      const homeTeamData: TeamDetails = nhlTeamHashMap.get(
+        game.homeTeam
+      ) as TeamDetails;
+
+      const awayTeamData: TeamDetails = nhlTeamHashMap.get(
+        game.awayTeam
+      ) as TeamDetails;
+
+      if (homeTeamData === undefined || awayTeamData === undefined) {
+        throw new Error('homeTeamData/awayTeamData is undefined');
+      }
+
+      getNhlScheduleWithGameLocation.push({
+        gameTime: game.time,
+        gameVenueName: homeTeamData.venue.name,
+        gameVenueAddress: homeTeamData.venue.address,
+        gameVenueLatitude: homeTeamData.venue.latitude,
+        gameVenueLongitude: homeTeamData.venue.longitude,
+
+        homeTeam: homeTeamData.name,
+        homeTeamAbbreviation: homeTeamData.abbreviation,
+        awayTeam: awayTeamData.name,
+        awayTeamAbbreviation: awayTeamData.abbreviation,
+      });
+    }
+
+    return getNhlScheduleWithGameLocation;
+  }
+
+  private createNhlTeamHashMapByName() {
+    const teamMap = new Map<string, TeamDetails>();
+
+    for (const team of nhlTeamDetails) {
+      teamMap.set(team.name, team);
+    }
+
+    return teamMap;
+  }
+
+  private getGamesByDate(selectedDate: string) {
+    const games = nhlSchedule2022to2023.filter((game) => {
+      return game.date === selectedDate;
+    });
+
+    return games;
+  }
+
+  private getIconMapByAbbreviation() {
+    const iconMap = new Map();
+
+    for (const team of nhlTeamDetails) {
+      iconMap.set(
+        team.abbreviation,
+        `../../assets/hockey/nhl/svg/${team.icon.svgTitle}.svg`
+      );
     }
 
     return iconMap;

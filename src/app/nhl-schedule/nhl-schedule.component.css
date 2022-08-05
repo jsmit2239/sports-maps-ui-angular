@@ -29,7 +29,7 @@ p {
   justify-content: center;
 }
 
-p {
+.schedule-text {
   margin: 0px 0px 0px 0px;
   text-align: center;
   font-weight: bold;

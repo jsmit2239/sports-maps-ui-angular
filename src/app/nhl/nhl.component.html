@@ -108,7 +108,7 @@
   </div>
 
   <div class="table-container" *ngIf="!mapView">
-    <table class="address-table">
+    <!-- <table class="address-table">
       <thead>
         <tr>
           <th>Team</th>
@@ -123,6 +123,29 @@
           <td>{{ team.venue.address }}</td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
+
+    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
+      <agm-marker
+        *ngFor="let game of nhlSchedule; let i = index"
+        [latitude]="game.gameVenueLatitude"
+        [longitude]="game.gameVenueLongitude"
+      >
+        <agm-info-window [disableAutoPan]="false" [isOpen]="true">
+          <div class="center-images">
+            <img
+              class="resize"
+              [src]="$any(iconMapByAbbreviation.get(game.awayTeamAbbreviation))"
+            />
+            <img
+              class="resize"
+              [src]="$any(iconMapByAbbreviation.get(game.homeTeamAbbreviation))"
+            />
+          </div>
+          <p class="schedule-text">{{ game.gameTime }} ET</p>
+          <p class="schedule-text">{{ game.gameVenueName }}</p>
+        </agm-info-window>
+      </agm-marker>
+    </agm-map>
   </div>
 </div>
