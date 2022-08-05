@@ -467,7 +467,7 @@ const westernConferencePacificDivisionTeamDetails: TeamDetails[] = [
     conference: AhlConference.Western,
     division: AhlDivision.Pacific,
     venue: {
-      name: 'SAP Center at San Jose',
+      name: 'SAP Center',
       address: '525 W Santa Clara St, San Jose, CA 95113',
       latitude: 37.332990134665025,
       longitude: -121.90200279489873,

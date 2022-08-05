@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpRequestsService } from './http-requests/http-requests.service';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { AhlComponent } from './ahl/ahl.component';
+import { NhlScheduleComponent } from './nhl-schedule/nhl-schedule.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { AhlComponent } from './ahl/ahl.component';
     HttpRequestsComponent,
     ParentChildComponent,
     AhlComponent,
+    NhlScheduleComponent,
   ],
   imports: [
     BrowserModule,
