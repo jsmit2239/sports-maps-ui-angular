@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { nhlSchedule } from 'src/assets/hockey/nhl/schedule/nhl-schedule-2022-2023';
+import { nhlSchedule2022to2023 } from 'src/assets/hockey/nhl/schedule/nhl-schedule-2022-2023-v2';
 import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-details';
 import { TeamDetails } from 'src/assets/shared/interfaces/team-details-interface';
 
@@ -16,18 +17,24 @@ export class NhlScheduleComponent {
   iconMap = this.getIconMap();
 
   getNhlScheduleWithGameLocation() {
-    const nhlTeamMap = this.createNhlTeamMapByName();
+    const selectedDate = '2022-11-15';
+
+    const nhlTeamHashMap = this.createNhlTeamHashMapByName();
+    const gamesForASpecificDate = this.getGamesByDate(selectedDate);
 
     const getNhlScheduleWithGameLocation = [];
-
-    for (const game of nhlSchedule) {
-      const homeTeamData: TeamDetails = nhlTeamMap.get(
+    for (const game of gamesForASpecificDate) {
+      const homeTeamData: TeamDetails = nhlTeamHashMap.get(
         game.homeTeam
       ) as TeamDetails;
 
-      const awayTeamData: TeamDetails = nhlTeamMap.get(
+      const awayTeamData: TeamDetails = nhlTeamHashMap.get(
         game.awayTeam
       ) as TeamDetails;
+
+      if (homeTeamData === undefined || awayTeamData === undefined) {
+        throw new Error('homeTeamData/awayTeamData is undefined');
+      }
 
       getNhlScheduleWithGameLocation.push({
         gameTime: game.time,
@@ -46,7 +53,7 @@ export class NhlScheduleComponent {
     return getNhlScheduleWithGameLocation;
   }
 
-  private createNhlTeamMapByName() {
+  private createNhlTeamHashMapByName() {
     const teamMap = new Map<string, TeamDetails>();
 
     for (const team of nhlTeamDetails) {
@@ -67,5 +74,13 @@ export class NhlScheduleComponent {
     }
 
     return iconMap;
+  }
+
+  private getGamesByDate(selectedDate: string) {
+    const games = nhlSchedule2022to2023.filter((game) => {
+      return game.date === selectedDate;
+    });
+
+    return games;
   }
 }
