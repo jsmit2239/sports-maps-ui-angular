@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import {
   NhlConference,
   NhlDivision,
-} from 'src/assets/hockey/nhl/enums/nhl-enum';
-import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-details';
+} from '../../assets/hockey/nhl/enums/nhl-enum';
+import { nhlSchedule2022to2023 } from '../../assets/hockey/nhl/schedule/nhl-schedule-2022-2023';
+import { nhlTeamDetails } from '../../assets/hockey/nhl/team-details/nhl-team-details';
+import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
 @Component({
   selector: 'app-nhl',
@@ -11,7 +14,16 @@ import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-deta
   styleUrls: ['./nhl.component.css'],
 })
 export class NhlComponent {
-  constructor() {}
+  /**
+   * Map View Type
+   */
+  scheduleMapView = false;
+  teamsMapView = true;
+
+  /**
+   * Filters
+   */
+  displayFilterOverlay = false;
 
   /** Conference Filters */
   easternConferenceFilterSelected = true;
@@ -26,23 +38,32 @@ export class NhlComponent {
   metropolitanDivisionFilterSelected = true;
   pacificDivisionFilterSelected = true;
 
-  displayFilterOverlay = false;
+  /** Date Filter */
+  seasonStartDate = new Date('October 7, 2022');
+  seasonEndDate = new Date('April 13, 2023');
 
-  mapView = true;
+  filterDate = this.getDefaultFilterDate();
+  initialDefaultFilterDate = new FormControl(this.filterDate);
 
-  iconMap = this.getIconMap();
+  /**
+   * Icon Maps
+   */
+  iconObjectMap = this.getIconObjectMap();
+  iconPathMap = this.getIconPathMap();
 
-  getNhlTeamDetails() {
-    const selectedConferences = this.getSelectedConferences();
-    const selectedDivisions = this.getSelectedDivisions();
+  /**
+   * Schedule
+   */
+  nhlSchedule = this.getNhlScheduleWithGameLocation();
 
-    const filteredNhlTeams = nhlTeamDetails.filter((team) => {
-      return (
-        selectedConferences.includes(team.conference as any) &&
-        selectedDivisions.includes(team.division as any)
-      );
-    });
-    return filteredNhlTeams;
+  onScheduleMapViewSelected() {
+    this.scheduleMapView = true;
+    this.teamsMapView = false;
+  }
+
+  onTeamsMapViewSelected() {
+    this.teamsMapView = true;
+    this.scheduleMapView = false;
   }
 
   onEasternConferenceFilterChanged(value: boolean) {
@@ -93,8 +114,81 @@ export class NhlComponent {
     this.pacificDivisionFilterSelected = value;
   }
 
-  onMapViewChanged(value: boolean) {
-    this.mapView = value;
+  onSelectedDateChanged($event: any) {
+    const selectedDate = new Date($event.target.value);
+
+    this.filterDate = selectedDate;
+
+    this.nhlSchedule = this.getNhlScheduleWithGameLocation();
+  }
+
+  getNhlTeamDetails() {
+    const selectedConferences = this.getSelectedConferences();
+    const selectedDivisions = this.getSelectedDivisions();
+
+    const filteredNhlTeams = nhlTeamDetails.filter((team) => {
+      return (
+        selectedConferences.includes(team.conference as any) &&
+        selectedDivisions.includes(team.division as any)
+      );
+    });
+    return filteredNhlTeams;
+  }
+
+  getNhlScheduleWithGameLocation() {
+    const filterDateString = this.convertDateToStringFormat(this.filterDate);
+
+    const nhlTeamHashMap = this.createNhlTeamHashMapByName();
+    const gamesForASpecificDate = this.getGamesByDate(filterDateString);
+
+    const getNhlScheduleWithGameLocation = [];
+    for (const game of gamesForASpecificDate) {
+      const homeTeamData: TeamDetails = nhlTeamHashMap.get(
+        game.homeTeam
+      ) as TeamDetails;
+
+      const awayTeamData: TeamDetails = nhlTeamHashMap.get(
+        game.awayTeam
+      ) as TeamDetails;
+
+      if (homeTeamData === undefined || awayTeamData === undefined) {
+        throw new Error('homeTeamData/awayTeamData is undefined');
+      }
+
+      getNhlScheduleWithGameLocation.push({
+        gameTime: game.time,
+        gameVenueName: homeTeamData.venue.name,
+        gameVenueAddress: homeTeamData.venue.address,
+        gameVenueLatitude: homeTeamData.venue.latitude,
+        gameVenueLongitude: homeTeamData.venue.longitude,
+
+        homeTeam: homeTeamData.name,
+        homeTeamAbbreviation: homeTeamData.abbreviation,
+        awayTeam: awayTeamData.name,
+        awayTeamAbbreviation: awayTeamData.abbreviation,
+      });
+    }
+
+    return getNhlScheduleWithGameLocation;
+  }
+
+  private getDefaultFilterDate(): Date {
+    const todaysDate = new Date();
+
+    this.filterDate = todaysDate;
+
+    if (todaysDate <= this.seasonStartDate) {
+      this.filterDate = this.seasonStartDate;
+    } else if (
+      todaysDate >= this.seasonStartDate &&
+      todaysDate <= this.seasonEndDate
+    ) {
+      this.filterDate = todaysDate;
+    } else if (todaysDate >= this.seasonEndDate) {
+      this.filterDate = this.seasonEndDate;
+    }
+
+    return this.filterDate;
   }
 
   private getSelectedConferences() {
@@ -133,7 +227,7 @@ export class NhlComponent {
     return selectedDivisions;
   }
 
-  private getIconMap() {
+  private getIconObjectMap() {
     const iconMap = new Map();
 
     for (const team of nhlTeamDetails) {
@@ -147,5 +241,60 @@ export class NhlComponent {
     }
 
     return iconMap;
+  }
+
+  private getIconPathMap() {
+    const iconMap = new Map();
+
+    for (const team of nhlTeamDetails) {
+      iconMap.set(
+        team.abbreviation,
+        `../../assets/hockey/nhl/svg/${team.icon.svgTitle}.svg`
+      );
+    }
+
+    return iconMap;
+  }
+
+  private createNhlTeamHashMapByName() {
+    const teamMap = new Map<string, TeamDetails>();
+
+    for (const team of nhlTeamDetails) {
+      teamMap.set(team.name, team);
+    }
+
+    return teamMap;
+  }
+
+  private getGamesByDate(selectedDate: string) {
+    const games = nhlSchedule2022to2023.filter((game) => {
+      return game.date === selectedDate;
+    });
+
+    return games;
+  }
+
+  private convertDateToStringFormat(date: Date) {
+    /** Year */
+    const dateYear = date.getFullYear().toString();
+
+    /** Month */
+    const dateMonthNumeric = date.getMonth() + 1;
+
+    let dateMonth = dateMonthNumeric.toString();
+    if (dateMonth.length === 1) {
+      dateMonth = `0${dateMonth}`;
+    }
+
+    /** Day */
+    let dateDay = date.getDate().toString();
+
+    if (dateDay.length === 1) {
+      dateDay = `0${dateDay}`;
+    }
+
+    const dateString = `${dateYear}-${dateMonth}-${dateDay}`;
+
+    return dateString;
   }
 }

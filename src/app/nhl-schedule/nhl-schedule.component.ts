@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { nhlSchedule } from 'src/assets/hockey/nhl/schedule/nhl-schedule-2022-2023';
-import { nhlSchedule2022to2023 } from 'src/assets/hockey/nhl/schedule/nhl-schedule-2022-2023-v2';
+import { nhlSchedule2022to2023 } from 'src/assets/hockey/nhl/schedule/nhl-schedule-2022-2023';
 import { nhlTeamDetails } from 'src/assets/hockey/nhl/team-details/nhl-team-details';
 import { TeamDetails } from 'src/assets/shared/interfaces/team-details-interface';
 
@@ -17,7 +16,7 @@ export class NhlScheduleComponent {
   iconMap = this.getIconMap();
 
   getNhlScheduleWithGameLocation() {
-    const selectedDate = '2022-11-26';
+    const selectedDate = '2023-02-07';
 
     const nhlTeamHashMap = this.createNhlTeamHashMapByName();
     const gamesForASpecificDate = this.getGamesByDate(selectedDate);
