@@ -8,7 +8,7 @@ const alEastTeamDetails: TeamDetails[] = [
     league: MlbLeague.American,
     division: MlbDivision.ALEast,
     venue: {
-      name: 'Oriole Park at Camden Yards',
+      name: 'Camden Yards',
       address: '333 W Camden St, Baltimore, MD 21201',
       latitude: 39.28391072690935,
       longitude: -76.62168893045092,

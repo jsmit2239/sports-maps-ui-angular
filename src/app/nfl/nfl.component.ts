@@ -1,9 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import {
   NflConference,
   NflDivision,
-} from 'src/assets/football/nfl/enums/nfl-enum';
-import { nflTeamDetails } from 'src/assets/football/nfl/team-details/nfl-team-details';
+} from '../../assets/football/nfl/enums/nfl-enum';
+import { nflSchedule2022to2023 } from '../../assets/football/nfl/schedule/nfl-schedule-2022-2023';
+import { nflTeamDetails } from '../../assets/football/nfl/team-details/nfl-team-details';
+import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
 @Component({
   selector: 'app-nfl',
@@ -11,7 +14,16 @@ import { nflTeamDetails } from 'src/assets/football/nfl/team-details/nfl-team-de
   styleUrls: ['./nfl.component.css'],
 })
 export class NflComponent {
-  constructor() {}
+  /**
+   * Map View Type
+   */
+  scheduleMapView = false;
+  teamsMapView = true;
+
+  /**
+   * Filters
+   */
+  displayFilterOverlay = false;
 
   /** Conference Filters */
   afcConferenceFilterSelected = true;
@@ -31,24 +43,46 @@ export class NflComponent {
   nfcEastDivisionFilterSelected = true;
   nfcWestDivisionFilterSelected = true;
 
-  displayFilterOverlay = false;
+  /** Date Filter */
+  seasonStartDate = new Date('September 8, 2022');
+  seasonEndDate = new Date('January 8, 2023');
 
-  mapView = true;
+  filterDate = this.getDefaultFilterDate();
+  initialDefaultFilterDate = new FormControl(this.filterDate);
 
-  iconMap = this.getIconMap();
+  /**
+   * Icon Maps
+   */
+  iconObjectMap = this.getIconObjectMap();
+  iconPathMap = this.getIconPathMap();
 
-  getNflTeamDetails() {
-    const selectedConferences = this.getSelectedConferences();
-    const selectedDivisions = this.getSelectedDivisions();
+  /**
+   * Schedule
+   */
+  nflSchedule = this.getNflScheduleWithGameLocation();
 
-    const filteredNflTeams = nflTeamDetails.filter((team) => {
-      return (
-        selectedConferences.includes(team.conference as any) &&
-        selectedDivisions.includes(team.division as any)
-      );
-    });
-    return filteredNflTeams;
+  onScheduleMapViewSelected() {
+    this.scheduleMapView = true;
+    this.teamsMapView = false;
   }
+
+  onTeamsMapViewSelected() {
+    this.teamsMapView = true;
+    this.scheduleMapView = false;
+  }
+
+  // getNflTeamDetails() {
+  //   const selectedConferences = this.getSelectedConferences();
+  //   const selectedDivisions = this.getSelectedDivisions();
+
+  //   const filteredNflTeams = nflTeamDetails.filter((team) => {
+  //     return (
+  //       selectedConferences.includes(team.conference as any) &&
+  //       selectedDivisions.includes(team.division as any)
+  //     );
+  //   });
+  //   return filteredNflTeams;
+  // }
 
   onAfcConferenceFilterChanged(value: boolean) {
     this.afcConferenceFilterSelected = value;
@@ -122,8 +156,81 @@ export class NflComponent {
     this.nfcWestDivisionFilterSelected = value;
   }
 
-  onMapViewChanged(value: boolean) {
-    this.mapView = value;
+  onSelectedDateChanged($event: any) {
+    const selectedDate = new Date($event.target.value);
+
+    this.filterDate = selectedDate;
+
+    this.nflSchedule = this.getNflScheduleWithGameLocation();
+  }
+
+  getNflTeamDetails() {
+    const selectedConferences = this.getSelectedConferences();
+    const selectedDivisions = this.getSelectedDivisions();
+
+    const filteredNflTeams = nflTeamDetails.filter((team) => {
+      return (
+        selectedConferences.includes(team.conference as any) &&
+        selectedDivisions.includes(team.division as any)
+      );
+    });
+    return filteredNflTeams;
+  }
+
+  getNflScheduleWithGameLocation() {
+    const filterDateString = this.convertDateToStringFormat(this.filterDate);
+
+    const nflTeamHashMap = this.createNflTeamHashMapByName();
+    const gamesForASpecificDate = this.getGamesByDate(filterDateString);
+
+    const getNflScheduleWithGameLocation = [];
+    for (const game of gamesForASpecificDate) {
+      const homeTeamData: TeamDetails = nflTeamHashMap.get(
+        game.homeTeam
+      ) as TeamDetails;
+
+      const awayTeamData: TeamDetails = nflTeamHashMap.get(
+        game.awayTeam
+      ) as TeamDetails;
+
+      if (homeTeamData === undefined || awayTeamData === undefined) {
+        throw new Error('homeTeamData/awayTeamData is undefined');
+      }
+
+      getNflScheduleWithGameLocation.push({
+        gameTime: game.time,
+        gameVenueName: homeTeamData.venue.name,
+        gameVenueAddress: homeTeamData.venue.address,
+        gameVenueLatitude: homeTeamData.venue.latitude,
+        gameVenueLongitude: homeTeamData.venue.longitude,
+
+        homeTeam: homeTeamData.name,
+        homeTeamAbbreviation: homeTeamData.abbreviation,
+        awayTeam: awayTeamData.name,
+        awayTeamAbbreviation: awayTeamData.abbreviation,
+      });
+    }
+
+    return getNflScheduleWithGameLocation;
+  }
+
+  private getDefaultFilterDate(): Date {
+    const todaysDate = new Date();
+
+    this.filterDate = todaysDate;
+
+    if (todaysDate <= this.seasonStartDate) {
+      this.filterDate = this.seasonStartDate;
+    } else if (
+      todaysDate >= this.seasonStartDate &&
+      todaysDate <= this.seasonEndDate
+    ) {
+      this.filterDate = todaysDate;
+    } else if (todaysDate >= this.seasonEndDate) {
+      this.filterDate = this.seasonEndDate;
+    }
+
+    return this.filterDate;
   }
 
   private getSelectedConferences() {
@@ -177,7 +284,23 @@ export class NflComponent {
 
     return selectedDivisions;
   }
-  private getIconMap() {
+  // private getIconMap() {
+  //   const iconMap = new Map();
+
+  //   for (const team of nflTeamDetails) {
+  //     iconMap.set(team.abbreviation, {
+  //       url: `../../assets/football/nfl/svg/${team.icon.svgTitle}.svg`,
+  //       scaledSize: {
+  //         width: 60,
+  //         height: 60,
+  //       },
+  //     });
+  //   }
+
+  //   return iconMap;
+  // }
+
+  private getIconObjectMap() {
     const iconMap = new Map();
 
     for (const team of nflTeamDetails) {
@@ -191,5 +314,60 @@ export class NflComponent {
     }
 
     return iconMap;
+  }
+
+  private getIconPathMap() {
+    const iconMap = new Map();
+
+    for (const team of nflTeamDetails) {
+      iconMap.set(
+        team.abbreviation,
+        `../../assets/football/nfl/svg/${team.icon.svgTitle}.svg`
+      );
+    }
+
+    return iconMap;
+  }
+
+  private createNflTeamHashMapByName() {
+    const teamMap = new Map<string, TeamDetails>();
+
+    for (const team of nflTeamDetails) {
+      teamMap.set(team.name, team);
+    }
+
+    return teamMap;
+  }
+
+  private getGamesByDate(selectedDate: string) {
+    const games = nflSchedule2022to2023.filter((game) => {
+      return game.date === selectedDate;
+    });
+
+    return games;
+  }
+
+  private convertDateToStringFormat(date: Date) {
+    /** Year */
+    const dateYear = date.getFullYear().toString();
+
+    /** Month */
+    const dateMonthNumeric = date.getMonth() + 1;
+
+    let dateMonth = dateMonthNumeric.toString();
+    if (dateMonth.length === 1) {
+      dateMonth = `0${dateMonth}`;
+    }
+
+    /** Day */
+    let dateDay = date.getDate().toString();
+
+    if (dateDay.length === 1) {
+      dateDay = `0${dateDay}`;
+    }
+
+    const dateString = `${dateYear}-${dateMonth}-${dateDay}`;
+
+    return dateString;
   }
 }
