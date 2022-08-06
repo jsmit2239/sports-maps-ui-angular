@@ -86,38 +86,43 @@
       </div>
     </ng-template>
 
-    <mat-slide-toggle
+    <!-- <mat-slide-toggle
       class="map-slide"
       #mapViewToggle
       [checked]="mapView"
       (change)="onMapViewChanged(mapViewToggle.checked)"
       >Map</mat-slide-toggle
-    >
+    > -->
+
+    <button (click)="onScheduleMapViewSelect()">Schedule</button>
+    <button (click)="onTeamsMapViewSelect()">Teams</button>
 
     <mat-form-field appearance="fill">
       <input
         matInput
-        [matDatepicker]="picker3"
-        [value]="date.value"
-        (dateChange)="dateChanged($event)"
+        [min]="seasonStartDate"
+        [max]="seasonEndDate"
+        [matDatepicker]="picker"
+        [value]="initialDefaultFilterDate.value"
+        (dateChange)="onSelectedDateChanged($event)"
       />
-      <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
-      <mat-datepicker #picker3></mat-datepicker>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
   </div>
 
   <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
-      <div *ngIf="mapView">
+      <div *ngIf="teamsMapView">
         <agm-marker
           *ngFor="let team of getNhlTeamDetails(); let i = index"
           [latitude]="team.venue.latitude"
           [longitude]="team.venue.longitude"
-          [iconUrl]="$any(iconMap.get(team.abbreviation))"
+          [iconUrl]="$any(iconObjectMap.get(team.abbreviation))"
         >
         </agm-marker>
       </div>
-      <div *ngIf="!mapView">
+      <div *ngIf="scheduleMapView">
         <agm-marker
           *ngFor="let game of nhlSchedule; let i = index"
           [latitude]="game.gameVenueLatitude"
@@ -127,20 +132,15 @@
             <div class="center-images">
               <img
                 class="resize"
-                [src]="
-                  $any(iconMapByAbbreviation.get(game.awayTeamAbbreviation))
-                "
+                [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))"
               />
               <img
                 class="resize"
-                [src]="
-                  $any(iconMapByAbbreviation.get(game.homeTeamAbbreviation))
-                "
+                [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
               />
             </div>
             <p class="schedule-text">{{ game.gameTime }} ET</p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
-            <p class="schedule-text">{{ testDate }}</p>
           </agm-info-window>
         </agm-marker>
       </div>

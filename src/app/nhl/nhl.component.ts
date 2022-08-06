@@ -14,7 +14,41 @@ import { TeamDetails } from '../../assets/shared/interfaces/team-details-interfa
   styleUrls: ['./nhl.component.css'],
 })
 export class NhlComponent implements OnInit {
-  constructor() {}
+  // export class NhlComponent {
+  constructor() {
+    // this.filterDate = new Date();
+  }
+
+  /** Date Filter */
+  seasonStartDate = new Date('October 7, 2022');
+  seasonEndDate = new Date('April 13, 2023');
+
+  filterDate = this.getDefaultFilterDate();
+
+  initialDefaultFilterDate = new FormControl(this.filterDate);
+  // selectedDateString = '2022-12-01';
+
+  /**
+   * Map View Type
+   */
+  scheduleMapView = true;
+  teamsMapView = false;
+
+  /**
+   * Schedule
+   */
+  nhlSchedule = this.getNhlScheduleWithGameLocation();
+
+  /**
+   * Icon Maps
+   */
+  iconObjectMap = this.getIconObjectMap();
+  iconPathMap = this.getIconPathMap();
+
+  /**
+   * Filters
+   */
+  displayFilterOverlay = false;
 
   /** Conference Filters */
   easternConferenceFilterSelected = true;
@@ -29,24 +63,35 @@ export class NhlComponent implements OnInit {
   metropolitanDivisionFilterSelected = true;
   pacificDivisionFilterSelected = true;
 
-  /** Filter Overlay */
-  displayFilterOverlay = false;
-
-  mapView = true;
-
-  iconMap = this.getIconMap();
-
-  iconMapByAbbreviation = this.getIconMapByAbbreviation();
-
-  nhlSchedule = this.getNhlScheduleWithGameLocation();
-
-  date = new FormControl(new Date());
-  serializedDate = new FormControl(new Date().toISOString());
-
-  testDate = '2022-11-27';
-
   ngOnInit(): void {
-    this.testDate = '2022-11-27';
+    // const todaysDate = new Date();
+
+    this.filterDate = this.getDefaultFilterDate();
+
+    // if (todaysDate <= this.seasonStartDate) {
+    //   this.filterDate = this.seasonStartDate;
+    // }
+
+    // if (
+    //   todaysDate >= this.seasonStartDate &&
+    //   todaysDate <= this.seasonEndDate
+    // ) {
+    //   this.filterDate = todaysDate;
+    // }
+
+    // if (todaysDate >= this.seasonEndDate) {
+    //   this.filterDate = this.seasonEndDate;
+    // }
+  }
+
+  onScheduleMapViewSelect() {
+    this.scheduleMapView = true;
+    this.teamsMapView = false;
+  }
+
+  onTeamsMapViewSelect() {
+    this.teamsMapView = true;
+    this.scheduleMapView = false;
   }
 
   getNhlTeamDetails() {
@@ -110,10 +155,6 @@ export class NhlComponent implements OnInit {
     this.pacificDivisionFilterSelected = value;
   }
 
-  onMapViewChanged(value: boolean) {
-    this.mapView = value;
-  }
-
   private getSelectedConferences() {
     const selectedConferences = [];
 
@@ -150,7 +191,7 @@ export class NhlComponent implements OnInit {
     return selectedDivisions;
   }
 
-  private getIconMap() {
+  private getIconObjectMap() {
     const iconMap = new Map();
 
     for (const team of nhlTeamDetails) {
@@ -168,11 +209,12 @@ export class NhlComponent implements OnInit {
 
   getNhlScheduleWithGameLocation() {
     // const selectedDate = '2022-11-27';
+    // const filter = this.filterDate;
 
-    const selectedDate = this.testDate;
+    const filterDateString = this.convertDateToStringFormat(this.filterDate);
 
     const nhlTeamHashMap = this.createNhlTeamHashMapByName();
-    const gamesForASpecificDate = this.getGamesByDate(selectedDate);
+    const gamesForASpecificDate = this.getGamesByDate(filterDateString);
 
     const getNhlScheduleWithGameLocation = [];
     for (const game of gamesForASpecificDate) {
@@ -223,7 +265,7 @@ export class NhlComponent implements OnInit {
     return games;
   }
 
-  private getIconMapByAbbreviation() {
+  private getIconPathMap() {
     const iconMap = new Map();
 
     for (const team of nhlTeamDetails) {
@@ -236,23 +278,20 @@ export class NhlComponent implements OnInit {
     return iconMap;
   }
 
-  dateChanged($event: any) {
-    console.log($event.target.value);
+  onSelectedDateChanged($event: any) {
+    const selectedDate = new Date($event.target.value);
 
-    // 2023-04-13
+    this.filterDate = selectedDate;
 
-    const testDate = new Date($event.target.value);
-    console.log('testDate' + testDate);
+    this.nhlSchedule = this.getNhlScheduleWithGameLocation();
+  }
 
-    console.log('testDate day' + testDate.getDate());
-    console.log('testDate year' + testDate.getFullYear());
-    console.log('testDate month' + testDate.getMonth());
-
+  convertDateToStringFormat(date: Date) {
     /** Year */
-    const dateYear = testDate.getFullYear().toString();
+    const dateYear = date.getFullYear().toString();
 
     /** Month */
-    const dateMonthNumeric = testDate.getMonth() + 1;
+    const dateMonthNumeric = date.getMonth() + 1;
 
     let dateMonth = dateMonthNumeric.toString();
     if (dateMonth.length === 1) {
@@ -260,17 +299,33 @@ export class NhlComponent implements OnInit {
     }
 
     /** Day */
-    let dateDay = testDate.getDate().toString();
+    let dateDay = date.getDate().toString();
 
     if (dateDay.length === 1) {
       dateDay = `0${dateDay}`;
     }
 
     const dateString = `${dateYear}-${dateMonth}-${dateDay}`;
-    console.log('date string: ' + dateString);
 
-    this.testDate = dateString;
+    return dateString;
+  }
 
-    this.nhlSchedule = this.getNhlScheduleWithGameLocation();
+  getDefaultFilterDate(): Date {
+    const todaysDate = new Date();
+
+    this.filterDate = todaysDate;
+
+    if (todaysDate <= this.seasonStartDate) {
+      this.filterDate = this.seasonStartDate;
+    } else if (
+      todaysDate >= this.seasonStartDate &&
+      todaysDate <= this.seasonEndDate
+    ) {
+      this.filterDate = todaysDate;
+    } else if (todaysDate >= this.seasonEndDate) {
+      this.filterDate = this.seasonEndDate;
+    }
+
+    return this.filterDate;
   }
 }
