@@ -95,70 +95,55 @@
     >
 
     <mat-form-field appearance="fill">
-      <mat-label>Value binding</mat-label>
       <input
         matInput
         [matDatepicker]="picker3"
         [value]="date.value"
         (dateChange)="dateChanged($event)"
       />
-      <mat-hint>MM/DD/YYYY</mat-hint>
       <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
       <mat-datepicker #picker3></mat-datepicker>
     </mat-form-field>
   </div>
 
-  <div class="map-container" *ngIf="mapView">
+  <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
-      <agm-marker
-        *ngFor="let team of getNhlTeamDetails(); let i = index"
-        [latitude]="team.venue.latitude"
-        [longitude]="team.venue.longitude"
-        [iconUrl]="$any(iconMap.get(team.abbreviation))"
-      >
-      </agm-marker>
-    </agm-map>
-  </div>
-
-  <div class="table-container" *ngIf="!mapView">
-    <!-- <table class="address-table">
-      <thead>
-        <tr>
-          <th>Team</th>
-          <th>Arena</th>
-          <th>Address</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let team of getNhlTeamDetails()">
-          <td>{{ team.name }}</td>
-          <td>{{ team.venue.name }}</td>
-          <td>{{ team.venue.address }}</td>
-        </tr>
-      </tbody>
-    </table> -->
-
-    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
-      <agm-marker
-        *ngFor="let game of nhlSchedule; let i = index"
-        [latitude]="game.gameVenueLatitude"
-        [longitude]="game.gameVenueLongitude"
-      >
-        <agm-info-window [disableAutoPan]="false" [isOpen]="true">
-          <div class="center-images">
-            <img
-              class="resize"
-              [src]="$any(iconMapByAbbreviation.get(game.awayTeamAbbreviation))"
-            />
-            <img
-              class="resize"
-              [src]="$any(iconMapByAbbreviation.get(game.homeTeamAbbreviation))"
-            />
-          </div>
-          <p class="schedule-text">{{ game.gameTime }} ET</p>
-          <p class="schedule-text">{{ game.gameVenueName }}</p>
-        </agm-info-window>
-      </agm-marker>
+      <div *ngIf="mapView">
+        <agm-marker
+          *ngFor="let team of getNhlTeamDetails(); let i = index"
+          [latitude]="team.venue.latitude"
+          [longitude]="team.venue.longitude"
+          [iconUrl]="$any(iconMap.get(team.abbreviation))"
+        >
+        </agm-marker>
+      </div>
+      <div *ngIf="!mapView">
+        <agm-marker
+          *ngFor="let game of nhlSchedule; let i = index"
+          [latitude]="game.gameVenueLatitude"
+          [longitude]="game.gameVenueLongitude"
+        >
+          <agm-info-window [disableAutoPan]="false" [isOpen]="true">
+            <div class="center-images">
+              <img
+                class="resize"
+                [src]="
+                  $any(iconMapByAbbreviation.get(game.awayTeamAbbreviation))
+                "
+              />
+              <img
+                class="resize"
+                [src]="
+                  $any(iconMapByAbbreviation.get(game.homeTeamAbbreviation))
+                "
+              />
+            </div>
+            <p class="schedule-text">{{ game.gameTime }} ET</p>
+            <p class="schedule-text">{{ game.gameVenueName }}</p>
+            <p class="schedule-text">{{ testDate }}</p>
+          </agm-info-window>
+        </agm-marker>
+      </div>
     </agm-map>
   </div>
 </div>

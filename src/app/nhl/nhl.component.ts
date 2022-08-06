@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import {
   NhlConference,
@@ -13,7 +13,7 @@ import { TeamDetails } from '../../assets/shared/interfaces/team-details-interfa
   templateUrl: './nhl.component.html',
   styleUrls: ['./nhl.component.css'],
 })
-export class NhlComponent {
+export class NhlComponent implements OnInit {
   constructor() {}
 
   /** Conference Filters */
@@ -29,6 +29,7 @@ export class NhlComponent {
   metropolitanDivisionFilterSelected = true;
   pacificDivisionFilterSelected = true;
 
+  /** Filter Overlay */
   displayFilterOverlay = false;
 
   mapView = true;
@@ -42,7 +43,11 @@ export class NhlComponent {
   date = new FormControl(new Date());
   serializedDate = new FormControl(new Date().toISOString());
 
-  filterDate = '2022-11-26';
+  testDate = '2022-11-27';
+
+  ngOnInit(): void {
+    this.testDate = '2022-11-27';
+  }
 
   getNhlTeamDetails() {
     const selectedConferences = this.getSelectedConferences();
@@ -162,9 +167,9 @@ export class NhlComponent {
   }
 
   getNhlScheduleWithGameLocation() {
-    const selectedDate = '2022-11-26';
+    // const selectedDate = '2022-11-27';
 
-    // const selectedDate = this.filterDate as any;
+    const selectedDate = this.testDate;
 
     const nhlTeamHashMap = this.createNhlTeamHashMapByName();
     const gamesForASpecificDate = this.getGamesByDate(selectedDate);
@@ -232,9 +237,40 @@ export class NhlComponent {
   }
 
   dateChanged($event: any) {
-    this.filterDate = $event.target.value;
-
     console.log($event.target.value);
-    console.log(typeof $event.target.value);
+
+    // 2023-04-13
+
+    const testDate = new Date($event.target.value);
+    console.log('testDate' + testDate);
+
+    console.log('testDate day' + testDate.getDate());
+    console.log('testDate year' + testDate.getFullYear());
+    console.log('testDate month' + testDate.getMonth());
+
+    /** Year */
+    const dateYear = testDate.getFullYear().toString();
+
+    /** Month */
+    const dateMonthNumeric = testDate.getMonth() + 1;
+
+    let dateMonth = dateMonthNumeric.toString();
+    if (dateMonth.length === 1) {
+      dateMonth = `0${dateMonth}`;
+    }
+
+    /** Day */
+    let dateDay = testDate.getDate().toString();
+
+    if (dateDay.length === 1) {
+      dateDay = `0${dateDay}`;
+    }
+
+    const dateString = `${dateYear}-${dateMonth}-${dateDay}`;
+    console.log('date string: ' + dateString);
+
+    this.testDate = dateString;
+
+    this.nhlSchedule = this.getNhlScheduleWithGameLocation();
   }
 }
