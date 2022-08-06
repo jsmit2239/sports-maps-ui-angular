@@ -169,7 +169,12 @@
                 [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
               />
             </div>
-            <p class="schedule-text">{{ game.gameTime }} ET</p>
+            <p
+              *ngFor="let gameTime of game.gameTimes; let i = index"
+              class="schedule-text"
+            >
+              {{ gameTime }} ET
+            </p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
           </agm-info-window>
         </agm-marker>

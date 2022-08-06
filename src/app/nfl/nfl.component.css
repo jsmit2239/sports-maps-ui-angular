@@ -1,3 +1,10 @@
 .filter-checkbox {
   display: block;
 }
+
+.schedule-text {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+}

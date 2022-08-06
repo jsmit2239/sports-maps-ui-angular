@@ -159,7 +159,7 @@ export class MlbComponent {
     const mlbTeamHashMap = this.createMlbTeamHashMapByName();
     const gamesForASpecificDate = this.getGamesByDate(filterDateString);
 
-    const getMlbScheduleWithGameLocation = [];
+    const mlbScheduleWithGameLocation = [];
     for (const game of gamesForASpecificDate) {
       const homeTeamData: TeamDetails = mlbTeamHashMap.get(
         game.homeTeam
@@ -173,21 +173,62 @@ export class MlbComponent {
         throw new Error('homeTeamData/awayTeamData is undefined');
       }
 
-      getMlbScheduleWithGameLocation.push({
-        gameTime: game.time,
-        gameVenueName: homeTeamData.venue.name,
-        gameVenueAddress: homeTeamData.venue.address,
-        gameVenueLatitude: homeTeamData.venue.latitude,
-        gameVenueLongitude: homeTeamData.venue.longitude,
+      const gameTimesArray = this.getGameTimesArray(
+        game,
+        gamesForASpecificDate
+      );
 
-        homeTeam: homeTeamData.name,
-        homeTeamAbbreviation: homeTeamData.abbreviation,
-        awayTeam: awayTeamData.name,
-        awayTeamAbbreviation: awayTeamData.abbreviation,
-      });
+      if (!this.hasGameBeenPushedToArray(game, mlbScheduleWithGameLocation)) {
+        mlbScheduleWithGameLocation.push({
+          /** Put into array to account for double headers */
+          gameTimes: gameTimesArray,
+          gameVenueName: homeTeamData.venue.name,
+          gameVenueAddress: homeTeamData.venue.address,
+          gameVenueLatitude: homeTeamData.venue.latitude,
+          gameVenueLongitude: homeTeamData.venue.longitude,
+
+          homeTeam: homeTeamData.name,
+          homeTeamAbbreviation: homeTeamData.abbreviation,
+          awayTeam: awayTeamData.name,
+          awayTeamAbbreviation: awayTeamData.abbreviation,
+        });
+      }
     }
 
-    return getMlbScheduleWithGameLocation;
+    return mlbScheduleWithGameLocation;
+  }
+
+  private getGameTimesArray(currentGame: any, games: any[]) {
+    const gameTimes = [];
+
+    for (const game of games) {
+      if (
+        game.homeTeam === currentGame.homeTeam &&
+        game.awayTeam === currentGame.awayTeam
+      ) {
+        gameTimes.push(game.time);
+      }
+    }
+
+    return gameTimes;
+  }
+
+  private hasGameBeenPushedToArray(
+    currentGame: any,
+    mlbScheduleWithGameLocation: any[]
+  ) {
+    let hasGameBeenPushedToArray = false;
+
+    for (const game of mlbScheduleWithGameLocation) {
+      if (
+        game.homeTeam === currentGame.homeTeam &&
+        game.awayTeam === currentGame.awayTeam
+      ) {
+        hasGameBeenPushedToArray = true;
+      }
+    }
+
+    return hasGameBeenPushedToArray;
   }
 
   private getDefaultFilterDate(): Date {
