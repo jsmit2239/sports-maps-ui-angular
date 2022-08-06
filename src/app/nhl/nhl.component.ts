@@ -4,7 +4,7 @@ import {
   NhlConference,
   NhlDivision,
 } from '../../assets/hockey/nhl/enums/nhl-enum';
-import { nhlSchedule2022to2023 } from '../../assets/hockey/nhl/schedule/nhl-schedule-2022-2023-v2';
+import { nhlSchedule2022to2023 } from '../../assets/hockey/nhl/schedule/nhl-schedule-2022-2023';
 import { nhlTeamDetails } from '../../assets/hockey/nhl/team-details/nhl-team-details';
 import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
