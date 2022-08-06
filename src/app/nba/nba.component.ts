@@ -176,10 +176,14 @@ export class NbaComponent {
 
       getNbaScheduleWithGameLocation.push({
         gameTime: game.time,
-        gameVenueName: homeTeamData.venue.name,
-        gameVenueAddress: homeTeamData.venue.address,
-        gameVenueLatitude: homeTeamData.venue.latitude,
-        gameVenueLongitude: homeTeamData.venue.longitude,
+        gameVenueName:
+          game?.specialVenueDetails?.name ?? homeTeamData.venue.name,
+        gameVenueAddress:
+          game?.specialVenueDetails?.address ?? homeTeamData.venue.address,
+        gameVenueLatitude:
+          game?.specialVenueDetails?.latitude ?? homeTeamData.venue.latitude,
+        gameVenueLongitude:
+          game?.specialVenueDetails?.longitude ?? homeTeamData.venue.longitude,
 
         homeTeam: homeTeamData.name,
         homeTeamAbbreviation: homeTeamData.abbreviation,

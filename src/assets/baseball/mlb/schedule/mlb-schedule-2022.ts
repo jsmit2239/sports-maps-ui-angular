@@ -1,4 +1,6 @@
-const mlbScheduleApril2022 = [
+import { GameDetails } from '../../../shared/interfaces/game-details-interface';
+
+const mlbScheduleApril2022: GameDetails[] = [
   {
     date: '2022-04-07',
     time: '2:20 PM',
@@ -1969,7 +1971,7 @@ const mlbScheduleApril2022 = [
   },
 ];
 
-const mlbScheduleMay2022 = [
+const mlbScheduleMay2022: GameDetails[] = [
   {
     date: '2022-05-01',
     time: '1:05 PM',
@@ -4618,7 +4620,7 @@ const mlbScheduleMay2022 = [
   },
 ];
 
-const mlbScheduleJune2022 = [
+const mlbScheduleJune2022: GameDetails[] = [
   {
     date: '2022-06-01',
     time: '1:10 PM',
@@ -7063,7 +7065,7 @@ const mlbScheduleJune2022 = [
   },
 ];
 
-const mlbScheduleJuly2022 = [
+const mlbScheduleJuly2022: GameDetails[] = [
   {
     date: '2022-07-01',
     time: '2:20 PM',
@@ -9442,7 +9444,7 @@ const mlbScheduleJuly2022 = [
   },
 ];
 
-const mlbScheduleAugust2022 = [
+const mlbScheduleAugust2022: GameDetails[] = [
   {
     date: '2022-08-01',
     time: '6:40 PM',
@@ -10318,6 +10320,12 @@ const mlbScheduleAugust2022 = [
     time: '7:15 PM',
     awayTeam: 'Chicago Cubs',
     homeTeam: 'Cincinnati Reds',
+    specialVenueDetails: {
+      name: 'MLB Field of Dreams Stadium',
+      address: '1200 Field of Dreams Wy, Dyersville, IA 52040',
+      latitude: 42.499327835556365,
+      longitude: -91.05844755037604,
+    },
   },
   {
     date: '2022-08-12',
@@ -11194,6 +11202,12 @@ const mlbScheduleAugust2022 = [
     time: '7:10 PM',
     awayTeam: 'Boston Red Sox',
     homeTeam: 'Baltimore Orioles',
+    specialVenueDetails: {
+      name: 'Muncy Bank Ballpark at Historic Bowman Field',
+      address: '1700 W 4th St, Williamsport, PA 17701',
+      latitude: 41.24240118495514,
+      longitude: -77.04707074395209,
+    },
   },
   {
     date: '2022-08-22',
@@ -11983,7 +11997,7 @@ const mlbScheduleAugust2022 = [
   },
 ];
 
-const mlbScheduleSeptember2022 = [
+const mlbScheduleSeptember2022: GameDetails[] = [
   {
     date: '2022-09-01',
     time: '1:10 PM',
@@ -14380,7 +14394,7 @@ const mlbScheduleSeptember2022 = [
   },
 ];
 
-const mlbScheduleOctober2022 = [
+const mlbScheduleOctober2022: GameDetails[] = [
   {
     date: '2022-10-01',
     time: '1:05 PM',
@@ -14851,7 +14865,7 @@ const mlbScheduleOctober2022 = [
   },
 ];
 
-export const mlbSchedule2022 = [
+export const mlbSchedule2022: GameDetails[] = [
   ...mlbScheduleApril2022,
   ...mlbScheduleMay2022,
   ...mlbScheduleJune2022,
