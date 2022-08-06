@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import {
   MlbDivision,
   MlbLeague,
-} from 'src/assets/baseball/mlb/enums/mlb-enums';
-import { mlbTeamDetails } from 'src/assets/baseball/mlb/team-details/mlb-team-details';
+} from '../../assets/baseball/mlb/enums/mlb-enums';
+import { mlbTeamDetails } from '../../assets/baseball/mlb/team-details/mlb-team-details';
+import { mlbSchedule2022 } from '../../assets/baseball/mlb/schedule/mlb-schedule-2022';
+import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
 @Component({
   selector: 'app-mlb',
@@ -11,7 +14,16 @@ import { mlbTeamDetails } from 'src/assets/baseball/mlb/team-details/mlb-team-de
   styleUrls: ['./mlb.component.css'],
 })
 export class MlbComponent {
-  constructor() {}
+  /**
+   * Map View Type
+   */
+  scheduleMapView = false;
+  teamsMapView = true;
+
+  /**
+   * Filters
+   */
+  displayFilterOverlay = false;
 
   /** League Filters */
   americanLeagueFilterSelected = true;
@@ -29,23 +41,32 @@ export class MlbComponent {
   nlCentralDivisionFilterSelected = true;
   nlWestDivisionFilterSelected = true;
 
-  displayFilterOverlay = false;
+  /** Date Filter */
+  seasonStartDate = new Date('April 7, 2022');
+  seasonEndDate = new Date('October 5, 2023');
 
-  mapView = true;
+  filterDate = this.getDefaultFilterDate();
+  initialDefaultFilterDate = new FormControl(this.filterDate);
 
-  iconMap = this.getIconMap();
+  /**
+   * Icon Maps
+   */
+  iconObjectMap = this.getIconObjectMap();
+  iconPathMap = this.getIconPathMap();
 
-  getMlbTeamDetails() {
-    const selectedLeagues = this.getSelectedLeagues();
-    const selectedDivisions = this.getSelectedDivisions();
+  /**
+   * Schedule
+   */
+  mlbSchedule = this.getMlbScheduleWithGameLocation();
 
-    const filteredMlbTeams = mlbTeamDetails.filter((team) => {
-      return (
-        selectedLeagues.includes(team.league as any) &&
-        selectedDivisions.includes(team.division as any)
-      );
-    });
-    return filteredMlbTeams;
+  onScheduleMapViewSelected() {
+    this.scheduleMapView = true;
+    this.teamsMapView = false;
+  }
+
+  onTeamsMapViewSelected() {
+    this.teamsMapView = true;
+    this.scheduleMapView = false;
   }
 
   onAmericanLeagueFilterChanged(value: boolean) {
@@ -108,8 +129,81 @@ export class MlbComponent {
     this.nlWestDivisionFilterSelected = value;
   }
 
-  onMapViewChanged(value: boolean) {
-    this.mapView = value;
+  onSelectedDateChanged($event: any) {
+    const selectedDate = new Date($event.target.value);
+
+    this.filterDate = selectedDate;
+
+    this.mlbSchedule = this.getMlbScheduleWithGameLocation();
+  }
+
+  getMlbTeamDetails() {
+    const selectedLeagues = this.getSelectedLeagues();
+    const selectedDivisions = this.getSelectedDivisions();
+
+    const filteredMlbTeams = mlbTeamDetails.filter((team) => {
+      return (
+        selectedLeagues.includes(team.league as any) &&
+        selectedDivisions.includes(team.division as any)
+      );
+    });
+    return filteredMlbTeams;
+  }
+
+  getMlbScheduleWithGameLocation() {
+    const filterDateString = this.convertDateToStringFormat(this.filterDate);
+
+    const mlbTeamHashMap = this.createMlbTeamHashMapByName();
+    const gamesForASpecificDate = this.getGamesByDate(filterDateString);
+
+    const getMlbScheduleWithGameLocation = [];
+    for (const game of gamesForASpecificDate) {
+      const homeTeamData: TeamDetails = mlbTeamHashMap.get(
+        game.homeTeam
+      ) as TeamDetails;
+
+      const awayTeamData: TeamDetails = mlbTeamHashMap.get(
+        game.awayTeam
+      ) as TeamDetails;
+
+      if (homeTeamData === undefined || awayTeamData === undefined) {
+        throw new Error('homeTeamData/awayTeamData is undefined');
+      }
+
+      getMlbScheduleWithGameLocation.push({
+        gameTime: game.time,
+        gameVenueName: homeTeamData.venue.name,
+        gameVenueAddress: homeTeamData.venue.address,
+        gameVenueLatitude: homeTeamData.venue.latitude,
+        gameVenueLongitude: homeTeamData.venue.longitude,
+
+        homeTeam: homeTeamData.name,
+        homeTeamAbbreviation: homeTeamData.abbreviation,
+        awayTeam: awayTeamData.name,
+        awayTeamAbbreviation: awayTeamData.abbreviation,
+      });
+    }
+
+    return getMlbScheduleWithGameLocation;
+  }
+
+  private getDefaultFilterDate(): Date {
+    const todaysDate = new Date();
+
+    this.filterDate = todaysDate;
+
+    if (todaysDate <= this.seasonStartDate) {
+      this.filterDate = this.seasonStartDate;
+    } else if (
+      todaysDate >= this.seasonStartDate &&
+      todaysDate <= this.seasonEndDate
+    ) {
+      this.filterDate = todaysDate;
+    } else if (todaysDate >= this.seasonEndDate) {
+      this.filterDate = this.seasonEndDate;
+    }
+
+    return this.filterDate;
   }
 
   private getSelectedLeagues() {
@@ -156,7 +250,7 @@ export class MlbComponent {
     return selectedDivisions;
   }
 
-  private getIconMap() {
+  private getIconObjectMap() {
     const iconMap = new Map();
 
     for (const team of mlbTeamDetails) {
@@ -170,5 +264,60 @@ export class MlbComponent {
     }
 
     return iconMap;
+  }
+
+  private getIconPathMap() {
+    const iconMap = new Map();
+
+    for (const team of mlbTeamDetails) {
+      iconMap.set(
+        team.abbreviation,
+        `../../assets/baseball/mlb/svg/${team.icon.svgTitle}.svg`
+      );
+    }
+
+    return iconMap;
+  }
+
+  private createMlbTeamHashMapByName() {
+    const teamMap = new Map<string, TeamDetails>();
+
+    for (const team of mlbTeamDetails) {
+      teamMap.set(team.name, team);
+    }
+
+    return teamMap;
+  }
+
+  private getGamesByDate(selectedDate: string) {
+    const games = mlbSchedule2022.filter((game) => {
+      return game.date === selectedDate;
+    });
+
+    return games;
+  }
+
+  private convertDateToStringFormat(date: Date) {
+    /** Year */
+    const dateYear = date.getFullYear().toString();
+
+    /** Month */
+    const dateMonthNumeric = date.getMonth() + 1;
+
+    let dateMonth = dateMonthNumeric.toString();
+    if (dateMonth.length === 1) {
+      dateMonth = `0${dateMonth}`;
+    }
+
+    /** Day */
+    let dateDay = date.getDate().toString();
+
+    if (dateDay.length === 1) {
+      dateDay = `0${dateDay}`;
+    }
+
+    const dateString = `${dateYear}-${dateMonth}-${dateDay}`;
+
+    return dateString;
   }
 }

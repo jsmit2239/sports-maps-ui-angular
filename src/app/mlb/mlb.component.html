@@ -1,6 +1,7 @@
 <div class="league-page-container">
   <div class="map-options-bar-container">
     <button
+      [disabled]="scheduleMapView"
       class="filter-button"
       (click)="displayFilterOverlay = !displayFilterOverlay"
       cdkOverlayOrigin
@@ -106,16 +107,29 @@
       </div>
     </ng-template>
 
-    <mat-slide-toggle
-      class="map-slide"
-      #mapViewToggle
-      [checked]="mapView"
-      (change)="onMapViewChanged(mapViewToggle.checked)"
-      >Map</mat-slide-toggle
-    >
+    <mat-form-field appearance="fill">
+      <input
+        matInput
+        [disabled]="teamsMapView"
+        [min]="seasonStartDate"
+        [max]="seasonEndDate"
+        [matDatepicker]="picker"
+        [value]="initialDefaultFilterDate.value"
+        (dateChange)="onSelectedDateChanged($event)"
+      />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <button class="filter-button" (click)="onTeamsMapViewSelected()">
+      Teams
+    </button>
+    <button class="filter-button" (click)="onScheduleMapViewSelected()">
+      Schedule
+    </button>
   </div>
 
-  <div class="map-container" *ngIf="mapView">
+  <!-- <div class="map-container" *ngIf="mapView">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
       <agm-marker
         *ngFor="let team of getMlbTeamDetails(); let i = index"
@@ -144,5 +158,41 @@
         </tr>
       </tbody>
     </table>
+  </div> -->
+
+  <div class="map-container">
+    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
+      <div *ngIf="teamsMapView">
+        <agm-marker
+          *ngFor="let team of getMlbTeamDetails(); let i = index"
+          [latitude]="team.venue.latitude"
+          [longitude]="team.venue.longitude"
+          [iconUrl]="$any(iconObjectMap.get(team.abbreviation))"
+        >
+        </agm-marker>
+      </div>
+      <div *ngIf="scheduleMapView">
+        <agm-marker
+          *ngFor="let game of mlbSchedule; let i = index"
+          [latitude]="game.gameVenueLatitude"
+          [longitude]="game.gameVenueLongitude"
+        >
+          <agm-info-window [disableAutoPan]="false" [isOpen]="true">
+            <div class="center-images">
+              <img
+                class="resize"
+                [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))"
+              />
+              <img
+                class="resize"
+                [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
+              />
+            </div>
+            <p class="schedule-text">{{ game.gameTime }} ET</p>
+            <p class="schedule-text">{{ game.gameVenueName }}</p>
+          </agm-info-window>
+        </agm-marker>
+      </div>
+    </agm-map>
   </div>
 </div>
