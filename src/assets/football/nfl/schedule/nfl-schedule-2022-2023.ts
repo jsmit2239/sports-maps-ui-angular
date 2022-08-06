@@ -1,4 +1,4 @@
-export const nflSchedule2022to2023 = [
+const nflScheduleSeptember2022to2023 = [
   {
     date: '2022-09-08',
     time: '8:20 PM',
@@ -293,6 +293,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Miami Dolphins',
     homeTeam: 'Cincinnati Bengals',
   },
+];
+
+const nflScheduleOctober2022to2023 = [
   {
     date: '2022-10-02',
     time: '9:30 AM',
@@ -737,6 +740,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Cincinnati Bengals',
     homeTeam: 'Cleveland Browns',
   },
+];
+
+const nflScheduleNovember2022to2023 = [
   {
     date: '2022-11-03',
     time: '8:15 PM',
@@ -1079,6 +1085,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Pittsburgh Steelers',
     homeTeam: 'Indianapolis Colts',
   },
+];
+
+const nflScheduleDecember2022to2023 = [
   {
     date: '2022-12-01',
     time: '8:15 PM',
@@ -1445,6 +1454,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Dallas Cowboys',
     homeTeam: 'Tennessee Titans',
   },
+];
+
+const nflScheduleJanuary2022to2023 = [
   {
     date: '2023-01-01',
     time: '1:00 PM',
@@ -1631,4 +1643,12 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Dallas Cowboys',
     homeTeam: 'Washington Commanders',
   },
+];
+
+export const nflSchedule2022to2023 = [
+  ...nflScheduleSeptember2022to2023,
+  ...nflScheduleOctober2022to2023,
+  ...nflScheduleNovember2022to2023,
+  ...nflScheduleDecember2022to2023,
+  ...nflScheduleJanuary2022to2023,
 ];

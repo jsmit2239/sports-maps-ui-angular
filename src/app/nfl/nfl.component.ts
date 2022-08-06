@@ -74,19 +74,6 @@ export class NflComponent {
     this.scheduleMapView = false;
   }
 
-  // getNflTeamDetails() {
-  //   const selectedConferences = this.getSelectedConferences();
-  //   const selectedDivisions = this.getSelectedDivisions();
-
-  //   const filteredNflTeams = nflTeamDetails.filter((team) => {
-  //     return (
-  //       selectedConferences.includes(team.conference as any) &&
-  //       selectedDivisions.includes(team.division as any)
-  //     );
-  //   });
-  //   return filteredNflTeams;
-  // }
-
   onAfcConferenceFilterChanged(value: boolean) {
     this.afcConferenceFilterSelected = value;
 
@@ -287,21 +274,6 @@ export class NflComponent {
 
     return selectedDivisions;
   }
-  // private getIconMap() {
-  //   const iconMap = new Map();
-
-  //   for (const team of nflTeamDetails) {
-  //     iconMap.set(team.abbreviation, {
-  //       url: `../../assets/football/nfl/svg/${team.icon.svgTitle}.svg`,
-  //       scaledSize: {
-  //         width: 60,
-  //         height: 60,
-  //       },
-  //     });
-  //   }
-
-  //   return iconMap;
-  // }
 
   private getIconObjectMap() {
     const iconMap = new Map();

@@ -141,37 +141,6 @@
     </p>
   </div>
 
-  <!-- <div class="map-container" *ngIf="mapView">
-    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
-      <agm-marker
-        *ngFor="let team of getMlbTeamDetails(); let i = index"
-        [latitude]="team.venue.latitude"
-        [longitude]="team.venue.longitude"
-        [iconUrl]="$any(iconMap.get(team.abbreviation))"
-      >
-      </agm-marker>
-    </agm-map>
-  </div>
-
-  <div class="table-container" *ngIf="!mapView">
-    <table class="address-table">
-      <thead>
-        <tr>
-          <th>Team</th>
-          <th>Stadium</th>
-          <th>Address</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let team of getMlbTeamDetails()">
-          <td>{{ team.name }}</td>
-          <td>{{ team.venue.name }}</td>
-          <td>{{ team.venue.address }}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div> -->
-
   <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
       <div *ngIf="teamsMapView">

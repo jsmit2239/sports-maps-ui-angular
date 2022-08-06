@@ -1,4 +1,4 @@
-export const mlbSchedule2022 = [
+const mlbScheduleApril2022 = [
   {
     date: '2022-04-07',
     time: '2:20 PM',
@@ -1967,6 +1967,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Detroit Tigers',
     homeTeam: 'Los Angeles Dodgers',
   },
+];
+
+const mlbScheduleMay2022 = [
   {
     date: '2022-05-01',
     time: '1:05 PM',
@@ -4613,6 +4616,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Miami Marlins',
     homeTeam: 'Colorado Rockies',
   },
+];
+
+const mlbScheduleJune2022 = [
   {
     date: '2022-06-01',
     time: '1:10 PM',
@@ -7055,6 +7061,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Oakland Athletics',
     homeTeam: 'Seattle Mariners',
   },
+];
+
+const mlbScheduleJuly2022 = [
   {
     date: '2022-07-01',
     time: '2:20 PM',
@@ -9431,6 +9440,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Chicago Cubs',
     homeTeam: 'San Francisco Giants',
   },
+];
+
+const mlbScheduleAugust2022 = [
   {
     date: '2022-08-01',
     time: '6:40 PM',
@@ -11969,6 +11981,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Philadelphia Phillies',
     homeTeam: 'Arizona Diamondbacks',
   },
+];
+
+const mlbScheduleSeptember2022 = [
   {
     date: '2022-09-01',
     time: '1:10 PM',
@@ -14363,6 +14378,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Arizona Diamondbacks',
     homeTeam: 'San Francisco Giants',
   },
+];
+
+const mlbScheduleOctober2022 = [
   {
     date: '2022-10-01',
     time: '1:05 PM',
@@ -14831,4 +14849,14 @@ export const mlbSchedule2022 = [
     awayTeam: 'Colorado Rockies',
     homeTeam: 'Los Angeles Dodgers',
   },
+];
+
+export const mlbSchedule2022 = [
+  ...mlbScheduleApril2022,
+  ...mlbScheduleMay2022,
+  ...mlbScheduleJune2022,
+  ...mlbScheduleJuly2022,
+  ...mlbScheduleAugust2022,
+  ...mlbScheduleSeptember2022,
+  ...mlbScheduleOctober2022,
 ];
