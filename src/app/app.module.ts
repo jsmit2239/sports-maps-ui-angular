@@ -23,6 +23,10 @@ import { HttpRequestsService } from './http-requests/http-requests.service';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { AhlComponent } from './ahl/ahl.component';
 import { NhlScheduleComponent } from './nhl-schedule/nhl-schedule.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -52,6 +56,10 @@ import { NhlScheduleComponent } from './nhl-schedule/nhl-schedule.component';
     HttpClientModule,
     MatIconModule,
     OverlayModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatNativeDateModule,
+    MatInputModule,
   ],
   providers: [HttpRequestsService],
   bootstrap: [AppComponent],

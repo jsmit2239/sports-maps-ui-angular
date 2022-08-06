@@ -93,6 +93,19 @@
       (change)="onMapViewChanged(mapViewToggle.checked)"
       >Map</mat-slide-toggle
     >
+
+    <mat-form-field appearance="fill">
+      <mat-label>Value binding</mat-label>
+      <input
+        matInput
+        [matDatepicker]="picker3"
+        [value]="date.value"
+        (dateChange)="dateChanged($event)"
+      />
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+      <mat-datepicker #picker3></mat-datepicker>
+    </mat-form-field>
   </div>
 
   <div class="map-container" *ngIf="mapView">

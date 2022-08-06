@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import {
   NhlConference,
   NhlDivision,
@@ -37,6 +38,11 @@ export class NhlComponent {
   iconMapByAbbreviation = this.getIconMapByAbbreviation();
 
   nhlSchedule = this.getNhlScheduleWithGameLocation();
+
+  date = new FormControl(new Date());
+  serializedDate = new FormControl(new Date().toISOString());
+
+  filterDate = '2022-11-26';
 
   getNhlTeamDetails() {
     const selectedConferences = this.getSelectedConferences();
@@ -158,6 +164,8 @@ export class NhlComponent {
   getNhlScheduleWithGameLocation() {
     const selectedDate = '2022-11-26';
 
+    // const selectedDate = this.filterDate as any;
+
     const nhlTeamHashMap = this.createNhlTeamHashMapByName();
     const gamesForASpecificDate = this.getGamesByDate(selectedDate);
 
@@ -221,5 +229,12 @@ export class NhlComponent {
     }
 
     return iconMap;
+  }
+
+  dateChanged($event: any) {
+    this.filterDate = $event.target.value;
+
+    console.log($event.target.value);
+    console.log(typeof $event.target.value);
   }
 }
