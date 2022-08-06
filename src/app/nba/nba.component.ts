@@ -1,9 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
+
 import {
   NbaConference,
   NbaDivision,
-} from 'src/assets/basketball/nba/enums/nba-enum';
-import { nbaTeamDetails } from 'src/assets/basketball/nba/team-details/nba-team-details';
+} from '../../assets/basketball/nba/enums/nba-enum';
+import { nbaTeamDetails } from '../../assets/basketball/nba/team-details/nba-team-details';
+import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
+import { nbaSchedule2022to2023 } from '../../assets/basketball/nba/schedule/nba-schedule-2022-2023';
 
 @Component({
   selector: 'app-nba',
@@ -11,7 +15,19 @@ import { nbaTeamDetails } from 'src/assets/basketball/nba/team-details/nba-team-
   styleUrls: ['./nba.component.css'],
 })
 export class NbaComponent {
-  constructor() {}
+  /**
+   * Map View Type
+   */
+  scheduleMapView = false;
+  teamsMapView = true;
+
+  /** Offseason View */
+  scheduleMapViewAvailable = false;
+
+  /**
+   * Filters
+   */
+  displayFilterOverlay = false;
 
   /** Conference Filters */
   easternConferenceFilterSelected = true;
@@ -29,23 +45,32 @@ export class NbaComponent {
   pacificDivisionFilterSelected = true;
   southwestDivisionFilterSelected = true;
 
-  displayFilterOverlay = false;
+  /** Date Filter */
+  seasonStartDate = new Date('January 1, 2000');
+  seasonEndDate = new Date('January 1, 2000');
 
-  mapView = true;
+  filterDate = this.getDefaultFilterDate();
+  initialDefaultFilterDate = new FormControl(this.filterDate);
 
-  iconMap = this.getIconMap();
+  /**
+   * Icon Maps
+   */
+  iconObjectMap = this.getIconObjectMap();
+  iconPathMap = this.getIconPathMap();
 
-  getNbaTeamDetails() {
-    const selectedConferences = this.getSelectedConferences();
-    const selectedDivisions = this.getSelectedDivisions();
+  /**
+   * Schedule
+   */
+  nbaSchedule = this.getNbaScheduleWithGameLocation();
 
-    const filteredNbaTeams = nbaTeamDetails.filter((team) => {
-      return (
-        selectedConferences.includes(team.conference as any) &&
-        selectedDivisions.includes(team.division as any)
-      );
-    });
-    return filteredNbaTeams;
+  onScheduleMapViewSelected() {
+    this.scheduleMapView = true;
+    this.teamsMapView = false;
+  }
+
+  onTeamsMapViewSelected() {
+    this.teamsMapView = true;
+    this.scheduleMapView = false;
   }
 
   onEasternConferenceFilterChanged(value: boolean) {
@@ -108,8 +133,81 @@ export class NbaComponent {
     this.southwestDivisionFilterSelected = value;
   }
 
-  onMapViewChanged(value: boolean) {
-    this.mapView = value;
+  onSelectedDateChanged($event: any) {
+    const selectedDate = new Date($event.target.value);
+
+    this.filterDate = selectedDate;
+
+    this.nbaSchedule = this.getNbaScheduleWithGameLocation();
+  }
+
+  getNbaTeamDetails() {
+    const selectedConferences = this.getSelectedConferences();
+    const selectedDivisions = this.getSelectedDivisions();
+
+    const filteredNbaTeams = nbaTeamDetails.filter((team) => {
+      return (
+        selectedConferences.includes(team.conference as any) &&
+        selectedDivisions.includes(team.division as any)
+      );
+    });
+    return filteredNbaTeams;
+  }
+
+  getNbaScheduleWithGameLocation() {
+    const filterDateString = this.convertDateToStringFormat(this.filterDate);
+
+    const nbaTeamHashMap = this.createNbaTeamHashMapByName();
+    const gamesForASpecificDate = this.getGamesByDate(filterDateString);
+
+    const getNbaScheduleWithGameLocation = [];
+    for (const game of gamesForASpecificDate) {
+      const homeTeamData: TeamDetails = nbaTeamHashMap.get(
+        game.homeTeam
+      ) as TeamDetails;
+
+      const awayTeamData: TeamDetails = nbaTeamHashMap.get(
+        game.awayTeam
+      ) as TeamDetails;
+
+      if (homeTeamData === undefined || awayTeamData === undefined) {
+        throw new Error('homeTeamData/awayTeamData is undefined');
+      }
+
+      getNbaScheduleWithGameLocation.push({
+        gameTime: game.time,
+        gameVenueName: homeTeamData.venue.name,
+        gameVenueAddress: homeTeamData.venue.address,
+        gameVenueLatitude: homeTeamData.venue.latitude,
+        gameVenueLongitude: homeTeamData.venue.longitude,
+
+        homeTeam: homeTeamData.name,
+        homeTeamAbbreviation: homeTeamData.abbreviation,
+        awayTeam: awayTeamData.name,
+        awayTeamAbbreviation: awayTeamData.abbreviation,
+      });
+    }
+
+    return getNbaScheduleWithGameLocation;
+  }
+
+  private getDefaultFilterDate(): Date {
+    const todaysDate = new Date();
+
+    this.filterDate = todaysDate;
+
+    if (todaysDate <= this.seasonStartDate) {
+      this.filterDate = this.seasonStartDate;
+    } else if (
+      todaysDate >= this.seasonStartDate &&
+      todaysDate <= this.seasonEndDate
+    ) {
+      this.filterDate = todaysDate;
+    } else if (todaysDate >= this.seasonEndDate) {
+      this.filterDate = this.seasonEndDate;
+    }
+
+    return this.filterDate;
   }
 
   private getSelectedConferences() {
@@ -156,7 +254,7 @@ export class NbaComponent {
     return selectedDivisions;
   }
 
-  private getIconMap() {
+  private getIconObjectMap() {
     const iconMap = new Map();
 
     for (const team of nbaTeamDetails) {
@@ -170,5 +268,60 @@ export class NbaComponent {
     }
 
     return iconMap;
+  }
+
+  private getIconPathMap() {
+    const iconMap = new Map();
+
+    for (const team of nbaTeamDetails) {
+      iconMap.set(
+        team.abbreviation,
+        `../../assets/basketball/nba/svg/${team.icon.svgTitle}.svg`
+      );
+    }
+
+    return iconMap;
+  }
+
+  private createNbaTeamHashMapByName() {
+    const teamMap = new Map<string, TeamDetails>();
+
+    for (const team of nbaTeamDetails) {
+      teamMap.set(team.name, team);
+    }
+
+    return teamMap;
+  }
+
+  private getGamesByDate(selectedDate: string) {
+    const games = nbaSchedule2022to2023.filter((game) => {
+      return game.date === selectedDate;
+    });
+
+    return games;
+  }
+
+  private convertDateToStringFormat(date: Date) {
+    /** Year */
+    const dateYear = date.getFullYear().toString();
+
+    /** Month */
+    const dateMonthNumeric = date.getMonth() + 1;
+
+    let dateMonth = dateMonthNumeric.toString();
+    if (dateMonth.length === 1) {
+      dateMonth = `0${dateMonth}`;
+    }
+
+    /** Day */
+    let dateDay = date.getDate().toString();
+
+    if (dateDay.length === 1) {
+      dateDay = `0${dateDay}`;
+    }
+
+    const dateString = `${dateYear}-${dateMonth}-${dateDay}`;
+
+    return dateString;
   }
 }

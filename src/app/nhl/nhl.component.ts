@@ -20,6 +20,9 @@ export class NhlComponent {
   scheduleMapView = false;
   teamsMapView = true;
 
+  /** Offseason View */
+  scheduleMapViewAvailable = true;
+
   /**
    * Filters
    */

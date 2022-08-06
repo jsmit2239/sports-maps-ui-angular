@@ -15,14 +15,9 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AgmCoreModule } from '@agm/core';
 import { NbaComponent } from './nba/nba.component';
 import { NflComponent } from './nfl/nfl.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { HttpRequestsComponent } from './http-requests/http-requests.component';
-import { ParentChildComponent } from './parent-child/parent-child.component';
 import { HttpClientModule } from '@angular/common/http';
-import { HttpRequestsService } from './http-requests/http-requests.service';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { AhlComponent } from './ahl/ahl.component';
-import { NhlScheduleComponent } from './nhl-schedule/nhl-schedule.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatNativeDateModule } from '@angular/material/core';
@@ -36,11 +31,7 @@ import { MatInputModule } from '@angular/material/input';
     MlbComponent,
     NbaComponent,
     NflComponent,
-    LandingPageComponent,
-    HttpRequestsComponent,
-    ParentChildComponent,
     AhlComponent,
-    NhlScheduleComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,7 +52,7 @@ import { MatInputModule } from '@angular/material/input';
     MatNativeDateModule,
     MatInputModule,
   ],
-  providers: [HttpRequestsService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

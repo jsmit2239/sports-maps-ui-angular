@@ -20,6 +20,9 @@ export class MlbComponent {
   scheduleMapView = false;
   teamsMapView = true;
 
+  /** Offseason View */
+  scheduleMapViewAvailable = true;
+
   /**
    * Filters
    */
