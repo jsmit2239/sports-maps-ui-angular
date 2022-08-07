@@ -87,7 +87,7 @@
       </div>
     </ng-template>
 
-    <mat-form-field appearance="fill">
+    <mat-form-field *ngIf="scheduleMapViewAvailable" appearance="fill">
       <input
         matInput
         [disabled]="teamsMapView"
@@ -101,12 +101,24 @@
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <button class="filter-button" (click)="onTeamsMapViewSelected()">
+    <button
+      *ngIf="scheduleMapViewAvailable"
+      class="filter-button"
+      (click)="onTeamsMapViewSelected()"
+    >
       Teams
     </button>
-    <button class="filter-button" (click)="onScheduleMapViewSelected()">
+    <button
+      *ngIf="scheduleMapViewAvailable"
+      class="filter-button"
+      (click)="onScheduleMapViewSelected()"
+    >
       Schedule
     </button>
+
+    <p *ngIf="!scheduleMapViewAvailable">
+      Note: Currently Awaiting the 2022-2023 Season Schedule Release
+    </p>
   </div>
 
   <div class="map-container">

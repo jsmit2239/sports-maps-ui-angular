@@ -1,4 +1,6 @@
-export const mlbSchedule2022 = [
+import { GameDetails } from '../../../shared/interfaces/game-details-interface';
+
+const mlbScheduleApril2022: GameDetails[] = [
   {
     date: '2022-04-07',
     time: '2:20 PM',
@@ -1967,6 +1969,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Detroit Tigers',
     homeTeam: 'Los Angeles Dodgers',
   },
+];
+
+const mlbScheduleMay2022: GameDetails[] = [
   {
     date: '2022-05-01',
     time: '1:05 PM',
@@ -4613,6 +4618,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Miami Marlins',
     homeTeam: 'Colorado Rockies',
   },
+];
+
+const mlbScheduleJune2022: GameDetails[] = [
   {
     date: '2022-06-01',
     time: '1:10 PM',
@@ -7055,6 +7063,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Oakland Athletics',
     homeTeam: 'Seattle Mariners',
   },
+];
+
+const mlbScheduleJuly2022: GameDetails[] = [
   {
     date: '2022-07-01',
     time: '2:20 PM',
@@ -9431,6 +9442,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Chicago Cubs',
     homeTeam: 'San Francisco Giants',
   },
+];
+
+const mlbScheduleAugust2022: GameDetails[] = [
   {
     date: '2022-08-01',
     time: '6:40 PM',
@@ -10306,6 +10320,12 @@ export const mlbSchedule2022 = [
     time: '7:15 PM',
     awayTeam: 'Chicago Cubs',
     homeTeam: 'Cincinnati Reds',
+    specialVenueDetails: {
+      name: 'MLB Field of Dreams Stadium',
+      address: '1200 Field of Dreams Wy, Dyersville, IA 52040',
+      latitude: 42.499327835556365,
+      longitude: -91.05844755037604,
+    },
   },
   {
     date: '2022-08-12',
@@ -11182,6 +11202,12 @@ export const mlbSchedule2022 = [
     time: '7:10 PM',
     awayTeam: 'Boston Red Sox',
     homeTeam: 'Baltimore Orioles',
+    specialVenueDetails: {
+      name: 'Muncy Bank Ballpark at Historic Bowman Field',
+      address: '1700 W 4th St, Williamsport, PA 17701',
+      latitude: 41.24240118495514,
+      longitude: -77.04707074395209,
+    },
   },
   {
     date: '2022-08-22',
@@ -11969,6 +11995,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Philadelphia Phillies',
     homeTeam: 'Arizona Diamondbacks',
   },
+];
+
+const mlbScheduleSeptember2022: GameDetails[] = [
   {
     date: '2022-09-01',
     time: '1:10 PM',
@@ -14363,6 +14392,9 @@ export const mlbSchedule2022 = [
     awayTeam: 'Arizona Diamondbacks',
     homeTeam: 'San Francisco Giants',
   },
+];
+
+const mlbScheduleOctober2022: GameDetails[] = [
   {
     date: '2022-10-01',
     time: '1:05 PM',
@@ -14831,4 +14863,14 @@ export const mlbSchedule2022 = [
     awayTeam: 'Colorado Rockies',
     homeTeam: 'Los Angeles Dodgers',
   },
+];
+
+export const mlbSchedule2022: GameDetails[] = [
+  ...mlbScheduleApril2022,
+  ...mlbScheduleMay2022,
+  ...mlbScheduleJune2022,
+  ...mlbScheduleJuly2022,
+  ...mlbScheduleAugust2022,
+  ...mlbScheduleSeptember2022,
+  ...mlbScheduleOctober2022,
 ];

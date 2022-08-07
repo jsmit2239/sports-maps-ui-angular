@@ -15,6 +15,7 @@ import {
   AhlDivision,
 } from 'src/assets/hockey/ahl/enums/ahl-enum';
 import { NhlConference, NhlDivision } from '../../hockey/nhl/enums/nhl-enum';
+import { VenueDetails } from './venue-details-interface';
 
 type ValidConferencesType =
   | NhlConference
@@ -37,13 +38,6 @@ export interface TeamDetails {
   division?: ValidDivisionsType;
   venue: VenueDetails;
   icon: IconDetails;
-}
-
-interface VenueDetails {
-  name: string;
-  address: string;
-  latitude: number;
-  longitude: number;
 }
 
 interface IconDetails {

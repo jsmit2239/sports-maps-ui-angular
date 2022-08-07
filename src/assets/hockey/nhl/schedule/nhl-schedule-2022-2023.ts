@@ -1,15 +1,29 @@
-const nhlScheduleOctober2022To2023: any = [
+import { GameDetails } from '../../../shared/interfaces/game-details-interface';
+
+const nhlScheduleOctober2022To2023: GameDetails[] = [
   {
     date: '2022-10-07',
     time: '2:00 PM',
     awayTeam: 'San Jose Sharks',
     homeTeam: 'Nashville Predators',
+    specialVenueDetails: {
+      name: 'O2 Arena',
+      address: 'Českomoravská 2345/17, 190 00 Praha 9, Czechia',
+      latitude: 50.10482328591732,
+      longitude: 14.493780162987806,
+    },
   },
   {
     date: '2022-10-08',
     time: '2:00 PM',
     awayTeam: 'Nashville Predators',
     homeTeam: 'San Jose Sharks',
+    specialVenueDetails: {
+      name: 'O2 Arena',
+      address: 'Českomoravská 2345/17, 190 00 Praha 9, Czechia',
+      latitude: 50.10482328591732,
+      longitude: 14.493780162987806,
+    },
   },
   {
     date: '2022-10-11',
@@ -877,7 +891,7 @@ const nhlScheduleOctober2022To2023: any = [
   },
 ];
 
-const nhlScheduleNovember2022To2023: any = [
+const nhlScheduleNovember2022To2023: GameDetails[] = [
   {
     date: '2022-11-01',
     time: '7:00 PM',
@@ -1045,6 +1059,12 @@ const nhlScheduleNovember2022To2023: any = [
     time: '1:00 PM',
     awayTeam: 'Columbus Blue Jackets',
     homeTeam: 'Colorado Avalanche',
+    specialVenueDetails: {
+      name: 'Nokia Arena',
+      address: 'Kansikatu 3, 33100 Tampere, Finland',
+      latitude: 61.494747282014174,
+      longitude: 23.773292499996884,
+    },
   },
   {
     date: '2022-11-04',
@@ -1057,6 +1077,12 @@ const nhlScheduleNovember2022To2023: any = [
     time: '1:00 PM',
     awayTeam: 'Colorado Avalanche',
     homeTeam: 'Columbus Blue Jackets',
+    specialVenueDetails: {
+      name: 'Nokia Arena',
+      address: 'Kansikatu 3, 33100 Tampere, Finland',
+      latitude: 61.494747282014174,
+      longitude: 23.773292499996884,
+    },
   },
   {
     date: '2022-11-05',
@@ -2188,7 +2214,7 @@ const nhlScheduleNovember2022To2023: any = [
   },
 ];
 
-const nhlScheduleDecember2022To2023: any = [
+const nhlScheduleDecember2022To2023: GameDetails[] = [
   {
     date: '2022-12-01',
     time: '7:00 PM',
@@ -3541,7 +3567,7 @@ const nhlScheduleDecember2022To2023: any = [
   },
 ];
 
-const nhlScheduleJanuary2022To2023: any = [
+const nhlScheduleJanuary2022To2023: GameDetails[] = [
   {
     date: '2023-01-01',
     time: '3:00 PM',
@@ -3577,6 +3603,12 @@ const nhlScheduleJanuary2022To2023: any = [
     time: '2:00 PM',
     awayTeam: 'Pittsburgh Penguins',
     homeTeam: 'Boston Bruins',
+    specialVenueDetails: {
+      name: 'Fenway Park',
+      address: '4 Jersey St, Boston, MA 02215',
+      latitude: 42.34671404417854,
+      longitude: -71.09721511933667,
+    },
   },
   {
     date: '2023-01-02',
@@ -4834,7 +4866,7 @@ const nhlScheduleJanuary2022To2023: any = [
   },
 ];
 
-const nhlScheduleFebruary2022To2023: any = [
+const nhlScheduleFebruary2022To2023: GameDetails[] = [
   {
     date: '2023-02-01',
     time: '7:00 PM',
@@ -5344,6 +5376,12 @@ const nhlScheduleFebruary2022To2023: any = [
     time: '8:00 PM',
     awayTeam: 'Washington Capitals',
     homeTeam: 'Carolina Hurricanes',
+    specialVenueDetails: {
+      name: 'Carter-Finley Stadium',
+      address: '4600 Trinity Rd, Raleigh, NC 27607',
+      latitude: 35.80089146760627,
+      longitude: -78.71960305092487,
+    },
   },
   {
     date: '2023-02-18',
@@ -5815,7 +5853,7 @@ const nhlScheduleFebruary2022To2023: any = [
   },
 ];
 
-const nhlScheduleMarch2022To2023: any = [
+const nhlScheduleMarch2022To2023: GameDetails[] = [
   {
     date: '2023-03-01',
     time: '7:30 PM',
@@ -7234,7 +7272,7 @@ const nhlScheduleMarch2022To2023: any = [
   },
 ];
 
-const nhlScheduleApril2022To2023: any = [
+const nhlScheduleApril2022To2023: GameDetails[] = [
   {
     date: '2023-04-01',
     time: '1:00 PM',
@@ -7891,7 +7929,7 @@ const nhlScheduleApril2022To2023: any = [
   },
 ];
 
-export const nhlSchedule2022to2023 = [
+export const nhlSchedule2022to2023: GameDetails[] = [
   ...nhlScheduleOctober2022To2023,
   ...nhlScheduleNovember2022To2023,
   ...nhlScheduleDecember2022To2023,

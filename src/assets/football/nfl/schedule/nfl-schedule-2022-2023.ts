@@ -1,4 +1,6 @@
-export const nflSchedule2022to2023 = [
+import { GameDetails } from '../../../shared/interfaces/game-details-interface';
+
+const nflScheduleSeptember2022to2023: GameDetails[] = [
   {
     date: '2022-09-08',
     time: '8:20 PM',
@@ -293,11 +295,20 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Miami Dolphins',
     homeTeam: 'Cincinnati Bengals',
   },
+];
+
+const nflScheduleOctober2022to2023: GameDetails[] = [
   {
     date: '2022-10-02',
     time: '9:30 AM',
     awayTeam: 'Minnesota Vikings',
     homeTeam: 'New Orleans Saints',
+    specialVenueDetails: {
+      name: 'Tottenham Hotspur Stadium',
+      address: '782 High Rd, London N17 0BX, United Kingdom',
+      latitude: 51.60430547878047,
+      longitude: -0.06619910813999202,
+    },
   },
   {
     date: '2022-10-02',
@@ -394,6 +405,12 @@ export const nflSchedule2022to2023 = [
     time: '9:30 AM',
     awayTeam: 'New York Giants',
     homeTeam: 'Green Bay Packers',
+    specialVenueDetails: {
+      name: 'Tottenham Hotspur Stadium',
+      address: '782 High Rd, London N17 0BX, United Kingdom',
+      latitude: 51.60430547878047,
+      longitude: -0.06619910813999202,
+    },
   },
   {
     date: '2022-10-09',
@@ -658,6 +675,12 @@ export const nflSchedule2022to2023 = [
     time: '9:30 AM',
     awayTeam: 'Denver Broncos',
     homeTeam: 'Jacksonville Jaguars',
+    specialVenueDetails: {
+      name: 'Wembley Stadium',
+      address: 'London HA9 0WS, United Kingdom',
+      latitude: 51.556097991359664,
+      longitude: -0.27962843960323225,
+    },
   },
   {
     date: '2022-10-30',
@@ -737,6 +760,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Cincinnati Bengals',
     homeTeam: 'Cleveland Browns',
   },
+];
+
+const nflScheduleNovember2022to2023: GameDetails[] = [
   {
     date: '2022-11-03',
     time: '8:15 PM',
@@ -826,6 +852,12 @@ export const nflSchedule2022to2023 = [
     time: '9:30 AM',
     awayTeam: 'Seattle Seahawks',
     homeTeam: 'Tampa Bay Buccaneers',
+    specialVenueDetails: {
+      name: 'Allianz Arena',
+      address: 'Werner-Heisenberg-Allee 25, 80939 München, Germany',
+      latitude: 48.21881395205393,
+      longitude: 11.624701844335885,
+    },
   },
   {
     date: '2022-11-13',
@@ -982,6 +1014,13 @@ export const nflSchedule2022to2023 = [
     time: '8:15 PM',
     awayTeam: 'San Francisco 49ers',
     homeTeam: 'Arizona Cardinals',
+    specialVenueDetails: {
+      name: 'Estadio Azteca',
+      address:
+        'Calz. de Tlalpan 3465, Sta. Úrsula Coapa, Coyoacán, 04650 Ciudad de México, CDMX, Mexico',
+      latitude: 19.302898706535025,
+      longitude: -99.1505357623313,
+    },
   },
   {
     date: '2022-11-24',
@@ -1079,6 +1118,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Pittsburgh Steelers',
     homeTeam: 'Indianapolis Colts',
   },
+];
+
+const nflScheduleDecember2022to2023: GameDetails[] = [
   {
     date: '2022-12-01',
     time: '8:15 PM',
@@ -1445,6 +1487,9 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Dallas Cowboys',
     homeTeam: 'Tennessee Titans',
   },
+];
+
+const nflScheduleJanuary2022to2023: GameDetails[] = [
   {
     date: '2023-01-01',
     time: '1:00 PM',
@@ -1631,4 +1676,12 @@ export const nflSchedule2022to2023 = [
     awayTeam: 'Dallas Cowboys',
     homeTeam: 'Washington Commanders',
   },
+];
+
+export const nflSchedule2022to2023: GameDetails[] = [
+  ...nflScheduleSeptember2022to2023,
+  ...nflScheduleOctober2022to2023,
+  ...nflScheduleNovember2022to2023,
+  ...nflScheduleDecember2022to2023,
+  ...nflScheduleJanuary2022to2023,
 ];

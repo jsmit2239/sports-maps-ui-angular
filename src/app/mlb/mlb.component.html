@@ -107,7 +107,7 @@
       </div>
     </ng-template>
 
-    <mat-form-field appearance="fill">
+    <mat-form-field *ngIf="scheduleMapViewAvailable" appearance="fill">
       <input
         matInput
         [disabled]="teamsMapView"
@@ -121,44 +121,25 @@
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <button class="filter-button" (click)="onTeamsMapViewSelected()">
+    <button
+      *ngIf="scheduleMapViewAvailable"
+      class="filter-button"
+      (click)="onTeamsMapViewSelected()"
+    >
       Teams
     </button>
-    <button class="filter-button" (click)="onScheduleMapViewSelected()">
+    <button
+      *ngIf="scheduleMapViewAvailable"
+      class="filter-button"
+      (click)="onScheduleMapViewSelected()"
+    >
       Schedule
     </button>
-  </div>
 
-  <!-- <div class="map-container" *ngIf="mapView">
-    <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
-      <agm-marker
-        *ngFor="let team of getMlbTeamDetails(); let i = index"
-        [latitude]="team.venue.latitude"
-        [longitude]="team.venue.longitude"
-        [iconUrl]="$any(iconMap.get(team.abbreviation))"
-      >
-      </agm-marker>
-    </agm-map>
+    <p *ngIf="!scheduleMapViewAvailable">
+      Note: Currently Awaiting the 2022-2023 Season Schedule Release
+    </p>
   </div>
-
-  <div class="table-container" *ngIf="!mapView">
-    <table class="address-table">
-      <thead>
-        <tr>
-          <th>Team</th>
-          <th>Stadium</th>
-          <th>Address</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let team of getMlbTeamDetails()">
-          <td>{{ team.name }}</td>
-          <td>{{ team.venue.name }}</td>
-          <td>{{ team.venue.address }}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div> -->
 
   <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
@@ -188,7 +169,12 @@
                 [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
               />
             </div>
-            <p class="schedule-text">{{ game.gameTime }} ET</p>
+            <p
+              *ngFor="let gameTime of game.gameTimes; let i = index"
+              class="schedule-text"
+            >
+              {{ gameTime }} ET
+            </p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
           </agm-info-window>
         </agm-marker>
