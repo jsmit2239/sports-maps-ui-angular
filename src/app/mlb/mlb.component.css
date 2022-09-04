@@ -8,3 +8,8 @@
   font-weight: bold;
   font-size: small;
 }
+
+.datepicker-test {
+  position: absolute;
+  float: right;
+}

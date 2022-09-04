@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -24,7 +25,7 @@ agm-map {
 * League Page Container Style
 */
 .league-page-container {
-  width: 95%;
+  width: 97%;
   margin-left: auto;
   margin-right: auto;
   /* padding: 10px; */
@@ -55,6 +56,7 @@ agm-map {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   border-radius: 5px 5px 0 0;
 }
+
 .filter-checkbox {
   display: block;
 }
@@ -142,4 +144,10 @@ agm-map {
 
 .address-table tbody tr:last-of-type {
   border-bottom: 2px solid lightgrey;
+}
+
+.is-datepicker-invisible {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
