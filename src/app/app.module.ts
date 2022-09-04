@@ -22,11 +22,13 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
+import { LeagueBarComponent } from './league-bar/league-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
+    LeagueBarComponent,
     NhlComponent,
     MlbComponent,
     NbaComponent,
@@ -55,4 +57,4 @@ import { MatInputModule } from '@angular/material/input';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

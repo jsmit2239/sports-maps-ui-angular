@@ -1,140 +1,78 @@
 <div class="league-page-container">
   <div class="map-options-bar-container">
-    <button
-      [disabled]="scheduleMapView"
-      class="filter-button"
-      (click)="displayFilterOverlay = !displayFilterOverlay"
-      cdkOverlayOrigin
-      #trigger="cdkOverlayOrigin"
-    >
-      Filter
+
+    <!-- Schedule Button -->
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onScheduleMapViewSelected()">
+      Schedule
     </button>
 
-    <ng-template
-      cdkConnectedOverlay
-      [cdkConnectedOverlayOrigin]="trigger"
-      [cdkConnectedOverlayOpen]="displayFilterOverlay"
-      (overlayOutsideClick)="displayFilterOverlay = false"
-    >
-      <div class="filter-overlay-container">
-        <p class="filter-heading">League</p>
-        <mat-checkbox
-          class="filter-checkbox"
-          #americanLeagueCheckBox
-          [checked]="americanLeagueFilterSelected"
-          (change)="
-            onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)
-          "
-          >American</mat-checkbox
-        >
+    <!-- Teams Button -->
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onTeamsMapViewSelected()">
+      Teams
+    </button>
 
-        <mat-checkbox
-          class="filter-checkbox"
-          #nationalLeagueCheckBox
-          [checked]="nationalLeagueFilterSelected"
-          (change)="
-            onNationalLeagueFilterChanged(nationalLeagueCheckBox.checked)
-          "
-          >National</mat-checkbox
-        >
-        <br />
-        <p class="filter-heading">Division</p>
-        <mat-checkbox
-          class="filter-checkbox"
-          #alEastDivisionCheckBox
-          [disabled]="!americanLeagueDivisionFiltersSelectable"
-          [checked]="alEastDivisionFilterSelected"
-          (change)="
-            onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)
-          "
-          >AL East</mat-checkbox
-        >
 
-        <mat-checkbox
-          class="filter-checkbox"
-          #alCentralDivisionCheckBox
-          [disabled]="!americanLeagueDivisionFiltersSelectable"
-          [checked]="alCentralDivisionFilterSelected"
-          (change)="
-            onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)
-          "
-          >AL Central</mat-checkbox
-        >
 
-        <mat-checkbox
-          class="filter-checkbox"
-          #alWestDivisionCheckBox
-          [disabled]="!americanLeagueDivisionFiltersSelectable"
-          [checked]="alWestDivisionFilterSelected"
-          (change)="
-            onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)
-          "
-          >AL West</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #nlEastDivisionCheckBox
-          [disabled]="!nationalLeagueDivisionFiltersSelectable"
-          [checked]="nlEastDivisionFilterSelected"
-          (change)="
-            onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)
-          "
-          >NL East</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #nlCentralDivisionCheckBox
-          [disabled]="!nationalLeagueDivisionFiltersSelectable"
-          [checked]="nlCentralDivisionFilterSelected"
-          (change)="
-            onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)
-          "
-          >NL Central</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #nlWestDivisionCheckBox
-          [disabled]="!nationalLeagueDivisionFiltersSelectable"
-          [checked]="nlWestDivisionFilterSelected"
-          (change)="
-            onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)
-          "
-          >NL West</mat-checkbox
-        >
-      </div>
-    </ng-template>
-
-    <mat-form-field *ngIf="scheduleMapViewAvailable" appearance="fill">
-      <input
-        matInput
-        [disabled]="teamsMapView"
-        [min]="seasonStartDate"
-        [max]="seasonEndDate"
-        [matDatepicker]="picker"
-        [value]="initialDefaultFilterDate.value"
-        (dateChange)="onSelectedDateChanged($event)"
-      />
+    <!-- Date Picker -->
+    <mat-form-field *ngIf="scheduleMapViewAvailable" class="datepicker-test"
+      [class.is-datepicker-invisible]="teamsMapView">
+      <input matInput [disabled]="teamsMapView" [min]="seasonStartDate" [max]="seasonEndDate" [matDatepicker]="picker"
+        [value]="initialDefaultFilterDate.value" (dateChange)="onSelectedDateChanged($event)" />
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <button
-      *ngIf="scheduleMapViewAvailable"
-      class="filter-button"
-      (click)="onTeamsMapViewSelected()"
-    >
-      Teams
+    <!-- Filter Button-->
+    <button [disabled]="scheduleMapView" class="filter-button" (click)="displayFilterOverlay = !displayFilterOverlay"
+      cdkOverlayOrigin #trigger="cdkOverlayOrigin" [class.is-datepicker-invisible]="scheduleMapView">
+      Filter
     </button>
-    <button
-      *ngIf="scheduleMapViewAvailable"
-      class="filter-button"
-      (click)="onScheduleMapViewSelected()"
-    >
-      Schedule
-    </button>
+
+
+    <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+      [cdkConnectedOverlayOpen]="displayFilterOverlay" (overlayOutsideClick)="displayFilterOverlay = false">
+      <div class="filter-overlay-container">
+        <p class="filter-heading">League</p>
+        <mat-checkbox class="filter-checkbox" #americanLeagueCheckBox [checked]="americanLeagueFilterSelected" (change)="
+          onAmericanLeagueFilterChanged(americanLeagueCheckBox.checked)
+        ">American</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #nationalLeagueCheckBox [checked]="nationalLeagueFilterSelected" (change)="
+          onNationalLeagueFilterChanged(nationalLeagueCheckBox.checked)
+        ">National</mat-checkbox>
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox class="filter-checkbox" #alEastDivisionCheckBox
+          [disabled]="!americanLeagueDivisionFiltersSelectable" [checked]="alEastDivisionFilterSelected" (change)="
+          onALEastDivisionFilterChanged(alEastDivisionCheckBox.checked)
+        ">AL East</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #alCentralDivisionCheckBox
+          [disabled]="!americanLeagueDivisionFiltersSelectable" [checked]="alCentralDivisionFilterSelected" (change)="
+          onALCentralDivisionFilterChanged(alCentralDivisionCheckBox.checked)
+        ">AL Central</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #alWestDivisionCheckBox
+          [disabled]="!americanLeagueDivisionFiltersSelectable" [checked]="alWestDivisionFilterSelected" (change)="
+          onALWestDivisionFilterChanged(alWestDivisionCheckBox.checked)
+        ">AL West</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #nlEastDivisionCheckBox
+          [disabled]="!nationalLeagueDivisionFiltersSelectable" [checked]="nlEastDivisionFilterSelected" (change)="
+          onNLEastDivisionFilterChanged(nlEastDivisionCheckBox.checked)
+        ">NL East</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #nlCentralDivisionCheckBox
+          [disabled]="!nationalLeagueDivisionFiltersSelectable" [checked]="nlCentralDivisionFilterSelected" (change)="
+          onNLCentralDivisionFilterChanged(nlCentralDivisionCheckBox.checked)
+        ">NL Central</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #nlWestDivisionCheckBox
+          [disabled]="!nationalLeagueDivisionFiltersSelectable" [checked]="nlWestDivisionFilterSelected" (change)="
+          onNLWestDivisionFilterChanged(nlWestDivisionCheckBox.checked)
+        ">NL West</mat-checkbox>
+      </div>
+    </ng-template>
 
     <p *ngIf="!scheduleMapViewAvailable">
       Note: Currently Awaiting the 2022-2023 Season Schedule Release
@@ -144,35 +82,19 @@
   <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
       <div *ngIf="teamsMapView">
-        <agm-marker
-          *ngFor="let team of getMlbTeamDetails(); let i = index"
-          [latitude]="team.venue.latitude"
-          [longitude]="team.venue.longitude"
-          [iconUrl]="$any(iconObjectMap.get(team.abbreviation))"
-        >
+        <agm-marker *ngFor="let team of getMlbTeamDetails(); let i = index" [latitude]="team.venue.latitude"
+          [longitude]="team.venue.longitude" [iconUrl]="$any(iconObjectMap.get(team.abbreviation))">
         </agm-marker>
       </div>
       <div *ngIf="scheduleMapView">
-        <agm-marker
-          *ngFor="let game of mlbSchedule; let i = index"
-          [latitude]="game.gameVenueLatitude"
-          [longitude]="game.gameVenueLongitude"
-        >
+        <agm-marker *ngFor="let game of mlbSchedule; let i = index" [latitude]="game.gameVenueLatitude"
+          [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img
-                class="resize"
-                [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))"
-              />
-              <img
-                class="resize"
-                [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
-              />
+              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
-            <p
-              *ngFor="let gameTime of game.gameTimes; let i = index"
-              class="schedule-text"
-            >
+            <p *ngFor="let gameTime of game.gameTimes; let i = index" class="schedule-text">
               {{ gameTime }} ET
             </p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
