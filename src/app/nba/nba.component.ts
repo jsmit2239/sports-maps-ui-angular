@@ -18,11 +18,11 @@ export class NbaComponent {
   /**
    * Map View Type
    */
-  scheduleMapView = false;
-  teamsMapView = true;
+  scheduleMapView = true;
+  teamsMapView = false;
 
   /** Offseason View */
-  scheduleMapViewAvailable = false;
+  scheduleMapViewAvailable = true;
 
   /**
    * Filters
