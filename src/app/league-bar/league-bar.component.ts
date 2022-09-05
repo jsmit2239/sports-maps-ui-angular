@@ -5,8 +5,39 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './league-bar.component.html',
   styleUrls: ['./league-bar.component.css'],
 })
-export class LeagueBarComponent implements OnInit {
-  constructor() { }
+export class LeagueBarComponent {
 
-  ngOnInit(): void { }
+  mlbSelected = true;
+  nbaSelected = false;
+  nflSelected = false;
+  nhlSelected = false;
+
+
+  mlbButtonSelected() {
+    this.mlbSelected = true;
+    this.nbaSelected = false;
+    this.nflSelected = false;
+    this.nhlSelected = false;
+  }
+
+  nbaButtonSelected() {
+    this.mlbSelected = false;
+    this.nbaSelected = true;
+    this.nflSelected = false;
+    this.nhlSelected = false;
+  }
+
+  nflButtonSelected() {
+    this.mlbSelected = false;
+    this.nbaSelected = false;
+    this.nflSelected = true;
+    this.nhlSelected = false;
+  }
+
+  nhlButtonSelected() {
+    this.mlbSelected = false;
+    this.nbaSelected = false;
+    this.nflSelected = false;
+    this.nhlSelected = true;
+  }
 }

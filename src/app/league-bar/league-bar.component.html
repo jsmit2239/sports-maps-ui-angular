@@ -1,7 +1,11 @@
 <mat-toolbar class="league-toolbar">
-  <a mat-button class="filter-button" routerLink="mlb">MLB</a>
-  <a mat-button class="filter-button" routerLink="nba">NBA</a>
-  <a mat-button class="filter-button" routerLink="nfl">NFL</a>
-  <a mat-button class="filter-button" routerLink="nhl">NHL</a>
+  <a mat-button class="filter-button" [class.selected-button]="mlbSelected" routerLink="mlb"
+    (click)="mlbButtonSelected()">MLB</a>
+  <a mat-button class="filter-button" [class.selected-button]="nbaSelected" routerLink="nba"
+    (click)="nbaButtonSelected()">NBA</a>
+  <a mat-button class="filter-button" [class.selected-button]="nflSelected" routerLink="nfl"
+    (click)="nflButtonSelected()">NFL</a>
+  <a mat-button class="filter-button" [class.selected-button]="nhlSelected" routerLink="nhl"
+    (click)="nhlButtonSelected()">NHL</a>
   <!--   <a mat-button routerLink="ahl">AHL</a> -->
 </mat-toolbar>

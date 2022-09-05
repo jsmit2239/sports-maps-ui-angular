@@ -16,7 +16,8 @@
 }
 
 .github-button {
-  background-color: #BAE2C6;
+  /* background-color: #BAE2C6; */
+  background-color: black;
 }
 
 .github-button-image {

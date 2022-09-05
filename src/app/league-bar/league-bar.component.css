@@ -19,6 +19,11 @@
 
 .filter-button {
   margin: 0px 10px 0px 0px;
-  border: 2px solid lightgrey;
+  border: 3px solid lightgrey;
+
+}
+
+.selected-button {
+  border: 3px solid black;
 
 }
