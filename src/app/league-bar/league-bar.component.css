@@ -16,3 +16,9 @@
   color: #818586;
   font-size: 200%;
 }
+
+.filter-button {
+  margin: 0px 10px 0px 0px;
+  border: 2px solid lightgrey;
+
+}

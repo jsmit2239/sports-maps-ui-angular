@@ -85,8 +85,8 @@
           [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
-              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
+              <img class="resize awayTeam" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize homeTeam" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
             <p *ngFor="let gameTime of game.gameTimes; let i = index" class="schedule-text">
               {{ gameTime }} ET

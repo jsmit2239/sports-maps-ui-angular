@@ -44,18 +44,22 @@ agm-map {
 */
 .filter-button {
   background-color: whitesmoke;
-  border: none;
-  color: black;
+  color: #818586;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
+
+  margin: 0px 10px 0px 0px;
+  border: 2px solid lightgrey;
+
   cursor: pointer;
   border-radius: 16px;
   font-weight: bold;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
+
 }
 
 .filter-checkbox {
@@ -159,4 +163,15 @@ agm-map {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 15px;
+}
+
+.awayTeam {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.homeTeam {
+  margin-left: 5px;
+  margin-bottom: 5px;
+
 }
