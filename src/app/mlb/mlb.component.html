@@ -11,10 +11,8 @@
       Teams
     </button>
 
-
-
     <!-- Date Picker -->
-    <mat-form-field *ngIf="scheduleMapViewAvailable" class="datepicker-test"
+    <mat-form-field *ngIf="scheduleMapViewAvailable" class="schedule-datepicker"
       [class.is-datepicker-invisible]="teamsMapView">
       <input matInput [disabled]="teamsMapView" [min]="seasonStartDate" [max]="seasonEndDate" [matDatepicker]="picker"
         [value]="initialDefaultFilterDate.value" (dateChange)="onSelectedDateChanged($event)" />
@@ -28,7 +26,7 @@
       Filter
     </button>
 
-
+    <!-- Filter Overlay-->
     <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
       [cdkConnectedOverlayOpen]="displayFilterOverlay" (overlayOutsideClick)="displayFilterOverlay = false">
       <div class="filter-overlay-container">
@@ -73,10 +71,6 @@
         ">NL West</mat-checkbox>
       </div>
     </ng-template>
-
-    <p *ngIf="!scheduleMapViewAvailable">
-      Note: Currently Awaiting the 2022-2023 Season Schedule Release
-    </p>
   </div>
 
   <div class="map-container">
@@ -91,8 +85,8 @@
           [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
-              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
+              <img class="resize awayTeam" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize homeTeam" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
             <p *ngFor="let gameTime of game.gameTimes; let i = index" class="schedule-text">
               {{ gameTime }} ET
@@ -102,5 +96,9 @@
         </agm-marker>
       </div>
     </agm-map>
+  </div>
+
+  <div class="property-of-container">
+    <p>All logos are property of the MLB</p>
   </div>
 </div>

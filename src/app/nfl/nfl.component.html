@@ -1,184 +1,93 @@
 <div class="league-page-container">
   <div class="map-options-bar-container">
-    <button
-      [disabled]="scheduleMapView"
-      class="filter-button"
-      (click)="displayFilterOverlay = !displayFilterOverlay"
-      cdkOverlayOrigin
-      #trigger="cdkOverlayOrigin"
-    >
-      Filter
+
+    <!-- Schedule Button -->
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onScheduleMapViewSelected()">
+      Schedule
     </button>
 
-    <ng-template
-      cdkConnectedOverlay
-      [cdkConnectedOverlayOrigin]="trigger"
-      [cdkConnectedOverlayOpen]="displayFilterOverlay"
-      (overlayOutsideClick)="displayFilterOverlay = false"
-    >
-      <div class="filter-overlay-container">
-        <p class="filter-heading">Conference</p>
-        <mat-checkbox
-          class="filter-checkbox"
-          #afcConferenceCheckBox
-          [checked]="afcConferenceFilterSelected"
-          (change)="onAfcConferenceFilterChanged(afcConferenceCheckBox.checked)"
-          >AFC</mat-checkbox
-        >
+    <!-- Teams Button -->
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onTeamsMapViewSelected()">
+      Teams
+    </button>
 
-        <mat-checkbox
-          class="filter-checkbox"
-          #nfcConferenceCheckBox
-          [checked]="nfcConferenceFilterSelected"
-          (change)="onNfcConferenceFilterChanged(nfcConferenceCheckBox.checked)"
-          >NFC</mat-checkbox
-        >
-        <br />
-        <p class="filter-heading">Division</p>
-        <mat-checkbox
-          class="filter-checkbox"
-          #afcEastDivisionCheckBox
-          [disabled]="!afcConferenceDivisionFiltersSelectable"
-          [checked]="afcEastDivisionFilterSelected"
-          (change)="
-            onAfcEastDivisionFilterChanged(afcEastDivisionCheckBox.checked)
-          "
-          >AFC East</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #afcNorthDivisionCheckBox
-          [disabled]="!afcConferenceDivisionFiltersSelectable"
-          [checked]="afcNorthDivisionFilterSelected"
-          (change)="
-            onAfcNorthDivisionFilterChanged(afcNorthDivisionCheckBox.checked)
-          "
-          >AFC North</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #afcSouthDivisionCheckBox
-          [disabled]="!afcConferenceDivisionFiltersSelectable"
-          [checked]="afcSouthDivisionFilterSelected"
-          (change)="
-            onAfcSouthDivisionFilterChanged(afcSouthDivisionCheckBox.checked)
-          "
-          >AFC South</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #afcWestDivisionCheckBox
-          [disabled]="!afcConferenceDivisionFiltersSelectable"
-          [checked]="afcWestDivisionFilterSelected"
-          (change)="
-            onAfcWestDivisionFilterChanged(afcWestDivisionCheckBox.checked)
-          "
-          >AFC West</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #nfcEastDivisionCheckBox
-          [disabled]="!nfcConferenceDivisionFiltersSelectable"
-          [checked]="nfcEastDivisionFilterSelected"
-          (change)="
-            onNfcEastDivisionFilterChanged(nfcEastDivisionCheckBox.checked)
-          "
-          >NFC East</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #nfcNorthDivisionCheckBox
-          [disabled]="!nfcConferenceDivisionFiltersSelectable"
-          [checked]="nfcNorthDivisionFilterSelected"
-          (change)="
-            onNfcNorthDivisionFilterChanged(nfcNorthDivisionCheckBox.checked)
-          "
-          >NFC North</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #nfcSouthDivisionCheckBox
-          [disabled]="!nfcConferenceDivisionFiltersSelectable"
-          [checked]="nfcSouthDivisionFilterSelected"
-          (change)="
-            onNfcSouthDivisionFilterChanged(nfcSouthDivisionCheckBox.checked)
-          "
-          >NFC South</mat-checkbox
-        >
-        <mat-checkbox
-          class="filter-checkbox"
-          #nfcWestDivisionCheckBox
-          [disabled]="!nfcConferenceDivisionFiltersSelectable"
-          [checked]="nfcWestDivisionFilterSelected"
-          (change)="
-            onNfcWestDivisionFilterChanged(nfcWestDivisionCheckBox.checked)
-          "
-          >NFC West</mat-checkbox
-        >
-      </div>
-    </ng-template>
-
-    <mat-form-field *ngIf="scheduleMapViewAvailable" appearance="fill">
-      <input
-        matInput
-        [disabled]="teamsMapView"
-        [min]="seasonStartDate"
-        [max]="seasonEndDate"
-        [matDatepicker]="picker"
-        [value]="initialDefaultFilterDate.value"
-        (dateChange)="onSelectedDateChanged($event)"
-      />
+    <!-- Date Picker -->
+    <mat-form-field *ngIf="scheduleMapViewAvailable" class="schedule-datepicker"
+      [class.is-datepicker-invisible]="teamsMapView">
+      <input matInput [disabled]="teamsMapView" [min]="seasonStartDate" [max]="seasonEndDate" [matDatepicker]="picker"
+        [value]="initialDefaultFilterDate.value" (dateChange)="onSelectedDateChanged($event)" />
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <button
-      *ngIf="scheduleMapViewAvailable"
-      class="filter-button"
-      (click)="onTeamsMapViewSelected()"
-    >
-      Teams
-    </button>
-    <button
-      *ngIf="scheduleMapViewAvailable"
-      class="filter-button"
-      (click)="onScheduleMapViewSelected()"
-    >
-      Schedule
+    <!-- Filter Button-->
+    <button [disabled]="scheduleMapView" class="filter-button" (click)="displayFilterOverlay = !displayFilterOverlay"
+      cdkOverlayOrigin #trigger="cdkOverlayOrigin" [class.is-datepicker-invisible]="scheduleMapView">
+      Filter
     </button>
 
-    <p *ngIf="!scheduleMapViewAvailable">
-      Note: Currently Awaiting the 2022-2023 Season Schedule Release
-    </p>
+    <!-- Filter Overlay-->
+    <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+      [cdkConnectedOverlayOpen]="displayFilterOverlay" (overlayOutsideClick)="displayFilterOverlay = false">
+      <div class="filter-overlay-container">
+        <p class="filter-heading">Conference</p>
+        <mat-checkbox class="filter-checkbox" #afcConferenceCheckBox [checked]="afcConferenceFilterSelected"
+          (change)="onAfcConferenceFilterChanged(afcConferenceCheckBox.checked)">AFC</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #nfcConferenceCheckBox [checked]="nfcConferenceFilterSelected"
+          (change)="onNfcConferenceFilterChanged(nfcConferenceCheckBox.checked)">NFC</mat-checkbox>
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox class="filter-checkbox" #afcEastDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable" [checked]="afcEastDivisionFilterSelected" (change)="
+            onAfcEastDivisionFilterChanged(afcEastDivisionCheckBox.checked)
+          ">AFC East</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #afcNorthDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable" [checked]="afcNorthDivisionFilterSelected" (change)="
+            onAfcNorthDivisionFilterChanged(afcNorthDivisionCheckBox.checked)
+          ">AFC North</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #afcSouthDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable" [checked]="afcSouthDivisionFilterSelected" (change)="
+            onAfcSouthDivisionFilterChanged(afcSouthDivisionCheckBox.checked)
+          ">AFC South</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #afcWestDivisionCheckBox
+          [disabled]="!afcConferenceDivisionFiltersSelectable" [checked]="afcWestDivisionFilterSelected" (change)="
+            onAfcWestDivisionFilterChanged(afcWestDivisionCheckBox.checked)
+          ">AFC West</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #nfcEastDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable" [checked]="nfcEastDivisionFilterSelected" (change)="
+            onNfcEastDivisionFilterChanged(nfcEastDivisionCheckBox.checked)
+          ">NFC East</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #nfcNorthDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable" [checked]="nfcNorthDivisionFilterSelected" (change)="
+            onNfcNorthDivisionFilterChanged(nfcNorthDivisionCheckBox.checked)
+          ">NFC North</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #nfcSouthDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable" [checked]="nfcSouthDivisionFilterSelected" (change)="
+            onNfcSouthDivisionFilterChanged(nfcSouthDivisionCheckBox.checked)
+          ">NFC South</mat-checkbox>
+        <mat-checkbox class="filter-checkbox" #nfcWestDivisionCheckBox
+          [disabled]="!nfcConferenceDivisionFiltersSelectable" [checked]="nfcWestDivisionFilterSelected" (change)="
+            onNfcWestDivisionFilterChanged(nfcWestDivisionCheckBox.checked)
+          ">NFC West</mat-checkbox>
+      </div>
+    </ng-template>
   </div>
 
   <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
       <div *ngIf="teamsMapView">
-        <agm-marker
-          *ngFor="let team of getNflTeamDetails(); let i = index"
-          [latitude]="team.venue.latitude"
-          [longitude]="team.venue.longitude"
-          [iconUrl]="$any(iconObjectMap.get(team.abbreviation))"
-        >
+        <agm-marker *ngFor="let team of getNflTeamDetails(); let i = index" [latitude]="team.venue.latitude"
+          [longitude]="team.venue.longitude" [iconUrl]="$any(iconObjectMap.get(team.abbreviation))">
         </agm-marker>
       </div>
       <div *ngIf="scheduleMapView">
-        <agm-marker
-          *ngFor="let game of nflSchedule; let i = index"
-          [latitude]="game.gameVenueLatitude"
-          [longitude]="game.gameVenueLongitude"
-        >
+        <agm-marker *ngFor="let game of nflSchedule; let i = index" [latitude]="game.gameVenueLatitude"
+          [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img
-                class="resize"
-                [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))"
-              />
-              <img
-                class="resize"
-                [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
-              />
+              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
             <p class="schedule-text">{{ game.gameTime }} ET</p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
@@ -186,5 +95,9 @@
         </agm-marker>
       </div>
     </agm-map>
+  </div>
+
+  <div class="property-of-container">
+    <p>All logos are property of the NFL</p>
   </div>
 </div>

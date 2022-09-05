@@ -1,173 +1,94 @@
 <div class="league-page-container">
   <div class="map-options-bar-container">
-    <button
-      [disabled]="scheduleMapView"
-      class="filter-button"
-      (click)="displayFilterOverlay = !displayFilterOverlay"
-      cdkOverlayOrigin
-      #trigger="cdkOverlayOrigin"
-    >
-      Filter
+
+    <!-- Schedule Button -->
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onScheduleMapViewSelected()">
+      Schedule
     </button>
 
-    <ng-template
-      cdkConnectedOverlay
-      [cdkConnectedOverlayOrigin]="trigger"
-      [cdkConnectedOverlayOpen]="displayFilterOverlay"
-      (overlayOutsideClick)="displayFilterOverlay = false"
-    >
-      <div class="filter-overlay-container">
-        <p class="filter-heading">Conference</p>
-        <mat-checkbox
-          class="filter-checkbox"
-          #easternConferenceCheckBox
-          [checked]="easternConferenceFilterSelected"
-          (change)="
-            onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)
-          "
-          >Eastern</mat-checkbox
-        >
+    <!-- Teams Button -->
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onTeamsMapViewSelected()">
+      Teams
+    </button>
 
-        <mat-checkbox
-          class="filter-checkbox"
-          #westernConferenceCheckBox
-          [checked]="westernConferenceFilterSelected"
-          (change)="
-            onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)
-          "
-          >Western</mat-checkbox
-        >
-        <br />
-        <p class="filter-heading">Division</p>
-        <mat-checkbox
-          class="filter-checkbox"
-          #atlanticDivisionCheckBox
-          [disabled]="!easternConferenceDivisionFiltersSelectable"
-          [checked]="atlanticDivisionFilterSelected"
-          (change)="
-            onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)
-          "
-          >Atlantic</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #centralDivisionCheckBox
-          [disabled]="!easternConferenceDivisionFiltersSelectable"
-          [checked]="centralDivisionFilterSelected"
-          (change)="
-            onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)
-          "
-          >Central</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #southeastDivisionCheckBox
-          [disabled]="!easternConferenceDivisionFiltersSelectable"
-          [checked]="southeastDivisionFilterSelected"
-          (change)="
-            onSoutheastDivisionFilterChanged(southeastDivisionCheckBox.checked)
-          "
-          >Southeast</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #northwestDivisionCheckBox
-          [disabled]="!westernConferenceDivisionFiltersSelectable"
-          [checked]="northwestDivisionFilterSelected"
-          (change)="
-            onNorthwestDivisionFilterChanged(northwestDivisionCheckBox.checked)
-          "
-          >Northwest</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #pacificDivisionCheckBox
-          [disabled]="!westernConferenceDivisionFiltersSelectable"
-          [checked]="pacificDivisionFilterSelected"
-          (change)="
-            onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)
-          "
-          >Pacific</mat-checkbox
-        >
-
-        <mat-checkbox
-          class="filter-checkbox"
-          #southwestDivisionCheckBox
-          [disabled]="!westernConferenceDivisionFiltersSelectable"
-          [checked]="southwestDivisionFilterSelected"
-          (change)="
-            onSouthwestDivisionFilterChanged(southwestDivisionCheckBox.checked)
-          "
-          >Southwest</mat-checkbox
-        >
-      </div>
-    </ng-template>
-
-    <mat-form-field *ngIf="scheduleMapViewAvailable" appearance="fill">
-      <input
-        matInput
-        [disabled]="teamsMapView"
-        [min]="seasonStartDate"
-        [max]="seasonEndDate"
-        [matDatepicker]="picker"
-        [value]="initialDefaultFilterDate.value"
-        (dateChange)="onSelectedDateChanged($event)"
-      />
+    <!-- Date Picker -->
+    <mat-form-field *ngIf="scheduleMapViewAvailable" class="schedule-datepicker"
+      [class.is-datepicker-invisible]="teamsMapView">
+      <input matInput [disabled]="teamsMapView" [min]="seasonStartDate" [max]="seasonEndDate" [matDatepicker]="picker"
+        [value]="initialDefaultFilterDate.value" (dateChange)="onSelectedDateChanged($event)" />
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <button
-      *ngIf="scheduleMapViewAvailable"
-      class="filter-button"
-      (click)="onTeamsMapViewSelected()"
-    >
-      Teams
-    </button>
-    <button
-      *ngIf="scheduleMapViewAvailable"
-      class="filter-button"
-      (click)="onScheduleMapViewSelected()"
-    >
-      Schedule
+    <!-- Filter Button-->
+    <button [disabled]="scheduleMapView" class="filter-button" (click)="displayFilterOverlay = !displayFilterOverlay"
+      cdkOverlayOrigin #trigger="cdkOverlayOrigin" [class.is-datepicker-invisible]="scheduleMapView">
+      Filter
     </button>
 
-    <p *ngIf="!scheduleMapViewAvailable">
-      Note: Currently Awaiting the 2022-2023 Season Schedule Release
-    </p>
+    <!-- Filter Overlay-->
+    <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+      [cdkConnectedOverlayOpen]="displayFilterOverlay" (overlayOutsideClick)="displayFilterOverlay = false">
+      <div class="filter-overlay-container">
+        <p class="filter-heading">Conference</p>
+        <mat-checkbox class="filter-checkbox" #easternConferenceCheckBox [checked]="easternConferenceFilterSelected"
+          (change)="
+            onEasternConferenceFilterChanged(easternConferenceCheckBox.checked)
+          ">Eastern</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #westernConferenceCheckBox [checked]="westernConferenceFilterSelected"
+          (change)="
+            onWesternConferenceFilterChanged(westernConferenceCheckBox.checked)
+          ">Western</mat-checkbox>
+        <br />
+        <p class="filter-heading">Division</p>
+        <mat-checkbox class="filter-checkbox" #atlanticDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFiltersSelectable" [checked]="atlanticDivisionFilterSelected" (change)="
+            onAtlanticDivisionFilterChanged(atlanticDivisionCheckBox.checked)
+          ">Atlantic</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #centralDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFiltersSelectable" [checked]="centralDivisionFilterSelected" (change)="
+            onCentralDivisionFilterChanged(centralDivisionCheckBox.checked)
+          ">Central</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #southeastDivisionCheckBox
+          [disabled]="!easternConferenceDivisionFiltersSelectable" [checked]="southeastDivisionFilterSelected" (change)="
+            onSoutheastDivisionFilterChanged(southeastDivisionCheckBox.checked)
+          ">Southeast</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #northwestDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFiltersSelectable" [checked]="northwestDivisionFilterSelected" (change)="
+            onNorthwestDivisionFilterChanged(northwestDivisionCheckBox.checked)
+          ">Northwest</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #pacificDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFiltersSelectable" [checked]="pacificDivisionFilterSelected" (change)="
+            onPacificDivisionFilterChanged(pacificDivisionCheckBox.checked)
+          ">Pacific</mat-checkbox>
+
+        <mat-checkbox class="filter-checkbox" #southwestDivisionCheckBox
+          [disabled]="!westernConferenceDivisionFiltersSelectable" [checked]="southwestDivisionFilterSelected" (change)="
+            onSouthwestDivisionFilterChanged(southwestDivisionCheckBox.checked)
+          ">Southwest</mat-checkbox>
+      </div>
+    </ng-template>
   </div>
 
   <div class="map-container">
     <agm-map class="content-map" [latitude]="42" [longitude]="-94" [zoom]="4.4">
       <div *ngIf="teamsMapView">
-        <agm-marker
-          *ngFor="let team of getNbaTeamDetails(); let i = index"
-          [latitude]="team.venue.latitude"
-          [longitude]="team.venue.longitude"
-          [iconUrl]="$any(iconObjectMap.get(team.abbreviation))"
-        >
+        <agm-marker *ngFor="let team of getNbaTeamDetails(); let i = index" [latitude]="team.venue.latitude"
+          [longitude]="team.venue.longitude" [iconUrl]="$any(iconObjectMap.get(team.abbreviation))">
         </agm-marker>
       </div>
       <div *ngIf="scheduleMapView">
-        <agm-marker
-          *ngFor="let game of nbaSchedule; let i = index"
-          [latitude]="game.gameVenueLatitude"
-          [longitude]="game.gameVenueLongitude"
-        >
+        <agm-marker *ngFor="let game of nbaSchedule; let i = index" [latitude]="game.gameVenueLatitude"
+          [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img
-                class="resize"
-                [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))"
-              />
-              <img
-                class="resize"
-                [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))"
-              />
+              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
             <p class="schedule-text">{{ game.gameTime }} ET</p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
@@ -175,5 +96,9 @@
         </agm-marker>
       </div>
     </agm-map>
+  </div>
+
+  <div class="property-of-container">
+    <p>All logos are property of the NBA</p>
   </div>
 </div>
