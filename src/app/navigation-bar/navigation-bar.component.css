@@ -7,11 +7,19 @@
   color: black;
   /* margin-bottom: 20px; */
   margin-top: 10px;
-
 }
 
 .sports-maps-logo-text {
   font-family: Cambria;
   color: #818586;
   font-size: 200%;
+}
+
+.github-button {
+  background-color: #BAE2C6;
+}
+
+.github-button-image {
+  vertical-align: middle;
+  margin-bottom: 3px;
 }
