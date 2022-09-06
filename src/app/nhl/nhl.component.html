@@ -84,8 +84,8 @@
           [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
-              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
+              <img class="resize awayTeam" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize homeTeam" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
             <p class="schedule-text">{{ game.gameTime }} ET</p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
