@@ -113,7 +113,9 @@ agm-map {
   border-radius: 5px;
   padding: 10px;
   text-align: left;
-  border: solid 2px gray;
+  border: 3px solid lightgrey;
+  color: grey;
+
 }
 
 /**
