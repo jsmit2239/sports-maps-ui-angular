@@ -52,7 +52,7 @@ agm-map {
   /* margin: 4px 2px; */
 
   margin: 0px 10px 0px 0px;
-  border: 2px solid lightgrey;
+  border: 3px solid lightgrey;
 
   cursor: pointer;
   border-radius: 16px;
@@ -60,6 +60,10 @@ agm-map {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   border-radius: 5px 5px 5px 5px;
 
+}
+
+.selected-button {
+  border: 3px solid black;
 }
 
 .filter-checkbox {

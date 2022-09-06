@@ -2,12 +2,14 @@
   <div class="map-options-bar-container">
 
     <!-- Schedule Button -->
-    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onScheduleMapViewSelected()">
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" [class.selected-button]="scheduleMapView"
+      (click)="onScheduleMapViewSelected()">
       Schedule
     </button>
 
     <!-- Teams Button -->
-    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onTeamsMapViewSelected()">
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" [class.selected-button]="teamsMapView"
+      (click)="onTeamsMapViewSelected()">
       Teams
     </button>
 
