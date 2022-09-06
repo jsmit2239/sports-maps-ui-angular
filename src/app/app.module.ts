@@ -46,6 +46,7 @@ import { LeagueBarComponent } from './league-bar/league-bar.component';
     AgmCoreModule.forRoot({
       apiKey: '',
     }),
+
     HttpClientModule,
     MatIconModule,
     OverlayModule,
