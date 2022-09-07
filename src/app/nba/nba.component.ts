@@ -46,8 +46,8 @@ export class NbaComponent {
   southwestDivisionFilterSelected = true;
 
   /** Date Filter */
-  seasonStartDate = new Date('January 1, 2000');
-  seasonEndDate = new Date('January 1, 2000');
+  seasonStartDate = new Date('October 18, 2022');
+  seasonEndDate = new Date('April 9, 2023');
 
   filterDate = this.getDefaultFilterDate();
   initialDefaultFilterDate = new FormControl(this.filterDate);

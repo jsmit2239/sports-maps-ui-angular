@@ -3071,7 +3071,14 @@ export const nbaSchedule2022to2023: GameDetails[] = [
     date: '2022-12-17',
     time: '5:00 PM',
     awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Miami Heat',
+    specialVenueDetails: {
+      name: 'Arena CDMX',
+      address: 'Av. de las Granjas 800, Santa Barbara, Azcapotzalco, 02230 Ciudad de México, CDMX, Mexico',
+      latitude: 19.498310122959893,
+      longitude: -99.17520853066493
+
+    }
   }
   ,
   {
@@ -4744,7 +4751,13 @@ export const nbaSchedule2022to2023: GameDetails[] = [
     date: '2023-01-19',
     time: '3:00 PM',
     awayTeam: 'Detroit Pistons',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Chicago Bulls',
+    specialVenueDetails: {
+      name: 'Accor Arena',
+      address: '8 Bd de Bercy, 75012 Paris, France',
+      latitude: 48.83879211480334,
+      longitude: 2.3786056576112538
+    }
   }
   ,
   {
