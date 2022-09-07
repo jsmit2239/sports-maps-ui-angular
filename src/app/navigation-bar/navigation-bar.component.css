@@ -17,7 +17,9 @@
 
 .github-button {
   /* background-color: #BAE2C6; */
-  background-color: black;
+  background-color: #a0d8b1;
+  border-radius: 20px 20px 20px 20px;
+
 }
 
 .github-button-image {

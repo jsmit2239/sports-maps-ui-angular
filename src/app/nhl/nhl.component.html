@@ -2,12 +2,14 @@
   <div class="map-options-bar-container">
 
     <!-- Schedule Button -->
-    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onScheduleMapViewSelected()">
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" [class.selected-button]="scheduleMapView"
+      (click)="onScheduleMapViewSelected()">
       Schedule
     </button>
 
     <!-- Teams Button -->
-    <button *ngIf="scheduleMapViewAvailable" class="filter-button" (click)="onTeamsMapViewSelected()">
+    <button *ngIf="scheduleMapViewAvailable" class="filter-button" [class.selected-button]="teamsMapView"
+      (click)="onTeamsMapViewSelected()">
       Teams
     </button>
 
@@ -82,8 +84,8 @@
           [longitude]="game.gameVenueLongitude">
           <agm-info-window [disableAutoPan]="false" [isOpen]="true">
             <div class="center-images">
-              <img class="resize" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
-              <img class="resize" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
+              <img class="resize awayTeam" [src]="$any(iconPathMap.get(game.awayTeamAbbreviation))" />
+              <img class="resize homeTeam" [src]="$any(iconPathMap.get(game.homeTeamAbbreviation))" />
             </div>
             <p class="schedule-text">{{ game.gameTime }} ET</p>
             <p class="schedule-text">{{ game.gameVenueName }}</p>
@@ -91,9 +93,5 @@
         </agm-marker>
       </div>
     </agm-map>
-  </div>
-
-  <div class="property-of-container">
-    <p>All logos are property of the NHL</p>
   </div>
 </div>
