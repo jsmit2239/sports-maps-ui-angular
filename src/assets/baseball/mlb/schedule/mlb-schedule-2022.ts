@@ -14865,6 +14865,129 @@ const mlbScheduleOctober2022: GameDetails[] = [
   },
 ];
 
+const mlbSchedulePlayoffs: GameDetails[] = [
+  {
+    date: '2022-10-07',
+    time: '12:07 PM',
+    awayTeam: 'Tampa Bay Rays',
+    homeTeam: 'Cleveland Guardians',
+  },
+  {
+    date: '2022-10-07',
+    time: '2:07 PM',
+    awayTeam: 'Philadelphia Phillies',
+    homeTeam: 'St. Louis Cardinals',
+  },
+  {
+    date: '2022-10-07',
+    time: '4:07 PM',
+    awayTeam: 'Seattle Mariners',
+    homeTeam: 'Toronto Blue Jays',
+  },
+  {
+    date: '2022-10-07',
+    time: '8:07 PM',
+    awayTeam: 'San Diego Padres',
+    homeTeam: 'New York Mets',
+  },
+  {
+    date: '2022-10-08',
+    time: '12:07 PM',
+    awayTeam: 'Tampa Bay Rays',
+    homeTeam: 'Cleveland Guardians',
+  },
+  {
+    date: '2022-10-08',
+    time: '4:07 PM',
+    awayTeam: 'Seattle Mariners',
+    homeTeam: 'Toronto Blue Jays',
+  },
+  {
+    date: '2022-10-08',
+    time: '7:37 PM',
+    awayTeam: 'San Diego Padres',
+    homeTeam: 'New York Mets',
+  },
+  {
+    date: '2022-10-08',
+    time: '8:37 PM',
+    awayTeam: 'Philadelphia Phillies',
+    homeTeam: 'St. Louis Cardinals',
+  },
+  {
+    date: '2022-10-09',
+    time: '2:07 PM',
+    awayTeam: 'Seattle Mariners',
+    homeTeam: 'Toronto Blue Jays',
+  },
+  {
+    date: '2022-10-09',
+    time: '4:07 PM',
+    awayTeam: 'Tampa Bay Rays',
+    homeTeam: 'Cleveland Guardians',
+  },
+  {
+    date: '2022-10-09',
+    time: '7:37 PM',
+    awayTeam: 'San Diego Padres',
+    homeTeam: 'New York Mets',
+  },
+  {
+    date: '2022-10-09',
+    time: '8:37 PM',
+    awayTeam: 'Philadelphia Phillies',
+    homeTeam: 'St. Louis Cardinals',
+  },
+  {
+    date: '2022-10-11',
+    time: '1:07 PM',
+    awayTeam: 'Philadelphia Phillies',
+    homeTeam: 'Atlanta Braces',
+  },
+  {
+    date: '2022-10-11',
+    time: '3:37 PM',
+    awayTeam: 'Seattle Mariners',
+    homeTeam: 'Houston Astros',
+  },
+  {
+    date: '2022-10-11',
+    time: '7:37 PM',
+    awayTeam: 'Cleveland Guardians',
+    homeTeam: 'New York Yankees',
+  },
+  {
+    date: '2022-10-11',
+    time: '9:37 PM',
+    awayTeam: 'San Diego Padres',
+    homeTeam: 'Los Angeles Dodgers',
+  },
+  {
+    date: '2022-10-12',
+    time: '4:35 PM',
+    awayTeam: 'Philadelphia Phillies',
+    homeTeam: 'Atlanta Braces',
+  },
+  {
+    date: '2022-10-12',
+    time: '8:37 PM',
+    awayTeam: 'San Diego Padres',
+    homeTeam: 'Los Angeles Dodgers',
+  },
+  {
+    date: '2022-10-13',
+    time: '3:37 PM',
+    awayTeam: 'Seattle Mariners',
+    homeTeam: 'Houston Astros',
+  },
+  {
+    date: '2022-10-13',
+    time: '7:37 PM',
+    awayTeam: 'Cleveland Guardians',
+    homeTeam: 'New York Yankees',
+  },
+]
+
 export const mlbSchedule2022: GameDetails[] = [
   ...mlbScheduleApril2022,
   ...mlbScheduleMay2022,
@@ -14873,4 +14996,5 @@ export const mlbSchedule2022: GameDetails[] = [
   ...mlbScheduleAugust2022,
   ...mlbScheduleSeptember2022,
   ...mlbScheduleOctober2022,
+  ...mlbSchedulePlayoffs
 ];

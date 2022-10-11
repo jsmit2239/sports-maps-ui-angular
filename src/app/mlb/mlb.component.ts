@@ -46,7 +46,7 @@ export class MlbComponent {
 
   /** Date Filter */
   seasonStartDate = new Date('April 7, 2022');
-  seasonEndDate = new Date('October 5, 2022');
+  seasonEndDate = new Date('October 13, 2022');
 
   filterDate = this.getDefaultFilterDate();
   initialDefaultFilterDate = new FormControl(this.filterDate);
