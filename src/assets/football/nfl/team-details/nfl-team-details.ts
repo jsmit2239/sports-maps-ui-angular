@@ -38,7 +38,7 @@ const afcNorthTeamDetails: TeamDetails[] = [
     conference: NflConference.Afc,
     division: NflDivision.AfcNorth,
     venue: {
-      name: 'FirstEnergy Stadium',
+      name: 'Cleveland Browns Stadium',
       address: '100 Alfred Lerner Way, Cleveland, OH 44114',
       latitude: 41.50624229376643,
       longitude: -81.6995963819241,
@@ -101,7 +101,7 @@ const afcSouthTeamDetails: TeamDetails[] = [
     conference: NflConference.Afc,
     division: NflDivision.AfcSouth,
     venue: {
-      name: 'TIAA Bank Field',
+      name: 'EverBank Stadium',
       address: '1 TIAA Bank Field Dr, Jacksonville, FL 32202',
       latitude: 30.323970096284345,
       longitude: -81.6373872509771,

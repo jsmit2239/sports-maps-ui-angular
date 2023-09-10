@@ -4,3074 +4,3074 @@ export const nbaSchedule2022to2023: GameDetails[] = [
   {
     date: '2022-10-18',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-10-18',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:30 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-10-19',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-10-19',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-10-19',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-10-19',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-10-19',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-10-19',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-10-20',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-10-20',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-10-21',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-10-21',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-10-21',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-10-21',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-10-21',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-10-22',
     time: '6:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-10-22',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-10-22',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-10-22',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-10-22',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-10-22',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-10-22',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-10-22',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-10-22',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-10-23',
     time: '3:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-10-23',
     time: '5:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-10-23',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-10-23',
     time: '7:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-10-23',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-10-23',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-10-23',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-10-24',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-10-24',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-10-24',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-10-24',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-10-24',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-10-24',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-10-24',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-10-24',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-10-25',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-10-25',
     time: '7:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-10-25',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-10-25',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-10-26',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-10-26',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-10-26',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-10-26',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-10-26',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-10-26',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-10-26',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-10-26',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-10-26',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-10-26',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-10-27',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-10-27',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-10-27',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-10-27',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-10-28',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-10-28',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-10-28',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-10-28',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-10-28',
     time: '7:30 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-10-28',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-10-28',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-10-28',
     time: '8:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-10-28',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-10-28',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-10-28',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-10-29',
     time: '6:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-10-29',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-10-29',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-10-29',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-10-29',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-10-29',
     time: '9:00 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-10-29',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-10-30',
     time: '3:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-10-30',
     time: '6:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-10-30',
     time: '6:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-10-30',
     time: '6:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-10-30',
     time: '7:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-10-30',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-10-30',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-10-30',
     time: '9:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-10-31',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-10-31',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-10-31',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-10-31',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-10-31',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-10-31',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-10-31',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-01',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-01',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-01',
     time: '7:30 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-11-01',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-02',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-02',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-02',
     time: '7:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-02',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-02',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-02',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-02',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-02',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-02',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-02',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-02',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-11-03',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-03',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-04',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-04',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-04',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-04',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-04',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-04',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-04',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-04',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-04',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-04',
     time: '10:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-11-04',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-04',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-05',
     time: '5:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-05',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-05',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-11-05',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-05',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-05',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-05',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-05',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-06',
     time: '3:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-06',
     time: '6:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-06',
     time: '6:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-06',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-07',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-07',
     time: '7:15 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-07',
     time: '7:30 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-07',
     time: '7:45 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-11-07',
     time: '8:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-11-07',
     time: '8:15 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-11-07',
     time: '8:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-07',
     time: '8:45 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-07',
     time: '9:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-07',
     time: '9:15 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-07',
     time: '9:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-07',
     time: '9:45 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-07',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-07',
     time: '10:15 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-11-07',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-09',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-09',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-11-09',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-11-09',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-11-09',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-09',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-11-09',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-10',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-11-10',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-11-10',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-10',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-11',
     time: '7:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-11',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-11-11',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-11',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-11',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-11-11',
     time: '9:30 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-11',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-11',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-12',
     time: '4:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-12',
     time: '6:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-12',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-12',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-12',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-12',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-12',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-12',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-13',
     time: '12:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-13',
     time: '6:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-13',
     time: '6:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-13',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-13',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-13',
     time: '9:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-13',
     time: '9:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-14',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-14',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-14',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-14',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-11-14',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-14',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-14',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-15',
     time: '7:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-15',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-15',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-15',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-15',
     time: '10:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-16',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-11-16',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-16',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-16',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-16',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-16',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-16',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-16',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-16',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-16',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-17',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-17',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-17',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-18',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-18',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-18',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-11-18',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-11-18',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-11-18',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-18',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-18',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-18',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-11-18',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-18',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-19',
     time: '6:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-19',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-11-19',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-19',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-19',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-20',
     time: '3:30 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-20',
     time: '6:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-20',
     time: '6:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-20',
     time: '7:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-20',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-20',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-20',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-20',
     time: '9:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-21',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-21',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-11-21',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-11-21',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-21',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-21',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-21',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-21',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-22',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-22',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-22',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-22',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-23',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-23',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-23',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-23',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-11-23',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-23',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-25',
     time: '5:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-25',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-11-25',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-25',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-11-25',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-11-25',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-25',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-11-26',
     time: '5:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-11-26',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-26',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-11-26',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-11-27',
     time: '3:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-11-27',
     time: '3:30 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-27',
     time: '4:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-11-27',
     time: '5:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-27',
     time: '6:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-27',
     time: '6:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-27',
     time: '6:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-27',
     time: '6:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-11-27',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-11-28',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-28',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-11-28',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-11-28',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-11-28',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-11-28',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-11-28',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-28',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-28',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-11-28',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-11-29',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-11-29',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-11-29',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-30',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-11-30',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-11-30',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-11-30',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-11-30',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-11-30',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-11-30',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-11-30',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-11-30',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-11-30',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-11-30',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-11-30',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-11-30',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-01',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-02',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-02',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-12-02',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-12-02',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-12-02',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-02',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-02',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-12-02',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-12-02',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-12-02',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-02',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-03',
     time: '12:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-03',
     time: '4:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-03',
     time: '6:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-03',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-12-03',
     time: '8:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-03',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-12-03',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-04',
     time: '3:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-12-04',
     time: '4:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-04',
     time: '6:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-12-04',
     time: '6:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-12-04',
     time: '6:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-12-04',
     time: '6:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-04',
     time: '6:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-04',
     time: '9:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-05',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-05',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-05',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-12-05',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-12-05',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-12-05',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-12-05',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-05',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-06',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-06',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-06',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-07',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-07',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-07',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-12-07',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-07',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-07',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-12-07',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-07',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-07',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-07',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-07',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-12-08',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-08',
     time: '8:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-12-08',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-12-09',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-09',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-09',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-12-09',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-12-09',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-09',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-09',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-09',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-09',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-09',
     time: '10:00 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-10',
     time: '5:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-12-10',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-10',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-10',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-12-10',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-10',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-12-10',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-10',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-11',
     time: '3:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-11',
     time: '6:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-11',
     time: '6:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-11',
     time: '6:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-12-11',
     time: '6:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-11',
     time: '6:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-11',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-12',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-12-12',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-12',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-12-12',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-12-12',
     time: '8:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-12-12',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-12',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-12-13',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-13',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-13',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-13',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-12-13',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2022-12-14',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-14',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-14',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-12-14',
     time: '7:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-14',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-14',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-12-14',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-14',
     time: '9:00 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-12-14',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-14',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-15',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-12-15',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-15',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-12-15',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-16',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-12-16',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2022-12-16',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-16',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-16',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-16',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-16',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-16',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-16',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-16',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-12-17',
     time: '4:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-17',
     time: '5:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Miami Heat',
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Miami Heat',
     specialVenueDetails: {
       name: 'Arena CDMX',
       address: 'Av. de las Granjas 800, Santa Barbara, Azcapotzalco, 02230 Ciudad de México, CDMX, Mexico',
@@ -3084,1674 +3084,1674 @@ export const nbaSchedule2022to2023: GameDetails[] = [
   {
     date: '2022-12-17',
     time: '8:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-17',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-17',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-17',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-12-17',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-12-18',
     time: '3:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-18',
     time: '5:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-18',
     time: '6:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-18',
     time: '6:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-18',
     time: '7:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-18',
     time: '8:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-18',
     time: '9:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-19',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-19',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-12-19',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-19',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-12-19',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-19',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-19',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-19',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-19',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-20',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-20',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-20',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-20',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-20',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-12-21',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-21',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-21',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-21',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-21',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2022-12-21',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-12-21',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-21',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-21',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-21',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-21',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-22',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-12-22',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2022-12-23',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2022-12-23',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-23',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-23',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-12-23',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-23',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-12-23',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-23',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-25',
     time: '12:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-12-25',
     time: '2:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-25',
     time: '5:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-25',
     time: '8:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-12-25',
     time: '10:30 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-26',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-26',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-26',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-26',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-12-26',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2022-12-26',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-26',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-27',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-27',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-12-27',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-12-27',
     time: '7:30 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2022-12-27',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-27',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-27',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2022-12-27',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-27',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2022-12-27',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-12-28',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2022-12-28',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-28',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-28',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-28',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2022-12-28',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-28',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-28',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2022-12-29',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2022-12-29',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-12-29',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-29',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2022-12-29',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-29',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2022-12-30',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2022-12-30',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2022-12-30',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2022-12-30',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-30',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2022-12-30',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-12-30',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2022-12-30',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2022-12-30',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2022-12-31',
     time: '3:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2022-12-31',
     time: '7:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2022-12-31',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2022-12-31',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2022-12-31',
     time: '7:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2022-12-31',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2022-12-31',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2022-12-31',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2022-12-31',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-01',
     time: '8:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-01',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-01-01',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-02',
     time: '3:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-02',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-02',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-02',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-02',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-02',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-02',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-02',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-01-02',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-02',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-01-02',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-03',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-03',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-03',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-01-04',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-04',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-04',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-04',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-04',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-04',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-04',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-04',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-01-04',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-04',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-01-04',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-04',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-05',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-05',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-05',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-01-05',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-06',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-01-06',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-06',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-06',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-06',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-06',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-01-06',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-06',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-06',
     time: '9:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-06',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-06',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-07',
     time: '6:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-07',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-01-07',
     time: '8:00 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-07',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-07',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-08',
     time: '3:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-01-08',
     time: '3:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-01-08',
     time: '5:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-08',
     time: '6:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-01-08',
     time: '6:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-08',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-01-08',
     time: '7:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-08',
     time: '8:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-08',
     time: '9:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-09',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-09',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-09',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-09',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-09',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-09',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-10',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-10',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-01-10',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-10',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-10',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-10',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-10',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-11',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-01-11',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-11',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-11',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-11',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-11',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-11',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-11',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-12',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-12',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-12',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-12',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-12',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-12',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-13',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-13',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-13',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-13',
     time: '7:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-01-13',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-13',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-13',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-13',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-01-13',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-14',
     time: '1:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-14',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-14',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-14',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-14',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-14',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-01-14',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-15',
     time: '1:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-15',
     time: '3:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-15',
     time: '3:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-01-15',
     time: '6:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-15',
     time: '7:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-01-15',
     time: '8:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-15',
     time: '9:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-15',
     time: '9:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-01-16',
     time: '1:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-16',
     time: '2:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-16',
     time: '3:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-16',
     time: '3:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-16',
     time: '3:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-01-16',
     time: '3:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-16',
     time: '4:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-01-16',
     time: '6:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-16',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-17',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-17',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-17',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-01-17',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-01-18',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-18',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-18',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-18',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-18',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-18',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-18',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-18',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-01-18',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-01-19',
     time: '3:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Chicago Bulls',
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Chicago Bulls',
     specialVenueDetails: {
       name: 'Accor Arena',
       address: '8 Bd de Bercy, 75012 Paris, France',
@@ -4763,3864 +4763,3864 @@ export const nbaSchedule2022to2023: GameDetails[] = [
   {
     date: '2023-01-19',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-01-19',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-19',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-19',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-01-20',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-20',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-20',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-01-20',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-20',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-20',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-20',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-20',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-20',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-21',
     time: '5:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-21',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-21',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-21',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-21',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-21',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-21',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-01-22',
     time: '3:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-22',
     time: '6:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-22',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-22',
     time: '8:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-01-22',
     time: '8:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-22',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-22',
     time: '9:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-23',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-23',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-23',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-23',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-01-23',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-23',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-23',
     time: '10:30 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-24',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-24',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-01-24',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-24',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-01-24',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-24',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-24',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-25',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-25',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-01-25',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-25',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-01-25',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-01-25',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-25',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-25',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-01-25',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-25',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-26',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-26',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-01-26',
     time: '7:30 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-26',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-26',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-26',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-01-27',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-01-27',
     time: '7:30 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-01-27',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-27',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-01-27',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-28',
     time: '3:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-01-28',
     time: '5:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-01-28',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-01-28',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-01-28',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-28',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-01-28',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-28',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-01-28',
     time: '8:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-28',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-01-28',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-29',
     time: '1:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-29',
     time: '6:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-01-29',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-29',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-01-30',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-01-30',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-30',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-01-30',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-01-30',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-01-30',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-01-30',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-01-30',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-01-31',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-01-31',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-01-31',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-01-31',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-01-31',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-02-01',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-01',
     time: '7:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-02-01',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-02-01',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-02-01',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-02-01',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-02-01',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-01',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-02-01',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-02-02',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-02-02',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-02-02',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-02',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-02-02',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-02-02',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-02-02',
     time: '10:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-02-03',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-02-03',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-03',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-02-03',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-02-03',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-02-03',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-02-03',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-02-03',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-02-04',
     time: '6:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-04',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-02-04',
     time: '7:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-02-04',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-02-04',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-04',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-02-04',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-02-04',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-02-04',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-02-05',
     time: '1:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-02-05',
     time: '5:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-02-05',
     time: '6:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-02-05',
     time: '6:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-02-05',
     time: '7:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-05',
     time: '7:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-06',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-02-06',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-02-06',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-02-06',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-06',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-06',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-02-06',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-02-06',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-02-07',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-02-07',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-02-07',
     time: '7:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-02-07',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-02-07',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-02-07',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-02-08',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-02-08',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-02-08',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-02-08',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-02-08',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-08',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-08',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-02-08',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-02-08',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-02-09',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-09',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-02-09',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-02-09',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-02-10',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-10',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-02-10',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-02-10',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-02-10',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-02-10',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-02-10',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-02-10',
     time: '10:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-02-10',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-02-10',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-02-10',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-02-11',
     time: '6:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-02-11',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-11',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-11',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-02-11',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-11',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-02-11',
     time: '8:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-02-11',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-02-11',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-02-12',
     time: '2:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-02-12',
     time: '3:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-02-13',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-02-13',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-13',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-02-13',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-02-13',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-13',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-02-13',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-02-13',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-02-13',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-02-13',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-13',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-02-14',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-02-14',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-02-14',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-14',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-02-14',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-15',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-15',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-02-15',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-02-15',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-02-15',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-02-15',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-15',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-02-15',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-02-15',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-02-15',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-02-16',
     time: '7:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-02-16',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-16',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-02-23',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-23',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-02-23',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-02-23',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-02-23',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-02-23',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-23',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-02-23',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-02-23',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-02-24',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-02-24',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-02-24',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-24',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-02-24',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-02-24',
     time: '10:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-02-24',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-02-24',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-25',
     time: '12:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-02-25',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-25',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-02-25',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-02-25',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-25',
     time: '8:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-02-25',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-26',
     time: '1:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-02-26',
     time: '3:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-02-26',
     time: '3:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-26',
     time: '3:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-02-26',
     time: '6:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-02-26',
     time: '7:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-26',
     time: '7:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-02-26',
     time: '9:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-02-26',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-02-27',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-02-27',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-02-27',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-02-27',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-02-28',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-02-28',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-02-28',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-02-28',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-02-28',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-02-28',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-02-28',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-02-28',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-02-28',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-02-28',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-01',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-01',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-01',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-01',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-01',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-01',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-01',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-01',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-03-01',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-02',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-02',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-02',
     time: '8:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-02',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-03-03',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-03',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-03',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-03',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-03',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-03',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-03',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-03',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-03',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-03-03',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-04',
     time: '5:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-04',
     time: '8:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-03-04',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-04',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-04',
     time: '8:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-04',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-05',
     time: '1:00 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-05',
     time: '3:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-05',
     time: '3:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-05',
     time: '6:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-03-05',
     time: '6:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-05',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-03-05',
     time: '7:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-05',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-05',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-06',
     time: '7:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-06',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-06',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-06',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-06',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-06',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-07',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-07',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-07',
     time: '7:30 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-07',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-03-07',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-07',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-07',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-07',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-08',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-08',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-08',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-08',
     time: '7:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-08',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-08',
     time: '9:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-08',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-09',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-03-09',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-09',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-09',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-09',
     time: '10:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-09',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-10',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-10',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-10',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-10',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-10',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-03-10',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-11',
     time: '4:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-11',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-11',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-11',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-03-11',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-11',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-11',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-11',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-11',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-11',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-12',
     time: '3:30 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-12',
     time: '5:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-12',
     time: '6:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-03-12',
     time: '7:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-12',
     time: '7:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-12',
     time: '9:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-13',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-13',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-13',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-13',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-13',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-13',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-13',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-14',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-14',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-03-14',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-03-14',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-03-14',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-14',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-14',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-14',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-15',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-15',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-15',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-15',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-03-15',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-15',
     time: '8:30 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-15',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-16',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-03-16',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-16',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-16',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-16',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-17',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-17',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-17',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-03-17',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-17',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-17',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-17',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-17',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-18',
     time: '1:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-03-18',
     time: '3:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-18',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-18',
     time: '7:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-18',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-03-18',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-18',
     time: '8:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-18',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-19',
     time: '3:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-03-19',
     time: '3:30 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-19',
     time: '4:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-19',
     time: '6:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-03-19',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-19',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-19',
     time: '9:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-03-19',
     time: '9:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-20',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-20',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-20',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-20',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-20',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-20',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-21',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-03-21',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-03-21',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-21',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-03-21',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-21',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-22',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-03-22',
     time: '7:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-03-22',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-22',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-22',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-22',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-22',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-03-22',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-22',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-03-22',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-23',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-23',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-23',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-03-23',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-24',
     time: '7:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-24',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-03-24',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-03-24',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-24',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-03-24',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-24',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-24',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-24',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-24',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-25',
     time: '5:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-03-25',
     time: '8:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-25',
     time: '9:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-25',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-25',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-25',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-26',
     time: '1:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-26',
     time: '3:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-26',
     time: '6:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-03-26',
     time: '6:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-03-26',
     time: '6:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-26',
     time: '6:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-03-26',
     time: '6:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-03-26',
     time: '7:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-26',
     time: '8:30 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-27',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-27',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-27',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-27',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-03-27',
     time: '9:30 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-03-27',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-27',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-27',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-28',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-28',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-03-28',
     time: '7:30 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-03-28',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-28',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-03-28',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-29',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-03-29',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-03-29',
     time: '7:30 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-03-29',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-03-29',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-03-29',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-03-29',
     time: '8:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-03-29',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-29',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-03-29',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-30',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-03-30',
     time: '10:00 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-03-31',
     time: '7:30 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-03-31',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-03-31',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-03-31',
     time: '8:00 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-03-31',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-03-31',
     time: '10:00 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-03-31',
     time: '10:30 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-04-01',
     time: '7:30 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-04-01',
     time: '8:30 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-04-02',
     time: '1:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-04-02',
     time: '3:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-04-02',
     time: '3:30 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-04-02',
     time: '3:30 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-04-02',
     time: '6:00 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Dallas Mavericks'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Dallas Mavericks'
   }
   ,
   {
     date: '2023-04-02',
     time: '6:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-04-02',
     time: '6:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-04-02',
     time: '6:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-04-02',
     time: '7:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-04-02',
     time: '7:00 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-04-02',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-04-02',
     time: '8:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-04-02',
     time: '8:30 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-04-04',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-04-04',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-04-04',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-04-04',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-04-04',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-04-04',
     time: '8:00 PM',
-    awayTeam: 'Houston Rockets',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Houston Rockets',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-04-04',
     time: '8:00 PM',
-    awayTeam: 'Memphis Grizzlies',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Memphis Grizzlies',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-04-04',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-04-04',
     time: '8:00 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Boston Celtics'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Boston Celtics'
   }
   ,
   {
     date: '2023-04-04',
     time: '8:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-04-04',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-04-04',
     time: '10:00 PM',
-    awayTeam: 'Golden State Warriors',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-04-04',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-04-05',
     time: '7:00 PM',
-    awayTeam: 'Detroit Pistons',
-    homeTeam: 'Brooklyn Nets'
+    homeTeam: 'Detroit Pistons',
+    awayTeam: 'Brooklyn Nets'
   }
   ,
   {
     date: '2023-04-05',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-04-05',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Washington Wizards'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Washington Wizards'
   }
   ,
   {
     date: '2023-04-05',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-04-05',
     time: '7:30 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-04-05',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-04-05',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-04-05',
     time: '10:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Los Angeles Lakers'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Los Angeles Lakers'
   }
   ,
   {
     date: '2023-04-06',
     time: '7:00 PM',
-    awayTeam: 'Orlando Magic',
-    homeTeam: 'Cleveland Cavaliers'
+    homeTeam: 'Orlando Magic',
+    awayTeam: 'Cleveland Cavaliers'
   }
   ,
   {
     date: '2023-04-06',
     time: '7:30 PM',
-    awayTeam: 'Philadelphia 76ers',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Philadelphia 76ers',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-04-06',
     time: '8:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Portland Trail Blazers'
   }
   ,
   {
     date: '2023-04-06',
     time: '9:00 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Oklahoma City Thunder'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Oklahoma City Thunder'
   }
   ,
   {
     date: '2023-04-06',
     time: '10:00 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Denver Nuggets'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-04-07',
     time: '7:00 PM',
-    awayTeam: 'Charlotte Hornets',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Charlotte Hornets',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-04-07',
     time: '7:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Miami Heat'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Miami Heat'
   }
   ,
   {
     date: '2023-04-07',
     time: '7:00 PM',
-    awayTeam: 'Indiana Pacers',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Indiana Pacers',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-04-07',
     time: '7:30 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-04-07',
     time: '7:30 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Toronto Raptors'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Toronto Raptors'
   }
   ,
   {
     date: '2023-04-07',
     time: '7:30 PM',
-    awayTeam: 'Atlanta Hawks',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Atlanta Hawks',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-04-07',
     time: '8:00 PM',
-    awayTeam: 'Milwaukee Bucks',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-04-07',
     time: '8:00 PM',
-    awayTeam: 'New Orleans Pelicans',
-    homeTeam: 'New York Knicks'
+    homeTeam: 'New Orleans Pelicans',
+    awayTeam: 'New York Knicks'
   }
   ,
   {
     date: '2023-04-07',
     time: '8:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'Chicago Bulls'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'Chicago Bulls'
   }
   ,
   {
     date: '2023-04-07',
     time: '10:00 PM',
-    awayTeam: 'Sacramento Kings',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Sacramento Kings',
+    awayTeam: 'Golden State Warriors'
   }
   ,
   {
     date: '2023-04-07',
     time: '10:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Phoenix Suns'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Phoenix Suns'
   }
   ,
   {
     date: '2023-04-08',
     time: '3:30 PM',
-    awayTeam: 'Utah Jazz',
-    homeTeam: 'Denver Nuggets'
-  }
-  ,
-  {
-    date: '2023-04-08',
-    time: '4:00 PM',
-    awayTeam: 'Los Angeles Clippers',
-    homeTeam: 'Portland Trail Blazers'
+    homeTeam: 'Utah Jazz',
+    awayTeam: 'Denver Nuggets'
   }
   ,
   {
     date: '2023-04-08',
     time: '4:00 PM',
-    awayTeam: 'San Antonio Spurs',
-    homeTeam: 'Minnesota Timberwolves'
+    homeTeam: 'Los Angeles Clippers',
+    awayTeam: 'Portland Trail Blazers'
+  }
+  ,
+  {
+    date: '2023-04-08',
+    time: '4:00 PM',
+    homeTeam: 'San Antonio Spurs',
+    awayTeam: 'Minnesota Timberwolves'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Boston Celtics',
-    homeTeam: 'Atlanta Hawks'
+    homeTeam: 'Boston Celtics',
+    awayTeam: 'Atlanta Hawks'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Brooklyn Nets',
-    homeTeam: 'Philadelphia 76ers'
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Philadelphia 76ers'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Chicago Bulls',
-    homeTeam: 'Detroit Pistons'
+    homeTeam: 'Chicago Bulls',
+    awayTeam: 'Detroit Pistons'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Cleveland Cavaliers',
-    homeTeam: 'Charlotte Hornets'
+    homeTeam: 'Cleveland Cavaliers',
+    awayTeam: 'Charlotte Hornets'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Miami Heat',
-    homeTeam: 'Orlando Magic'
+    homeTeam: 'Miami Heat',
+    awayTeam: 'Orlando Magic'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'New York Knicks',
-    homeTeam: 'Indiana Pacers'
+    homeTeam: 'New York Knicks',
+    awayTeam: 'Indiana Pacers'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Toronto Raptors',
-    homeTeam: 'Milwaukee Bucks'
+    homeTeam: 'Toronto Raptors',
+    awayTeam: 'Milwaukee Bucks'
   }
   ,
   {
     date: '2023-04-09',
     time: '1:00 PM',
-    awayTeam: 'Washington Wizards',
-    homeTeam: 'Houston Rockets'
+    homeTeam: 'Washington Wizards',
+    awayTeam: 'Houston Rockets'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Dallas Mavericks',
-    homeTeam: 'San Antonio Spurs'
+    homeTeam: 'Dallas Mavericks',
+    awayTeam: 'San Antonio Spurs'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Denver Nuggets',
-    homeTeam: 'Sacramento Kings'
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Sacramento Kings'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Los Angeles Lakers',
-    homeTeam: 'Utah Jazz'
+    homeTeam: 'Los Angeles Lakers',
+    awayTeam: 'Utah Jazz'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Minnesota Timberwolves',
-    homeTeam: 'New Orleans Pelicans'
+    homeTeam: 'Minnesota Timberwolves',
+    awayTeam: 'New Orleans Pelicans'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Oklahoma City Thunder',
-    homeTeam: 'Memphis Grizzlies'
+    homeTeam: 'Oklahoma City Thunder',
+    awayTeam: 'Memphis Grizzlies'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Phoenix Suns',
-    homeTeam: 'Los Angeles Clippers'
+    homeTeam: 'Phoenix Suns',
+    awayTeam: 'Los Angeles Clippers'
   }
   ,
   {
     date: '2023-04-09',
     time: '3:30 PM',
-    awayTeam: 'Portland Trail Blazers',
-    homeTeam: 'Golden State Warriors'
+    homeTeam: 'Portland Trail Blazers',
+    awayTeam: 'Golden State Warriors'
   }
 ];

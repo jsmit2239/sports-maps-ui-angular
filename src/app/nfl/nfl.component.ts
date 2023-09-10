@@ -4,7 +4,7 @@ import {
   NflConference,
   NflDivision,
 } from '../../assets/football/nfl/enums/nfl-enum';
-import { nflSchedule2022to2023 } from '../../assets/football/nfl/schedule/nfl-schedule-2022-2023';
+import { nflSchedule2023to2024 } from '../../assets/football/nfl/schedule/nfl-schedule-2023-2024';
 import { nflTeamDetails } from '../../assets/football/nfl/team-details/nfl-team-details';
 import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
@@ -47,8 +47,8 @@ export class NflComponent {
   nfcWestDivisionFilterSelected = true;
 
   /** Date Filter */
-  seasonStartDate = new Date('September 8, 2022');
-  seasonEndDate = new Date('January 8, 2023');
+  seasonStartDate = new Date('September 7, 2023');
+  seasonEndDate = new Date('January 7, 2024');
 
   filterDate = this.getDefaultFilterDate();
   initialDefaultFilterDate = new FormControl(this.filterDate);
@@ -319,7 +319,7 @@ export class NflComponent {
   }
 
   private getGamesByDate(selectedDate: string) {
-    const games = nflSchedule2022to2023.filter((game) => {
+    const games = nflSchedule2023to2024.filter((game) => {
       return game.date === selectedDate;
     });
 

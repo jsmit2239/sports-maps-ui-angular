@@ -7,7 +7,7 @@ import {
 } from '../../assets/basketball/nba/enums/nba-enum';
 import { nbaTeamDetails } from '../../assets/basketball/nba/team-details/nba-team-details';
 import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
-import { nbaSchedule2022to2023 } from '../../assets/basketball/nba/schedule/nba-schedule-2022-2023';
+import { nbaSchedule2023to2024 } from '../../assets/basketball/nba/schedule/nba-schedule-2023-2024';
 
 @Component({
   selector: 'app-nba',
@@ -46,8 +46,8 @@ export class NbaComponent {
   southwestDivisionFilterSelected = true;
 
   /** Date Filter */
-  seasonStartDate = new Date('October 18, 2022');
-  seasonEndDate = new Date('April 9, 2023');
+  seasonStartDate = new Date('October 24, 2023');
+  seasonEndDate = new Date('April 14, 2024');
 
   filterDate = this.getDefaultFilterDate();
   initialDefaultFilterDate = new FormControl(this.filterDate);
@@ -298,7 +298,7 @@ export class NbaComponent {
   }
 
   private getGamesByDate(selectedDate: string) {
-    const games = nbaSchedule2022to2023.filter((game) => {
+    const games = nbaSchedule2023to2024.filter((game) => {
       return game.date === selectedDate;
     });
 

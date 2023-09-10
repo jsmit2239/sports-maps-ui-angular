@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeagueBarComponent {
 
-  mlbSelected = true;
+  mlbSelected = false;
   nbaSelected = false;
-  nflSelected = false;
+  nflSelected = true;
   nhlSelected = false;
 
 

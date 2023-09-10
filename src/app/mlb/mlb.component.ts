@@ -5,7 +5,7 @@ import {
   MlbLeague,
 } from '../../assets/baseball/mlb/enums/mlb-enums';
 import { mlbTeamDetails } from '../../assets/baseball/mlb/team-details/mlb-team-details';
-import { mlbSchedule2022 } from '../../assets/baseball/mlb/schedule/mlb-schedule-2022';
+import { mlbSchedule2023 } from '../../assets/baseball/mlb/schedule/mlb-schedule-2023';
 import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
 @Component({
@@ -45,8 +45,8 @@ export class MlbComponent {
   nlWestDivisionFilterSelected = true;
 
   /** Date Filter */
-  seasonStartDate = new Date('April 7, 2022');
-  seasonEndDate = new Date('October 13, 2022');
+  seasonStartDate = new Date('March 30, 2023');
+  seasonEndDate = new Date('October 1, 2023');
 
   filterDate = this.getDefaultFilterDate();
   initialDefaultFilterDate = new FormControl(this.filterDate);
@@ -339,7 +339,7 @@ export class MlbComponent {
   }
 
   private getGamesByDate(selectedDate: string) {
-    const games = mlbSchedule2022.filter((game) => {
+    const games = mlbSchedule2023.filter((game) => {
       return game.date === selectedDate;
     });
 

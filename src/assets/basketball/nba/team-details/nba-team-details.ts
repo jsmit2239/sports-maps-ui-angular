@@ -302,7 +302,7 @@ const northwestDivisionWesternConferenceTeamDetails: TeamDetails[] = [
     conference: NbaConference.Western,
     division: NbaDivision.Northwest,
     venue: {
-      name: 'Vivint Arena',
+      name: 'Delta Center',
       address: '301 S Temple, Salt Lake City, UT 84101',
       latitude: 40.76829653943924,
       longitude: -111.9010713068542,
@@ -458,7 +458,7 @@ const southwestDivisionWesternConferenceTeamDetails: TeamDetails[] = [
     conference: NbaConference.Western,
     division: NbaDivision.Southwest,
     venue: {
-      name: 'AT&T Center',
+      name: 'Frost Bank Center',
       address: '1 AT&T Center Parkway, San Antonio, TX 78219',
       latitude: 29.42717428619796,
       longitude: -98.4375027510456,

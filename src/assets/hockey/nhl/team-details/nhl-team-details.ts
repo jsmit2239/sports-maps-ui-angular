@@ -50,7 +50,7 @@ const easternConferenceAtlanticDivisionTeamDetails: TeamDetails[] = [
     conference: NhlConference.Eastern,
     division: NhlDivision.Atlantic,
     venue: {
-      name: 'FLA Live Arena',
+      name: 'Amerant Bank Arena',
       address: '1 Panther Pkwy, Sunrise, FL 33323',
       latitude: 26.15853189582724,
       longitude: -80.32544798222136,

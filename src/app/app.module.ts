@@ -17,7 +17,6 @@ import { NbaComponent } from './nba/nba.component';
 import { NflComponent } from './nfl/nfl.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OverlayModule } from '@angular/cdk/overlay';
-import { AhlComponent } from './ahl/ahl.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatNativeDateModule } from '@angular/material/core';
@@ -33,7 +32,6 @@ import { LeagueBarComponent } from './league-bar/league-bar.component';
     MlbComponent,
     NbaComponent,
     NflComponent,
-    AhlComponent,
   ],
   imports: [
     BrowserModule,

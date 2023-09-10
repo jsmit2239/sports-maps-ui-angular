@@ -4,7 +4,7 @@ import {
   NhlConference,
   NhlDivision,
 } from '../../assets/hockey/nhl/enums/nhl-enum';
-import { nhlSchedule2022to2023 } from '../../assets/hockey/nhl/schedule/nhl-schedule-2022-2023';
+import { nhlSchedule2023To2024 } from '../../assets/hockey/nhl/schedule/nhl-schedule-2023-2024';
 import { nhlTeamDetails } from '../../assets/hockey/nhl/team-details/nhl-team-details';
 import { TeamDetails } from '../../assets/shared/interfaces/team-details-interface';
 
@@ -42,8 +42,8 @@ export class NhlComponent {
   pacificDivisionFilterSelected = true;
 
   /** Date Filter */
-  seasonStartDate = new Date('October 7, 2022');
-  seasonEndDate = new Date('April 13, 2023');
+  seasonStartDate = new Date('October 10, 2023');
+  seasonEndDate = new Date('April 18, 2024');
 
   filterDate = this.getDefaultFilterDate();
   initialDefaultFilterDate = new FormControl(this.filterDate);
@@ -274,7 +274,7 @@ export class NhlComponent {
   }
 
   private getGamesByDate(selectedDate: string) {
-    const games = nhlSchedule2022to2023.filter((game) => {
+    const games = nhlSchedule2023To2024.filter((game) => {
       return game.date === selectedDate;
     });
 

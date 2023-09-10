@@ -10,25 +10,19 @@ import {
   NflConference,
   NflDivision,
 } from 'src/assets/football/nfl/enums/nfl-enum';
-import {
-  AhlConference,
-  AhlDivision,
-} from 'src/assets/hockey/ahl/enums/ahl-enum';
 import { NhlConference, NhlDivision } from '../../hockey/nhl/enums/nhl-enum';
 import { VenueDetails } from './venue-details-interface';
 
 type ValidConferencesType =
   | NhlConference
   | NbaConference
-  | NflConference
-  | AhlConference;
+  | NflConference;
 type ValidLeaguesType = MlbLeague;
 type ValidDivisionsType =
   | NhlDivision
   | MlbDivision
   | NbaDivision
-  | NflDivision
-  | AhlDivision;
+  | NflDivision;
 
 export interface TeamDetails {
   abbreviation: string;

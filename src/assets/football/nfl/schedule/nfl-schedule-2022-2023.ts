@@ -1678,10 +1678,112 @@ const nflScheduleJanuary2022to2023: GameDetails[] = [
   },
 ];
 
+
+const nflWildCardWeekend2023: GameDetails[] = [
+  {
+    date: '2023-01-14',
+    time: '4:30 PM',
+    awayTeam: 'Seattle Seahawks',
+    homeTeam: 'San Francisco 49ers',
+  },
+  {
+    date: '2023-01-14',
+    time: '8:15 PM',
+    awayTeam: 'Los Angeles Chargers',
+    homeTeam: 'Jacksonville Jaguars',
+  },
+  {
+    date: '2023-01-15',
+    time: '1:00 PM',
+    awayTeam: 'Miami Dolphins',
+    homeTeam: 'Buffalo Bills',
+  },
+  {
+    date: '2023-01-15',
+    time: '4:30 PM',
+    awayTeam: 'New York Giants',
+    homeTeam: 'Minnesota Vikings',
+  },
+  {
+    date: '2023-01-15',
+    time: '8:15 PM',
+    awayTeam: 'Baltimore Ravens',
+    homeTeam: 'Cincinnati Bengals',
+  },
+  {
+    date: '2023-01-16',
+    time: '8:15 PM',
+    awayTeam: 'Dallas Cowboys',
+    homeTeam: 'Tampa Bay Buccaneers',
+  },
+]
+
+const nflDivisionalRound2023: GameDetails[] = [
+  {
+    date: '2023-01-21',
+    time: '4:30 PM',
+    awayTeam: 'Jacksonville Jaguars',
+    homeTeam: 'Kansas City Chiefs',
+  },
+  {
+    date: '2023-01-21',
+    time: '8:15 PM',
+    awayTeam: 'New York Giants',
+    homeTeam: 'Philadelphia Eagles',
+  },
+  {
+    date: '2023-01-22',
+    time: '3:00 PM',
+    awayTeam: 'Cincinnati Bengals',
+    homeTeam: 'Buffalo Bills',
+  },
+  {
+    date: '2023-01-22',
+    time: '6:30 PM',
+    awayTeam: 'Dallas Cowboys',
+    homeTeam: 'San Francisco 49ers',
+  },
+]
+
+const nflConferenceRound2023: GameDetails[] = [
+  {
+    date: '2023-01-29',
+    time: '3:00 PM',
+    awayTeam: 'San Francisco 49ers',
+    homeTeam: 'Philadelphia Eagles',
+  },
+  {
+    date: '2023-01-29',
+    time: '6:30 PM',
+    awayTeam: 'Cincinnati Bengals',
+    homeTeam: 'Kansas City Chiefs',
+  },
+]
+
+const superBowl: GameDetails[] = [
+  {
+    date: '2023-02-12',
+    time: '3:00 PM',
+    awayTeam: 'Kansas City Chiefs',
+    homeTeam: 'Philadelphia Eagles',
+    specialVenueDetails: {
+      name: 'State Farm Stadium',
+      address:
+        '1 Cardinals Dr, Glendale, AZ 85305',
+      latitude: 33.52794667504828,
+      longitude: -112.26247346931672
+    },
+  },
+]
+
 export const nflSchedule2022to2023: GameDetails[] = [
   ...nflScheduleSeptember2022to2023,
   ...nflScheduleOctober2022to2023,
   ...nflScheduleNovember2022to2023,
   ...nflScheduleDecember2022to2023,
   ...nflScheduleJanuary2022to2023,
+  ...nflWildCardWeekend2023,
+  ...nflDivisionalRound2023,
+  ...nflConferenceRound2023,
+  ...superBowl
 ];
